@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="85px" height="102px" viewBox="0 0 85 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(0.000000, 1.000000)">
+            <path d="M42.5,0.347222222 L42.5,99.6746275" id="Line" stroke="#DDDDDD" stroke-linecap="square"></path>
+            <path d="M0.513624148,25.1736111 L84.5136241,74.8373138" id="Line" stroke="#DDDDDD" stroke-linecap="square"></path>
+            <path d="M0.513624148,74.8263889 L84.5136241,25.1626862" id="Line" stroke="#DDDDDD" stroke-linecap="square"></path>
+            <polygon id="Polygon" stroke="#CCCCCC" points="43 8 79.373067 29 79.373067 71 43 92 6.62693304 71 6.62693304 29"></polygon>
+            <polygon id="Polygon" fill="#29B9A3" points="42.4030398 29 60.8060797 39.625 60.8060797 60.875 42.4030398 71.5 24 60.875 24 39.625"></polygon>
+            <path d="M42.5,25.3405921 L42.5,74.6702593" id="Line" stroke-opacity="0.2" stroke="#FFFFFF" stroke-linecap="square"></path>
+            <path d="M23.4903762,38.6503379 L61.5368721,61.3550878" id="Line" stroke-opacity="0.2" stroke="#FFFFFF" stroke-linecap="square"></path>
+            <path d="M23.4903762,61.3496621 L61.5368721,38.6449122" id="Line" stroke-opacity="0.2" stroke="#FFFFFF" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
