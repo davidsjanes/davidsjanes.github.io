@@ -1,0 +1,810 @@
+* html .u0_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u0_mouseOver.png");
+}
+
+* html .u0_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u0_disabled.png");
+}
+
+* html .u0_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u0_normal.png");
+}
+
+* html .u6_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u1_normal.png");
+}
+
+* html .u8_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u3_normal.png");
+}
+
+* html .u10_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u5_normal.png");
+}
+
+* html .u12_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u7_line.png");
+}
+
+* html .u13_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u8_normal.png");
+}
+
+* html .u16_menu {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u11_menu.png");
+}
+
+* html .u18_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u13_mouseOver.png");
+}
+
+* html .u18_selected {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u13_mouseOver.png");
+}
+
+* html .u20_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u13_mouseOver.png");
+}
+
+* html .u20_selected {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u13_mouseOver.png");
+}
+
+* html .u22_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u13_mouseOver.png");
+}
+
+* html .u22_selected {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u13_mouseOver.png");
+}
+
+* html .u24_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u13_mouseOver.png");
+}
+
+* html .u24_selected {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u13_mouseOver.png");
+}
+
+* html .u26_menu {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u21_menu.png");
+}
+
+* html .u28_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u23_mouseOver.png");
+}
+
+* html .u28_selected {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u23_mouseOver.png");
+}
+
+* html .u30_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u23_mouseOver.png");
+}
+
+* html .u30_selected {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u23_mouseOver.png");
+}
+
+* html .u32_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u23_mouseOver.png");
+}
+
+* html .u32_selected {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u23_mouseOver.png");
+}
+
+* html .u34_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u23_mouseOver.png");
+}
+
+* html .u34_selected {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Match_1_u23_mouseOver.png");
+}
+
+* html .u36_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u31_normal.png");
+}
+
+* html .u41_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u36_normal.png");
+}
+
+* html .u43_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u36_normal.png");
+}
+
+* html .u45_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u36_normal.png");
+}
+
+* html .u47_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u36_normal.png");
+}
+
+* html .u49_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u44_normal.png");
+}
+
+* html .u52_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u47_normal.png");
+}
+
+* html .u54_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Sign_In_Button_u49_mouseOver.png");
+}
+
+* html .u54_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Sign_In_Button_u49_disabled.png");
+}
+
+* html .u54_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/Sign_In_Button_u49_normal.png");
+}
+
+* html .u56_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/placeholder_u51_normal.png");
+}
+
+* html .u61_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Main_Navigation_files/u56_normal.png");
+}
+
+* html .u65_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u65_line.png");
+}
+
+* html .u67_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_mouseOver.png");
+}
+
+* html .u67_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_disabled.png");
+}
+
+* html .u67_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_normal.png");
+}
+
+* html .u69_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u69_mouseOver.png");
+}
+
+* html .u69_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_disabled.png");
+}
+
+* html .u69_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u69_normal.png");
+}
+
+* html .u72_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_mouseOver.png");
+}
+
+* html .u72_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_disabled.png");
+}
+
+* html .u72_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_normal.png");
+}
+
+* html .u74_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u69_mouseOver.png");
+}
+
+* html .u74_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_disabled.png");
+}
+
+* html .u74_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u69_normal.png");
+}
+
+* html .u77_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_mouseOver.png");
+}
+
+* html .u77_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_disabled.png");
+}
+
+* html .u77_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_normal.png");
+}
+
+* html .u79_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u69_mouseOver.png");
+}
+
+* html .u79_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u67_disabled.png");
+}
+
+* html .u79_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u69_normal.png");
+}
+
+* html .u81_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u0_mouseOver.png");
+}
+
+* html .u81_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u0_disabled.png");
+}
+
+* html .u81_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u0_normal.png");
+}
+
+* html .u88_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u88_normal.png");
+}
+
+* html .u93_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u93_line.png");
+}
+
+* html .u95_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u95_line.png");
+}
+
+* html .u96_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u96_mouseOver.png");
+}
+
+* html .u96_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u96_disabled.png");
+}
+
+* html .u96_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u96_normal.png");
+}
+
+* html .u98_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u98_normal.png");
+}
+
+* html .u100_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u100_normal.png");
+}
+
+* html .u103_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u103_normal.png");
+}
+
+* html .u107_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u107_normal.png");
+}
+
+* html .u111_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_mouseOver.png");
+}
+
+* html .u111_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_disabled.png");
+}
+
+* html .u111_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_normal.png");
+}
+
+* html .u115_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u103_normal.png");
+}
+
+* html .u119_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u107_normal.png");
+}
+
+* html .u123_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_mouseOver.png");
+}
+
+* html .u123_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_disabled.png");
+}
+
+* html .u123_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_normal.png");
+}
+
+* html .u127_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u103_normal.png");
+}
+
+* html .u131_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u107_normal.png");
+}
+
+* html .u135_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_mouseOver.png");
+}
+
+* html .u135_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_disabled.png");
+}
+
+* html .u135_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_normal.png");
+}
+
+* html .u139_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u103_normal.png");
+}
+
+* html .u143_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u107_normal.png");
+}
+
+* html .u147_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_mouseOver.png");
+}
+
+* html .u147_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_disabled.png");
+}
+
+* html .u147_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_normal.png");
+}
+
+* html .u151_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u103_normal.png");
+}
+
+* html .u155_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u107_normal.png");
+}
+
+* html .u159_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_mouseOver.png");
+}
+
+* html .u159_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_disabled.png");
+}
+
+* html .u159_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_normal.png");
+}
+
+* html .u163_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u103_normal.png");
+}
+
+* html .u167_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u107_normal.png");
+}
+
+* html .u171_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_mouseOver.png");
+}
+
+* html .u171_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_disabled.png");
+}
+
+* html .u171_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_normal.png");
+}
+
+* html .u175_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u103_normal.png");
+}
+
+* html .u179_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u107_normal.png");
+}
+
+* html .u183_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_mouseOver.png");
+}
+
+* html .u183_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_disabled.png");
+}
+
+* html .u183_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_normal.png");
+}
+
+* html .u187_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u103_normal.png");
+}
+
+* html .u191_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u107_normal.png");
+}
+
+* html .u195_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_mouseOver.png");
+}
+
+* html .u195_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_disabled.png");
+}
+
+* html .u195_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_normal.png");
+}
+
+* html .u199_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u103_normal.png");
+}
+
+* html .u203_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u107_normal.png");
+}
+
+* html .u207_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_mouseOver.png");
+}
+
+* html .u207_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_disabled.png");
+}
+
+* html .u207_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_normal.png");
+}
+
+* html .u211_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u103_normal.png");
+}
+
+* html .u215_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/u107_normal.png");
+}
+
+* html .u219_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_mouseOver.png");
+}
+
+* html .u219_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_disabled.png");
+}
+
+* html .u219_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Recipe__in_Cookbook__files/button_u111_normal.png");
+}
+
+* html .u224_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u224_normal.png");
+}
+
+* html .u226_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u224_normal.png");
+}
+
+* html .u228_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u224_normal.png");
+}
+
+* html .u230_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u224_normal.png");
+}
+
+* html .u232_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u224_normal.png");
+}
+
+* html .u234_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u224_normal.png");
+}
+
+* html .u236_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u224_normal.png");
+}
+
+* html .u238_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u224_normal.png");
+}
+
+* html .u240_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u240_normal.png");
+}
+
+* html .u242_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u240_normal.png");
+}
+
+* html .u244_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u240_normal.png");
+}
+
+* html .u246_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u240_normal.png");
+}
+
+* html .u248_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u240_normal.png");
+}
+
+* html .u250_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u240_normal.png");
+}
+
+* html .u252_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u240_normal.png");
+}
+
+* html .u254_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u240_normal.png");
+}
+
+* html .u256_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u224_normal.png");
+}
+
+* html .u258_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u240_normal.png");
+}
+
+* html .u264_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u264_normal.png");
+}
+
+* html .u269_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u269_line.png");
+}
+
+* html .u271_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u271_line.png");
+}
+
+* html .u272_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u96_mouseOver.png");
+}
+
+* html .u272_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u96_disabled.png");
+}
+
+* html .u272_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u96_normal.png");
+}
+
+* html .u274_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u98_normal.png");
+}
+
+* html .u276_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u100_normal.png");
+}
+
+* html .u279_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u279_normal.png");
+}
+
+* html .u284_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u284_line.png");
+}
+
+* html .u285_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u285_normal.png");
+}
+
+* html .u287_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u279_normal.png");
+}
+
+* html .u292_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u292_line.png");
+}
+
+* html .u293_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u285_normal.png");
+}
+
+* html .u295_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u279_normal.png");
+}
+
+* html .u300_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u300_line.png");
+}
+
+* html .u301_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u285_normal.png");
+}
+
+* html .u303_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u279_normal.png");
+}
+
+* html .u308_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u308_line.png");
+}
+
+* html .u309_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u285_normal.png");
+}
+
+* html .u311_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u279_normal.png");
+}
+
+* html .u316_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/u316_line.png");
+}
+
+* html .u317_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/placeholder_u285_normal.png");
+}
+
+* html .u320_mouseOver {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u0_mouseOver.png");
+}
+
+* html .u320_disabled {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u0_disabled.png");
+}
+
+* html .u320_normal {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Cookbook_Details_files/button_u0_normal.png");
+}
+

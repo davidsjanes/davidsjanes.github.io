@@ -1,0 +1,674 @@
+/*HTML 5 Boilerplate Styles*/
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+html {
+    font-size: 1em;
+    line-height: 1;
+    min-width: 800px;
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+script {
+	display: none !important;
+}
+
+/*Add the fonts!*/
+
+@font-face {
+    font-family: 'entypo';
+    src: url('../fonts/entypo.eot');
+    src: url('../fonts/entypo.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/entypo.woff2') format('woff2'),
+         url('../fonts/entypo.woff') format('woff'),
+         url('../fonts/entypo.ttf') format('truetype'),
+         url('../fonts/entypo.svg#entypo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: Meta-Normal;
+	src: url("../fonts/MetaWebPro-Normal.eot");
+	src: url("../fonts/MetaWebPro-Normal.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: Meta-Medium;
+	src: url("../fonts/MetaWebPro-Medium.eot");
+	src: url("../fonts/MetaWebPro-Medium.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: Meta-Bold;
+	src: url("../fonts/MetaWebPro-Bold.eot");
+	src: url("../fonts/MetaWebPro-Bold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+.icon {
+	font-family: 'entypo';
+	display: block;
+	position: relative;
+}
+
+/*General Styles for Global Consumption*/
+
+html, body, body > div, body > div > div {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+/*	min-width: 640px;*/
+	min-height: 480px;
+}
+body {
+	width: 100%;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+	background: #2B2A30;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+}
+section, nav, footer, div, ul, li, h1, h2, h3, h4, h5, h6, p, input, textarea, button, img, video, span, .cta {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	display: block;
+	position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Meta-Normal", sans-serif;
+}
+p {
+	font-family: "Arial", sans-serif;
+	line-height: 1.35;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: #ff6600;
+}
+button {
+	width: auto;
+}
+.cta {
+	border: 1px solid #fff;
+	border-radius: 30px;
+	padding: .25rem 1.25rem;
+	font-family: "Meta-Normal";
+	display: block;
+	position: relative;
+	color: #fff;
+	width: auto;
+	height: 2.2rem;
+	-webkit-transition:background.5s ease, color .5s ease;
+	transition:background .5s ease, color .5s ease;
+}
+.cta .icon {
+	display: inline-block;
+	width: auto;
+	float: none;
+	font-size: 3rem;
+	height: 1rem;
+	top: .4rem;
+	left: .35rem;
+	line-height: .25;
+}
+.cta:hover {
+	background: rgba(255,255,255,1);
+	color: #ff6600;
+}
+.button {
+	text-decoration: none;
+	font-family: arial, helvetica, sans-serif;
+	line-height: 1;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.large-button {
+	height: 40px;
+	padding: 10px 30px;
+	font-size: 16px;
+}
+.small-button {
+	height: 28px;
+	padding: 5px 15px;
+	font-size: 14px;
+}
+.orange-button {
+	background: #ff6600;
+/*	box-shadow: 0px 3px 0px #e94d00;*/
+	color: #fff;
+	-webkit-transition:background.5s ease, color .5s ease;
+	transition:background .5s ease, color .5s ease;
+}
+.orange-button:hover {
+	background: #ff7800;
+/*	box-shadow: 0px 3px 0px #f56200;*/
+}
+.blue .orange-button, .blue .fico .color {
+	background: #15629e;
+}
+.blue h3, .blue .miles h3, .blue .benefits h4 {
+	color: #15629e;
+}
+.green .orange-button, .green .fico .color {
+	background: #80a152;
+}
+.green h3, .green .miles h3, .green .benefits h4 {
+	color: #80a152;
+}
+.pink .orange-button, .pink .fico .color {
+	background: #e8469b;
+}
+.pink h3, .pink .miles h3, .pink .benefits h4 {
+	color: #e8469b;
+}
+
+/*Main Navigation Styles*/
+
+.main-nav {
+	background: #fff;
+	height: 3.75rem;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+	border-top: 2px solid #ff6600;
+	position: fixed;
+	top: 0;
+/*	min-width: 640px;*/
+	z-index:5000;
+	overflow: hidden;
+}
+nav .links {
+	width: auto;
+	height: 100%;
+/*	margin-right: 1rem;*/
+	float: right;
+}
+nav .links > div {
+	width: auto;
+	height: 100%;
+	cursor: pointer;
+}
+nav .links > div.active h2 {
+	color: #ff6600;
+}
+nav h2 {
+	font-size: 1rem;
+	height: 100%;
+	font-family: "Meta-Normal", sans-serif;
+	width: auto;
+	display: inline-block;
+	font-size: 1rem;
+	color: #666;
+	margin: 0;
+	padding: 1.45rem 1rem 1rem 1rem;
+}
+nav h1 {
+	width: 13rem;
+	height: 100%;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url('../images/discover-logo-4c-black.svg') no-repeat 2rem 1.25rem;
+	background-size: 8rem;
+	cursor: pointer;
+	padding: 0 0 0 2rem;
+	margin: 0;
+}
+nav .icon {
+	font-size: 3rem;
+	line-height: .25;
+	height: 100%;
+}
+nav .search-link {
+	display: block;
+	width: auto;
+	float: right;
+	cursor: pointer;
+	margin-right: 1rem;
+}
+
+/*Miles Styles (yes, it rhymes)*/
+
+#main-content.miles {
+	background: #fff;
+	padding-top: 3.75rem;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.miles .background {
+	position: absolute;
+}
+.miles .headline {
+	text-align: center;
+}
+.miles .headline h2 {
+	font-size: 3.5rem;
+	padding: 3rem 2.5rem 1.5rem 2.5rem;
+	color: #fff;
+}
+.miles .headline h2 span {
+	font-size: 1.25rem;
+	margin: 0 0 .25rem 0;
+}
+.miles .cards {
+	min-height: 15rem;
+	padding: 1.5rem;
+}
+.miles .cards .slider-list {
+	width: 20rem;
+	margin: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+.miles .cards > ul > li {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	-webkit-transition:top .5s ease, width 1s ease;
+	transition:top .5s ease, width 1s ease;
+	cursor: pointer;
+}
+.miles .cards .slider-item {
+	width: 80%;
+	top: -1.75rem;
+	z-index: 50;
+}
+.miles .cards .slider-item-current {
+	width: 100%;
+	top: 0;
+	z-index: 100;
+	-webkit-animation: cardMove 1s ease;
+}
+.miles .cards .slider-item-hide-previous, .miles .cards .slider-item-hide-next {
+	width: 90%;
+	top: -1rem;
+	z-index: 75;
+}
+
+.miles .cards .slider-item:hover {
+	top: -3rem;
+}
+.miles .cards .slider-item-current:hover {
+	top: 0;
+}
+.miles .cards .slider-item-hide-previous:hover, .miles .cards .slider-item-hide-next:hover {
+	top: -2.5rem;
+}
+
+.slider-btn {
+	display: none;
+}
+
+@-webkit-keyframes cardMove {
+    0%   {top: 0px; z-index: 50;}
+    50%  {top: -15rem;}
+    100% {top: 0px; z-index: 100;}
+}
+@keyframes cardMove {
+    0%   {top: 0px; z-index: 50;}
+    50%  {top: -15rem;}
+    100% {top: 0px; z-index: 100;}
+}
+
+
+.miles .hero h3 {
+	text-align: center;
+	font-size: 1.35rem;
+	-webkit-transition:background.5s ease, color .5s ease;
+	transition:background .5s ease, color .5s ease;
+}
+.miles .benefits {
+	padding: 2rem 2rem;
+}
+.miles .benefits > div {
+	width: 25%;
+	padding: 0rem .5rem;
+}
+.miles .benefits > div h3 {
+	font-size: 1.35rem;
+	margin: 0 0 .5rem 0;
+	padding: 0 0 0 1.2rem;
+	background: url('../images/chevron-orange.png') no-repeat;
+	background-size: .75rem;
+	text-align: left;
+	-webkit-transition:background.5s ease, color .5s ease;
+	transition:background .5s ease, color .5s ease;
+}
+.miles .benefits h4 {
+	text-align: center;
+	font-size: 1.35rem;
+	margin: 1.5rem 0 0 0;
+}
+.miles .benefits > div p {
+	padding: 0 0rem 0 1.2rem;
+	font-size: .9rem;
+}
+.miles .sub-head .container {
+	text-align: center;
+	width: 100%;
+	padding: 1rem;
+}
+
+.miles .background .animated {
+	position: absolute;
+	height: 100%;
+}
+.miles .background .animated h3 {
+	color: #333;
+	font-size: 2.5rem;
+	width: 100%;
+	position: absolute;
+}
+.miles .background .anim-1 {
+	top: 18rem;
+}
+.miles .background .anim-2 {
+	top: 15rem;
+}
+.miles .background .anim-3 {
+	top: 12rem;
+}
+
+/*SUBCONTENT STYLES*/
+
+.sub-content {
+	padding: 0rem;
+	-webkit-transition:background.5s ease, color .5s ease;
+	transition:background .5s ease, color .5s ease;
+}
+.sub-content h3 {
+	font-size: 3rem;
+	margin: 0 0 .5rem 0;
+}
+.sub-content h3 sup {
+	font-size: .9rem;
+	top: -.75rem;
+}
+.sub-content .copy {
+	position: absolute;
+	width: 24rem;
+	left: 3rem;
+	font-size: .9rem;
+}
+.sub-content .copy {
+	color: #444;
+}
+.sub-content .service .copy {
+	right: 3rem;
+	left: auto;
+	top: 0;
+	text-align: right;
+}
+.sub-content section {
+	padding: 1rem 3rem;
+	margin: 2rem 0 2rem 0;
+}
+.sub-content section.security {
+	height: 28rem;
+}
+.sub-content section.service {
+	height: 26rem;
+}
+.sub-content section.fico {
+	height: 22rem;
+}
+.sub-content .animation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.security {
+	background: url('../images/conveyer.png') repeat-x bottom;
+	background-size: 20rem;
+}
+.security .scanner {
+	width: 22.5rem;
+	height: 16.5rem;
+	background: url('../images/scanner.jpg') no-repeat;
+	background-size: 100%;
+	position: absolute;
+	left: 25.5rem;
+	bottom: 0;
+}
+.security .screen {
+	width: 7.6rem;
+	height: 5.85rem;
+	left: 7.5rem;
+	top: 1.8rem;
+	overflow: hidden;
+}
+.security .screen img {
+	position: absolute;
+	display: none;
+}
+.security .luggage  {
+	width: 100%;
+	height: 10rem;
+	position: absolute;
+	bottom: 7.25rem;
+}
+.security .luggage img {
+	width: auto;
+	position: absolute;
+	bottom: 0;
+	left: -15rem;
+}
+.service .animation {
+	background: url('../images/window-row.jpg') 1rem 0rem repeat-x;
+	background-size: 24rem;
+}
+.service .window {
+	width: 20rem;
+	height: 25.7rem;
+	left: 3rem;
+	overflow: hidden;
+	cursor: pointer;
+}
+.service .animation div, .service .animation img {
+	position: absolute;
+}
+.service .sky, .service .sun-moon, .service .clouds {
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.service .sky > div {
+	height: 100%;
+}
+.service .sky .night {
+	background: #022d49;
+}
+.service .sky .day {
+	background: #6ed5f7;
+}
+.service .sun, .service .moon {
+	width: 6.94rem;
+	left: 6rem;
+	top: -100px;
+}
+.service .clouds > div {
+	position: absolute;
+}
+.service .cloud-layer-1 {
+	height: 11.31rem;
+	background: url('../images/cloud-near.png') repeat-x;
+	bottom: -3rem;
+}
+.service .cloud-layer-2 {
+	height: 10.06rem;
+	background: url('../images/cloud-middle.png') repeat-x;
+	bottom: 0rem;
+}
+.service .cloud-layer-3 {
+	height: 8.25rem;
+	background: url('../images/cloud-far.png') repeat-x;
+	bottom: 3rem;
+}
+.service .animation .shutter {
+	top: 0rem;
+}
+.service .copy, .fico .copy {
+	margin: 1rem 0;
+}
+.fico div, .fico img {
+	position: absolute;
+}
+.fico .fico-guage {
+	width: 21.25rem;
+	height: 21.25rem;
+	overflow: hidden;
+	right: 3rem;
+}
+.fico .color, .fico .center {
+	height: 100%;
+	width: 100%;
+}
+.fico .needle {
+	width: .875rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 0;
+	bottom: 0rem;
+}
+#chart {
+	padding: 0 3rem;
+}
+#chart h3 {
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 0 0 2rem 0;
+}
+
+/*Media Queries Y'all*/
+
+@media (max-width: 640px) {
+
+	.miles .benefits > div {
+		width: 100%;
+		margin-bottom: 1.5rem;
+	}
+	.miles .benefits > div:last-child {
+		margin-bottom: 0;
+	}
+	.miles .benefits {
+		padding: 2rem 2rem;
+	}
+	.miles .benefits span {
+		display: inline;
+		width: auto;
+	}
+}
+@media (min-width: 640px) { 
+	
+	.miles .benefits > div {
+		width: 50%;
+		margin-bottom: 1.5rem;
+	}
+}
+@media (min-width: 768px) { 
+
+	html, body {
+		font-size: 16px;
+	}
+	.miles .benefits > div {
+		width: 25%;
+		margin-bottom: 0;
+	}
+
+}
+@media (min-width: 900px){ 
+
+	html, body {
+		font-size: 17px;
+	}
+
+}
+@media (min-width: 1024px){ 
+
+	html, body {
+		font-size: 18px;
+	}
+
+}
+@media (min-width: 1280px) { 
+
+	html, body {
+		font-size: 19px;
+	}
+
+}
+@media (min-width: 1440px) { 
+
+	html, body {
+		font-size: 21px;
+	}
+
+}
+@media (min-width: 1650px) { 
+
+	html, body {
+		font-size: 24px;
+	}
+
+}
+
+/*Clearfix if Necessary and Sometimes be Necessary*/
+
+.clear:before,
+.clear:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clear:after {
+    clear: both;
+}
+.clear {
+    *zoom: 1;
+}

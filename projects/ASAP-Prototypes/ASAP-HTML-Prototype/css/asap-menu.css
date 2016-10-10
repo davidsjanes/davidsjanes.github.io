@@ -1,0 +1,121 @@
+/*NAVIGATION STYLES*/
+
+.menu {
+	position: fixed;
+	right: -32rem;
+	top: 0;
+	z-index: 750;
+	width: 32rem;
+	background: #fff;
+	height: 100%;
+	padding: 5rem 0rem 4rem;
+	box-shadow: 0px 0px 2rem rgba(0,0,0,.2);
+	transition: right .25s ease-out;
+}
+.menu-active .menu {
+	right: 0;
+}
+.menu-active .overlay {
+	background: rgba(0,0,0,.5);
+	left: 0;
+	opacity: 1;
+	z-index: 500;
+}
+.menu .level {
+	padding: 0;
+	display: flex;
+	width: 32rem;
+	flex-direction: column;
+	transition: right .25s ease-out;
+}
+.menu > .level {
+	position: relative;
+	height: 100%;
+}
+.menu > .level .level {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	right: -32rem;
+	background: #fff;
+	z-index: 1;
+}
+.menu .level.active {
+	z-index: 100;
+	right: 0;
+}
+.menu .category {
+	border-bottom: 1px solid #ddd;
+}
+.menu a {
+	padding:0 2rem;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	height: 3.6rem;
+	color: #333;
+	transition: border .2s ease;
+}
+.menu a:hover {
+	text-decoration: none;
+	border-left: 3px solid #ccc;
+	background: #f6f6f6;
+}
+.menu a .icon {
+	fill: #ccc;
+	width: 1.25rem;
+	height: 1.25rem;
+}
+.menu .links {
+	overflow: auto;
+}
+.menu .menu-header {
+	background: #f8f8f8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	flex: none;
+	height: 4.6rem;
+	padding: 0 2rem;
+	border-top: 3px solid #C90107;
+	border-bottom: 1px solid #ddd;
+}
+.menu .menu-header h3 {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	margin: 0;
+}
+.menu-header .close {
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	border-left: none;
+	padding: 0;
+}
+.menu-header .close:hover {
+	border-left: none;
+	background: none;
+}
+.menu-header .close .icon {
+	fill: #888;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.menu .back {
+	border-bottom: 1px solid #ddd;
+	color: #187fc7;
+	flex: none;
+	justify-content: flex-start;
+}
+.menu .back .icon {
+	margin: 0 .25rem 0 0;
+	fill: #187fc7;
+}
+.menu .shortcut {
+	font-size: 1.2rem;
+	line-height: ;
+	font-weight: 700;
+	color: #888;
+}
+

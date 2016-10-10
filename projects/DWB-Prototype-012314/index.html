@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<title>Workbench</title>
+	
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/widgets.css" type="text/css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" type="text/css">
+	
+</head>
+
+<body>
+
+<!--	Begin HTML-->
+
+<div id="syw-header">
+	<div class="syw-header-top">
+		<img class="left" src="images/syw-header-top-left.png" />
+		<img class="right" src="images/syw-header-top-right.png" />
+	</div>
+	<div class="syw-header-bottom">
+		<img class="left" src="images/syw-header-bottom-left.png" />
+		<img class="right" src="images/syw-header-bottom-right.png" />
+	</div>
+</div>
+
+<div id="syw-footer">
+	<img class="left" src="images/syw-footer-left.png" />
+	<img class="right" src="images/syw-footer-right.png" />
+</div>
+
+<div id="page">
+	
+	<div class="page-content left">
+	
+		<div class="background">
+			<div class="dim-lights"></div>
+		</div>
+		
+		<div id="landing">
+			<div class="min-max clear">
+				<div class="branding clear">
+					<h1>
+						<svg version="1.1" id="WS-Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 width="650px" height="200px" viewBox="71.5 119.5 650 200" enable-background="new 71.5 119.5 650 200" xml:space="preserve">
+							<g class="logo-mark">
+								<path class="top" fill="#b30303" d="M123.73,193.255c-0.344,0.196-0.625,0.681-0.625,1.077v9.671c0,0.396,0.324,0.72,0.72,0.72h21.4
+									c0.396,0,1.001-0.161,1.344-0.358l35.831-20.53c0.344-0.197,0.906-0.197,1.25,0l35.831,20.53c0.343,0.197,0.948,0.358,1.344,0.358
+									h21.4c0.396,0,0.72-0.324,0.72-0.72v-9.671c0-0.396-0.281-0.881-0.625-1.077l-58.693-33.452c-0.344-0.196-0.907-0.196-1.251,0
+									L123.73,193.255z"/>
+								<path class="bottom" d="M221.408,210.894c-0.396,0.001-0.721,0.326-0.722,0.722l-0.087,40.524c-0.001,0.396-0.28,0.885-0.621,1.087L215.289,256
+									c-0.341,0.201-0.894,0.193-1.229-0.019l-15.429-9.765c-0.335-0.212-0.608-0.709-0.608-1.105v-15.859c0-0.396-0.324-0.72-0.72-0.72
+									h-13.491h-0.787h-0.787h-13.49c-0.396,0-0.72,0.324-0.72,0.72v15.859c0,0.396-0.275,0.892-0.61,1.103l-15.562,9.782
+									c-0.335,0.211-0.888,0.219-1.229,0.017l-4.612-2.727c-0.341-0.202-0.62-0.691-0.62-1.087l-0.032-40.583
+									c0-0.396-0.325-0.721-0.721-0.722l-20.817-0.05c-0.396-0.001-0.72,0.323-0.72,0.719v53.52c0,0.396,0.28,0.882,0.623,1.08
+									l27.438,15.851c0.343,0.199,0.901,0.193,1.24-0.011l30.003-18.072c0.339-0.204,0.894-0.204,1.233,0l30.002,18.072
+									c0.339,0.204,0.897,0.21,1.24,0.011l27.438-15.851c0.343-0.198,0.624-0.684,0.624-1.08v-53.52c0-0.396-0.324-0.72-0.72-0.719
+									L221.408,210.894z"/>
+							</g>
+							<g class="logo-type">
+								<path d="M253.124,264.372c-0.28-0.28-0.509-0.833-0.509-1.229v-42.031c0-0.396,0.229-0.95,0.509-1.23l8.622-8.621
+									c0.28-0.28,0.833-0.509,1.229-0.509h32.938c0.396,0,0.95,0.228,1.231,0.506l8.707,8.627c0.281,0.279,0.511,0.831,0.511,1.227
+									v42.031c0,0.396-0.23,0.948-0.511,1.227l-8.707,8.627c-0.281,0.279-0.835,0.507-1.231,0.507h-32.938
+									c-0.396,0-0.949-0.229-1.229-0.509L253.124,264.372z M285.271,260.862c0.396,0,0.949-0.229,1.229-0.509l2.073-2.072
+									c0.28-0.28,0.509-0.833,0.509-1.229v-29.849c0-0.396-0.229-0.949-0.509-1.229l-2.073-2.07c-0.28-0.28-0.833-0.509-1.229-0.509
+									h-11.566c-0.396,0-0.949,0.229-1.229,0.509l-2.072,2.07c-0.28,0.28-0.509,0.833-0.509,1.229v29.849c0,0.396,0.229,0.95,0.509,1.23
+									l2.072,2.071c0.28,0.28,0.833,0.509,1.229,0.509L285.271,260.862L285.271,260.862z"/>
+								<path d="M315.454,211.471c0-0.396,0.324-0.72,0.72-0.72h42.758c0.396,0,0.95,0.228,1.232,0.507l8.163,8.081
+									c0.281,0.279,0.512,0.831,0.512,1.227v18.474c0,0.396-0.229,0.948-0.512,1.226l-6.98,6.902c-0.28,0.279-0.4,0.811-0.267,1.183
+									l8.878,24.476c0.135,0.372-0.079,0.677-0.475,0.677h-16.478c-0.396,0-0.824-0.307-0.952-0.682l-7.446-21.92
+									c-0.129-0.375-0.558-0.682-0.952-0.682H333.36c-0.396,0-0.722,0.324-0.722,0.72v21.844c0,0.396-0.322,0.72-0.72,0.72h-15.747
+									c-0.396,0-0.72-0.324-0.72-0.72L315.454,211.471L315.454,211.471z M348.386,238.397c0.396,0,0.945-0.233,1.222-0.518l1.452-1.508
+									c0.275-0.285,0.5-0.842,0.5-1.238v-9.473c0-0.396-0.229-0.949-0.509-1.229l-1.436-1.438c-0.28-0.28-0.833-0.509-1.229-0.509H333.36
+									c-0.396,0-0.722,0.324-0.722,0.72v14.473c0,0.396,0.324,0.72,0.722,0.72H348.386z"/>
+								<path d="M402.416,250.06c-0.162-0.361-0.47-0.384-0.685-0.051l-7.59,11.796c-0.214,0.333-0.389,0.929-0.389,1.325v9.654
+									c0,0.396-0.324,0.72-0.72,0.72h-15.748c-0.396,0-0.72-0.324-0.72-0.72v-61.312c0-0.396,0.322-0.72,0.72-0.72h15.748
+									c0.396,0,0.72,0.324,0.72,0.72V240.5c0,0.396,0.167,0.442,0.372,0.103l17.628-29.235c0.205-0.339,0.696-0.616,1.092-0.616h17.748
+									c0.396,0,0.541,0.271,0.324,0.601l-16.029,24.352c-0.219,0.33-0.259,0.894-0.09,1.252l16.938,35.896
+									c0.169,0.358-0.02,0.651-0.413,0.651h-17.658c-0.396,0-0.854-0.295-1.015-0.656L402.416,250.06z"/>
+								<path d="M435.64,265.192c-0.278-0.28-0.509-0.833-0.509-1.229v-9.295c0-0.396,0.323-0.72,0.72-0.72h15.753
+									c0.396,0,0.721,0.324,0.721,0.72v3.747c0,0.396,0.232,0.944,0.521,1.217l0.959,0.913c0.286,0.274,0.847,0.497,1.241,0.497h12.837
+									c0.396,0,0.948-0.229,1.229-0.509l0.8-0.801c0.28-0.28,0.51-0.833,0.51-1.229v-7.655c0-0.396-0.229-0.949-0.511-1.229l-0.345-0.344
+									c-0.281-0.28-0.834-0.509-1.229-0.509h-24.478c-0.396,0-0.948-0.23-1.228-0.512l-6.721-6.798c-0.278-0.281-0.506-0.836-0.506-1.232
+									v-19.658c0-0.396,0.229-0.949,0.51-1.229l8.075-8.076c0.28-0.28,0.833-0.509,1.229-0.509h32.755c0.396,0,0.949,0.229,1.229,0.509
+									l7.803,7.805c0.279,0.28,0.509,0.833,0.509,1.229v9.29c0,0.396-0.322,0.72-0.72,0.72h-15.747c-0.396,0-0.721-0.324-0.721-0.72
+									v-3.743c0-0.396-0.229-0.95-0.509-1.23l-0.981-0.983c-0.28-0.28-0.833-0.509-1.229-0.509h-12.384c-0.396,0-0.941,0.234-1.217,0.521
+									l-0.828,0.869c-0.271,0.287-0.497,0.845-0.497,1.241v7.29c0,0.396,0.224,0.956,0.493,1.245l0.38,0.405
+									c0.271,0.288,0.817,0.524,1.215,0.524h24.478c0.396,0,0.949,0.229,1.229,0.509l6.713,6.711c0.279,0.28,0.51,0.833,0.51,1.229
+									v20.026c0,0.396-0.229,0.95-0.51,1.229l-8.077,8.076c-0.279,0.28-0.833,0.509-1.229,0.509h-33.208
+									c-0.396,0-0.948-0.229-1.229-0.509L435.64,265.192z"/>
+								<path d="M496.242,211.472c0-0.396,0.323-0.72,0.72-0.72h15.747c0.396,0,0.72,0.324,0.72,0.72v23.295c0,0.396,0.324,0.72,0.722,0.72
+									h16.843c0.396,0,0.72-0.324,0.72-0.72v-23.295c0-0.396,0.324-0.72,0.72-0.72h15.839c0.396,0,0.722,0.324,0.722,0.72v61.313
+									c0,0.395-0.324,0.72-0.722,0.72h-15.839c-0.396,0-0.72-0.325-0.72-0.72v-21.57c0-0.396-0.324-0.72-0.72-0.72H514.15
+									c-0.396,0-0.722,0.324-0.722,0.72v21.57c0,0.395-0.322,0.72-0.72,0.72h-15.747c-0.396,0-0.72-0.325-0.72-0.72V211.472
+									L496.242,211.472z"/>
+								<path d="M558.502,264.372c-0.28-0.28-0.51-0.833-0.51-1.229v-42.031c0-0.396,0.229-0.95,0.51-1.23l8.621-8.621
+									c0.28-0.28,0.833-0.509,1.229-0.509h32.936c0.396,0,0.95,0.228,1.229,0.506l8.712,8.627c0.281,0.279,0.514,0.831,0.514,1.227
+									v42.031c0,0.396-0.23,0.948-0.514,1.226l-8.712,8.628c-0.279,0.279-0.835,0.507-1.229,0.507h-32.936
+									c-0.396,0-0.947-0.229-1.229-0.509L558.502,264.372z M590.646,260.862c0.396,0,0.947-0.229,1.229-0.509l2.074-2.072
+									c0.278-0.28,0.51-0.833,0.51-1.229v-29.849c0-0.396-0.229-0.949-0.51-1.229l-2.074-2.07c-0.279-0.28-0.832-0.509-1.229-0.509
+									h-11.563c-0.396,0-0.949,0.229-1.229,0.509l-2.07,2.07c-0.281,0.28-0.511,0.833-0.511,1.229v29.849c0,0.396,0.229,0.949,0.51,1.229
+									l2.072,2.072c0.279,0.28,0.834,0.509,1.229,0.509H590.646z"/>
+								<path d="M620.833,211.472c0-0.396,0.323-0.72,0.72-0.72h42.028c0.396,0,0.949,0.229,1.229,0.509l8.625,8.622
+									c0.279,0.28,0.511,0.833,0.511,1.229v21.752c0,0.396-0.229,0.95-0.508,1.229l-8.63,8.708c-0.277,0.281-0.831,0.511-1.228,0.511
+									h-24.84c-0.396,0-0.722,0.324-0.722,0.72v18.75c0,0.396-0.322,0.72-0.72,0.72H621.55c-0.396,0-0.72-0.324-0.72-0.72v-61.312
+									L620.833,211.472L620.833,211.472z M653.398,241.306c0.396,0,0.947-0.229,1.229-0.509l1.527-1.526
+									c0.278-0.28,0.51-0.833,0.51-1.229v-12.019c0-0.396-0.229-0.949-0.509-1.229l-1.528-1.528c-0.279-0.28-0.833-0.509-1.229-0.509
+									h-14.657c-0.396,0-0.72,0.324-0.72,0.72v17.109c0,0.396,0.322,0.72,0.72,0.72H653.398L653.398,241.306z"/>
+							</g>
+						</svg>
+					</h1>
+					<p>Show off your <span>Tools</span>. Share <span>ideas</span>. Discover awesome <span>projects</span>.</p>
+				</div>
+				<ul>
+					<li class="intro-discussions">
+						<span class="icon-shoptalk_ico"></span>
+						<h3>Shop Talk</h3>
+						<p>Let's talk tools. Got something to say? Then start here.</p>
+						<em><a href="#">Start Talking ›</a></em>
+					</li>
+					<li class="intro-tools">
+						<span class="icon-tools_ico"></span>
+						<h3>Tool Chest</h3>
+						<p>Organize your tool collection and proudly display what you have.</p>
+						<em><a href="#">Add Tools ›</a></em>
+					</li>
+					<li class="intro-projects">
+						<span class="icon-projects_ico"></span>
+						<h3>Projects</h3>
+						<p>Put your tools to work. Explore new projects or add your own.</p>
+						<em><a href="#">Get to Work ›</a></em>
+					</li>
+				</ul>
+			</div>			
+		</div>
+	
+		<div id="workspace">
+									
+			<div id="discussions">
+				<div class="drawer-nav">
+					<div class="user-info">
+						<h3>SHOP TALK</h3>
+					</div>
+					<ul class="drawers">
+						<li class="all-updates-link active">All Updates</li>
+						<li class="my-network-link">My Network<span class="new-count">14</span></li>
+						<li class="my-updates-link">My Updates</li>
+					</ul>
+				</div>
+				<div class="my-updates">
+					<div class="new-discussion">
+						<div class="min-max clear">
+							<h3><span class="icon-add_ico"></span>Start a New Discussion</h3>
+							<div>
+								<textarea placeholder="Discuss your latest tools and projects..." /></textarea>
+								<a class="icon-add-tool_ico add-button"><span>Add Tool</span></a>
+								<a class="icon-add-image_ico add-button"><span>Add Image</span></a>
+								<a class="cta">Post</a>
+								<a class="cancel">Cancel</a>
+							</div>
+							
+							<ul class="attachments">
+								<li class="attach-tool">
+									<h3>Added Tools</h3>
+									<ul>
+										<li>
+											<img src="images/product-image-1.jpg" />
+											<p>Craftsman Bolt-On™ 20 Volt MAX* Lithium Ion Drill/Driver Kit</p>
+											<span class="icon-close_ico"></span>
+										</li>
+										<li>
+											<img src="images/product-image-1.jpg" />
+											<p>Craftsman Bolt-On™ 20 Volt MAX* Lithium Ion Drill/Driver Kit</p>
+											<span class="icon-close_ico"></span>
+										</li>
+									</ul>
+								</li>
+								<li class="attach-image">
+									<h3>Added Images</h3>
+									<ul>
+										<li>
+											<img src="images/user-pic.jpg" />
+											<span class="icon-close_ico"></span>
+										</li>
+										<li>
+											<img src="images/user-pic.jpg" />
+											<span class="icon-close_ico"></span>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							
+						</div>
+					</div>
+						<ul class="post-list">
+							<li class="post post-1">
+								<div class="user-info">
+									<img class="user-image" src="images/user-pic.jpg" />
+									<div class="user-copy">
+										<h4>UsernameXXX</h4>
+										<a class="follow" href="#">Follow</a>
+									</div>
+									<a class="delete"><span class="icon-close_ico"></span>delete</a>
+									<p class="post-time">22 minutes ago</p>
+								</div>
+								<div class="post-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+									<ul class="added-tools light title-hidden">
+										<li class="standard-tool brick small">
+											<img src="images/product-image-1.jpg" />
+											<h4 class="tool-title">Craftsman Bolt-On&trade; 20 Volt MAX* Lithium Ion Drill/Driver Kit</h4>
+											<ul class="tool-actions">
+												<li class="icon-like_ico" data-tip="Like This"></li>
+												<li class="icon-want_ico" data-tip="Want This"></li>
+												<li class="icon-own_ico" data-tip="Own This"></li>
+												<li class="icon-projects_ico" data-tip="Start Project"></li>
+												<li class="icon-shop_ico" data-tip="Shop Now"></li>
+											</ul>
+										</li>
+									</ul>
+									<ul class="post-comments">
+										<div class="leave-comment">
+											<input type="text" name="leavecomment" placeholder="Leave a comment..." />
+											<a class="cta" href="#">Post</a>
+										</div>
+										<div class="meta-info">
+											<div class="meta-links">
+												<a href="#">View 1 Comment</a> 
+											</div>
+											<ul class="comment-thumbs">
+												<li><img src="images/user-pic.jpg" /></li>
+											</ul>
+										</div>
+										<li class="comment">
+											<div class="user-info">
+												<img class="user-image" src="images/user-pic.jpg" />
+												<div class="user-copy">
+													<h4>UsernameXXX</h4>
+													<a class="follow" href="#">Follow</a>
+												</div>
+											</div>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+										</li>
+										
+									</ul>
+								</div>
+							</li>
+							<li class="post post-2">
+								<div class="user-info">
+									<img class="user-image" src="images/user-pic.jpg" />
+									<div class="user-copy">
+										<h4>UsernameXXX
+										</h4>
+										<a class="follow" href="#">Follow
+										</a>
+									</div>
+									<p class="post-time">6 hours ago</p>
+								</div>
+								<div class="post-content">
+									<div class="post-images">
+										<img src="images/status-image.jpg" />
+										<img src="images/status-image.jpg" />
+									</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+									
+									<ul class="post-comments">
+										<div class="leave-comment">
+											<input type="text" name="leavecomment" placeholder="Be the first to comment..." />
+											<a class="cta" href="#">Post</a>
+										</div>
+									</ul>
+								</div>
+							</li>
+							<li class="post post-3">
+								<div class="user-info">
+									<img class="user-image" src="images/user-pic.jpg" />
+									<div class="user-copy">
+										<h4>UsernameXXX
+										</h4>
+										<a class="follow" href="#">Follow
+										</a>
+									</div>
+									<p class="post-time">1 day ago</p>
+								</div>
+								<div class="post-content">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+									<ul class="post-comments">
+										<div class="leave-comment">
+											<input type="text" name="leavecomment" placeholder="Leave a comment..." />
+											<a class="cta" href="#">Post</a>
+										</div>
+										<div class="meta-info">
+											<div class="meta-links">
+												<a href="#">View 4 Comments</a> 
+											</div>
+											<ul class="comment-thumbs">
+												<li><img src="images/user-pic.jpg" /></li>
+												<li><img src="images/user-pic.jpg" /></li>
+												<li><img src="images/user-pic.jpg" /></li>
+												<li><img src="images/user-pic.jpg" /></li>
+											</ul>
+										</div>
+										<li class="comment">
+											<div class="user-info">
+												<img class="user-image" src="images/user-pic.jpg" />
+												<div class="user-copy">
+													<h4>UsernameXXX
+													</h4>
+													<a class="follow" href="#">Follow
+													</a>
+												</div>
+											</div>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+										</li>
+										<li class="comment">
+											<div class="user-info">
+												<img class="user-image" src="images/user-pic.jpg" />
+												<div class="user-copy">
+													<h4>UsernameXXX 
+													</h4>
+													<a class="follow" href="#">Follow
+													</a>
+												</div>
+											</div>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+										</li>
+										<li class="comment">
+											<div class="user-info">
+												<img class="user-image" src="images/user-pic.jpg" />
+												<div class="user-copy">
+													<h4>UsernameXXX 
+													</h4>
+													<a class="follow" href="#">Follow
+													</a>
+												</div>
+											</div>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+										</li>
+										<li class="comment">
+											<div class="user-info">
+												<img class="user-image" src="images/user-pic.jpg" />
+												<div class="user-copy">
+													<h4>UsernameXXX 
+													</h4>
+													<a class="follow" href="#">Follow
+													</a>
+												</div>
+											</div>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<div class="load-more">
+								<a class="cta">load more discussions</a>
+							</div>
+						</ul>
+				</div>
+				<div class="tutorial tut-one">
+					<h4>All Updates</h4><p>See what your fellow tool devotees are saying.</p>
+					<h4>My Network</h4><p>See updates from those you are following.</p>
+					<h4>My Updates</h4><p>View all of the updates you have posted.</p>
+				</div>
+			</div>
+			
+			<div class="tool-drawer">
+				
+				<div class="add-tools-menu">
+				
+					<div class="add-search">
+						<div class="min-max clear">
+							<input class="add-tool-search" type="text" name="toolsearch" placeholder="Search for Tools..." />
+						</div>
+					</div>
+					
+					<div class="add-tool-list">
+					
+						<div class="min-max clear">
+							<div class="standard-tool brick small">
+								<img src="images/product-image-1.jpg" />
+								<h4 class="tool-title">
+									Craftsman Bolt-On&trade; 20 Volt MAX* Lithium Ion Drill/Driver Kit
+								</h4>
+							</div>
+							<div class="standard-tool brick small">
+								<img src="images/product-image-2.jpg" />
+								<h4 class="tool-title">
+									DeWalt 20 V MAX* XR Lithium Ion Brushless Compact Drill Driver
+								</h4>
+							</div>
+							<div class="standard-tool brick small">
+								<img src="images/product-image-3.jpg" />
+								<h4 class="tool-title">
+									Craftsman C3 19.2V Lithium-Ion Hammer Drill Kit
+								</h4>
+							</div>
+							<div class="standard-tool brick small">
+								<img src="images/product-image-4.jpg" />
+								<h4 class="tool-title">
+									DeWalt 20 V MAX* 6-1/2 in. Circular Saw (Tool Only)
+								</h4>
+							</div>
+							<div class="standard-tool brick small">
+								<img src="images/product-image-5.jpg" />
+								<h4 class="tool-title">
+									Estwing Claw Hammer 20 Oz Smooth Vinyl Grip
+								</h4>
+							</div>
+						</div>
+					</div>
+					<div class="add-tools-actions">
+						<div class="min-max clear">
+							<a class="add-tools-cancel">Cancel</a>
+							<a class="add-tools-cta cta-button">Add to Collection</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="my-tools">
+					<div class="drawer-nav">
+						<div class="user-info">
+							<h3>My Tool Chest</h3>
+						</div>
+						<ul class="drawers">
+							<li class="own-link active"><span class="icon-own_ico"></span>Own</li>
+							<li class="want-link"><span class="icon-want_ico"></span>Want</li>
+							<li class="like-link"><span class="icon-like_ico"></span>Like</li>
+							<li class="supply-link"><span class="icon-rec_ico"></span>Supplies</li>
+						</ul>
+						<ul class="drawer-actions">
+							<li><span class="icon-like_ico"></span>336</li>
+							<li class="open-comments"><span class="icon-comment_ico"></span>12</li>
+						</ul>
+					</div>
+					<div class="tool-drawer-lists">
+						<div class="tool-list own clear">
+							<div class="min-max clear">
+								<div class="gridly clear light title-hidden">
+									<div class="standard-tool brick small empty tool">
+										<div class="empty-icon">+</div>
+										<h3 class="empty-title">Add a Tool</h3>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-1.jpg" />
+										<h4 class="tool-title">
+											Craftsman Bolt-On&trade; 20 Volt MAX* Lithium Ion Drill/Driver Kit
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-2.jpg" />
+										<h4 class="tool-title">
+											DeWalt 20 V MAX* XR Lithium Ion Brushless Compact Drill Driver
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-3.jpg" />
+										<h4 class="tool-title">
+											Craftsman C3 19.2V Lithium-Ion Hammer Drill Kit
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									
+									<div class="standard-tool brick small">
+										<img src="images/product-image-4.jpg" />
+										<h4 class="tool-title">
+											DeWalt 20 V MAX* 6-1/2 in. Circular Saw (Tool Only)
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-5.jpg" />
+										<h4 class="tool-title">
+											Estwing Claw Hammer 20 Oz Smooth Vinyl Grip
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-1.jpg" />
+										<h4 class="tool-title">
+											Craftsman Bolt-On&trade; 20 Volt MAX* Lithium Ion Drill/Driver Kit
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-2.jpg" />
+										<h4 class="tool-title">
+											DeWalt 20 V MAX* XR Lithium Ion Brushless Compact Drill Driver
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-3.jpg" />
+										<h4 class="tool-title">
+											Craftsman C3 19.2V Lithium-Ion Hammer Drill Kit
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									
+									<div class="standard-tool brick small">
+										<img src="images/product-image-4.jpg" />
+										<h4 class="tool-title">
+											DeWalt 20 V MAX* 6-1/2 in. Circular Saw (Tool Only)
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-5.jpg" />
+										<h4 class="tool-title">
+											Estwing Claw Hammer 20 Oz Smooth Vinyl Grip
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-1.jpg" />
+										<h4 class="tool-title">
+											Craftsman Bolt-On&trade; 20 Volt MAX* Lithium Ion Drill/Driver Kit
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-2.jpg" />
+										<h4 class="tool-title">
+											DeWalt 20 V MAX* XR Lithium Ion Brushless Compact Drill Driver
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tool-list like">
+							<div class="min-max clear">
+								<div class="gridly clear light title-hidden">
+									<div class="standard-tool brick small empty project">
+										<div class="empty-icon">+</div>
+										<h3 class="empty-title">
+											Add a Tool
+										</h3>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-1.jpg" />
+										<h4 class="tool-title">
+											Craftsman Bolt-On&trade; 20 Volt MAX* Lithium Ion Drill/Driver Kit
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-2.jpg" />
+										<h4 class="tool-title">
+											DeWalt 20 V MAX* XR Lithium Ion Brushless Compact Drill Driver
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-3.jpg" />
+										<h4 class="tool-title">
+											Craftsman C3 19.2V Lithium-Ion Hammer Drill Kit
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									
+									<div class="standard-tool brick small">
+										<img src="images/product-image-4.jpg" />
+										<h4 class="tool-title">
+											DeWalt 20 V MAX* 6-1/2 in. Circular Saw (Tool Only)
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-5.jpg" />
+										<h4 class="tool-title">
+											Estwing Claw Hammer 20 Oz Smooth Vinyl Grip
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-1.jpg" />
+										<h4 class="tool-title">
+											Craftsman Bolt-On&trade; 20 Volt MAX* Lithium Ion Drill/Driver Kit
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+									<div class="standard-tool brick small">
+										<img src="images/product-image-2.jpg" />
+										<h4 class="tool-title">
+											DeWalt 20 V MAX* XR Lithium Ion Brushless Compact Drill Driver
+										</h4>
+										<ul class="tool-actions">
+											<li class="icon-like_ico" data-tip="Like This"></li>
+											<li class="icon-want_ico" data-tip="Want This"></li>
+											<li class="icon-own_ico" data-tip="Own This"></li>
+											<li class="icon-projects_ico" data-tip="Start Project"></li>
+											<li class="icon-shop_ico" data-tip="Shop Now"></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tutorial tut-one">
+					<h4>Own</h4><p>Manage your tool collection. Click the "Add a Tool" button or the <span class="icon-own_ico"></span> to own a tool.</p>
+					<h4>Want</h4><p>Create your tool wishlist. Click the "Add a Tool" button or the <span class="icon-want_ico"></span> to want a tool.</p>
+					<h4>Like</h4><p>Like a tool but don't want or own it? Click the <span class="icon-like_ico"></span> to like a tool.</p>
+					<h4>Supplies</h4><p>Add any item you use to get things done that aren't tools. (i.e. duct tape, lumber, rope, etc.)</p>
+				</div>
+			</div>
+			
+			<div class="projects">
+				<div class="drawer-nav">
+					<div class="user-info">
+						<h3>Projects
+						</h3>
+					</div>
+					<ul class="drawers">
+						<a class="new-project-link"><span class="icon-add_ico"></span>Add Project</a>
+						<li class="rec-projects-link"><span class="icon-rec_ico"></span>Explore Projects</li>
+						<li class="follow-projects-link active"><span class="icon-users_ico"></span>My Projects</li>
+					</ul>
+				</div>
+				<div class="project-list">
+					<div class="min-max clear">
+						<div class="project-card empty">
+							<div class="empty-icon">+</div>
+							<h3 class="empty-title">
+								Add a New Project
+							</h3>
+						</div>
+						<div class="project-card">
+							<div class="project-info">
+								<img class="project-image" src="images/project-image-2.jpg" />
+								<p class="project-steps">1 Step</p>
+							</div>
+							<h4 class="project-name">Windmill drive prop</h4>
+							<ul class="project-actions">
+								<li><span class="icon-like_ico"></span>5 Likes</li>
+								<li><span class="icon-projects_ico"></span>6 Made</li>
+								<li></li>
+							</ul>
+							<div class="user-info">
+								<img class="user-image" src="images/user-pic.jpg" />
+								<div class="user-copy">
+									<a class="user-name">Craftsman Club</a>
+									<p class="post-time">5 Days Ago</p>
+								</div>
+							</div>
+						</div>
+						<div class="project-card">
+							<div class="project-info">
+								<img class="project-image" src="images/project-image-5.jpg" />
+								<p class="project-steps">3 Steps</p>
+							</div>
+							<h4 class="project-name">Guitar Sculpture</h4>
+							<ul class="project-actions">
+								<li><span class="icon-like_ico"></span>1 Likes</li>
+								<li><span class="icon-projects_ico"></span>1 Made</li>
+								<li></li>
+							</ul>
+							<div class="user-info">
+								<img class="user-image" src="images/user-pic.jpg" />
+								<div class="user-copy">
+									<a class="user-name">Craftsman Club</a>
+									<p class="post-time">100 Days Ago</p>
+								</div>
+							</div>
+						</div>
+						<div class="project-card">
+							<div class="project-info">
+								<img class="project-image" src="images/project-image.jpg" />
+								<p class="project-steps">8 Steps</p>
+							</div>
+							<h4 class="project-name">How to Change a Carburetor</h4>
+							<ul class="project-actions">
+								<li><span class="icon-like_ico"></span>2 Likes</li>
+								<li><span class="icon-projects_ico"></span>2 Made</li>
+								<li></li>
+							</ul>
+							<div class="user-info">
+								<img class="user-image" src="images/user-pic.jpg" />
+								<div class="user-copy">
+									<a class="user-name">Craftsman Club</a>
+									<p class="post-time">72 Days Ago</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tutorial tut-one">
+					<h4>Add a Project</h4><p>Share the projects you have done with your fellow tool users.</p>
+					<h4>My Projects</h4><p>View all of the projects you have added.</p>
+					<h4>Explore Projects</h4><p>Find new project ideas to put your tools to good use.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="main-navigation">
+		<div class="logo">
+			<svg version="1.1" id="WS-logomark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				 width="100px" height="100px" viewBox="0 0 800 800" enable-background="new 0 0 800 800" xml:space="preserve">
+			<path fill="#b30303" d="M114.201,265.671c-2.21,1.26-4.013,4.37-4.013,6.915v44.456c0,2.545,2.078,4.62,4.621,4.62h101.152
+				c2.542,0,6.426-1.028,8.633-2.288l171.209-98.103c2.204-1.266,5.818-1.266,8.019,0l171.205,98.103
+				c2.213,1.26,6.094,2.288,8.639,2.288h101.15c2.545,0,4.626-2.075,4.626-4.62v-44.456c0-2.545-1.806-5.655-4.013-6.915
+				L403.715,105.114c-2.21-1.26-5.824-1.26-8.034,0L114.201,265.671z"/>
+			<path fill="#ffffff" d="M586.481,351.492c-2.539,0.006-4.633,2.094-4.633,4.633l-0.42,193.597c0,2.539-1.8,5.674-3.987,6.972
+				l-20.695,12.244c-2.194,1.285-5.742,1.234-7.887-0.126l-72.648-45.979c-2.145-1.36-3.906-4.551-3.906-7.09v-74.373
+				c0-2.546-2.082-4.627-4.621-4.627h-62.922h-4.949h-4.943H331.94c-2.539,0-4.62,2.081-4.62,4.627v74.373
+				c0,2.539-1.759,5.724-3.909,7.078l-73.288,46.066c-2.15,1.354-5.702,1.404-7.89,0.113l-20.325-12.025
+				c-2.191-1.291-3.981-4.432-3.987-6.971l-0.147-193.879c0-2.539-2.088-4.627-4.63-4.633l-98.338-0.238
+				c-2.542-0.007-4.623,2.075-4.623,4.614v256.41c0,2.539,1.805,5.66,4.006,6.934l130.643,75.477c2.204,1.266,5.784,1.234,7.962-0.076
+				l143.062-86.172c2.179-1.316,5.739-1.316,7.918,0l143.054,86.172c2.182,1.311,5.762,1.342,7.962,0.076l130.653-75.477
+				c2.2-1.273,3.999-4.395,3.999-6.934v-256.41c0-2.539-2.081-4.621-4.626-4.614L586.481,351.492z"/>
+			</svg>
+		</div>
+		<ul class="main-links">
+			<li class="workshop-link active"><span class="icon-shoptalk_ico"></span><h3>Shop Talk</h3></li>
+			<li class="tools-link"><span class="icon-tools_ico"></span><h3>Tool Chest</h3></li>
+			<li class="projects-link"><span class="icon-projects_ico"></span><h3>Projects</h3></li>
+		</ul>
+		<a class="tutorial-toggle"><span>?</span>hints</a>
+		<a class="faq-cta">FAQ</a>
+		<div class="tutorial tut-one">Post a new topic, comment on an existing topic and find updates here.</div>
+		<div class="tutorial tut-two">Find the tools you want, add the ones you have and tell us which supplies you use.</div>
+		<div class="tutorial tut-three">Add a new project, view your existing ones and find a new project to test your skills.</div>
+	</div>
+	
+	<div class="right-rail">
+		
+		<div class="recommended exp-collections">
+			<div class="rec-title">
+				<div>
+					<h3>Explore Collections</h3>
+				</div>
+				<div class="rec-check">
+					<div class="checkbox"></div><span>My Network Only</span>
+				</div>
+				<input class="rec-search" type="text" name="recsearch" placeholder="Search..." />
+			</div>
+			<div class="rec-lists">
+				<div id="rec-collections" class="rec-content light title-hidden active">
+					<div class="standard-tool dark collection brick small">
+						<div class="images">
+							<img src="images/product-image-1.jpg" />
+							<img src="images/product-image-2.jpg" />
+							<img src="images/product-image-3.jpg" />
+							<img src="images/product-image-4.jpg" />
+						</div>
+						<div class="user-info">
+							<img src="images/user-pic.jpg" />
+							<div>
+								<h5 class="user-name">UsernameXXX</h5>
+								<p class="user-meta">Owns 45 Tools</p>
+							</div>
+						</div>
+					</div>
+					<div class="standard-tool dark collection brick small">
+						<div class="images">
+							<img src="images/product-image-1.jpg" />
+							<img src="images/product-image-2.jpg" />
+							<img src="images/product-image-3.jpg" />
+							<img src="images/product-image-4.jpg" />
+						</div>
+						<div class="user-info">
+							<img src="images/user-pic.jpg" />
+							<div>
+								<h5 class="user-name">UsernameXXX</h5>
+								<p class="user-meta">Owns 45 Tools</p>
+							</div>
+						</div>
+					</div>
+					<div class="standard-tool dark collection brick small">
+						<div class="images">
+							<img src="images/product-image-1.jpg" />
+							<img src="images/product-image-2.jpg" />
+							<img src="images/product-image-3.jpg" />
+							<img src="images/product-image-4.jpg" />
+						</div>
+						<div class="user-info">
+							<img src="images/user-pic.jpg" />
+							<div>
+								<h5 class="user-name">UsernameXXX</h5>
+								<p class="user-meta">Owns 45 Tools</p>
+							</div>
+						</div>
+					</div>
+					<div class="standard-tool dark collection brick small">
+						<div class="images">
+							<img src="images/product-image-1.jpg" />
+							<img src="images/product-image-2.jpg" />
+							<img src="images/product-image-3.jpg" />
+							<img src="images/product-image-4.jpg" />
+						</div>
+						<div class="user-info">
+							<img src="images/user-pic.jpg" />
+							<div>
+								<h5 class="user-name">UsernameXXX</h5>
+								<p class="user-meta">Owns 45 Tools</p>
+							</div>
+						</div>
+					</div>
+					<div class="standard-tool dark collection brick small">
+						<div class="images">
+							<img src="images/product-image-1.jpg" />
+							<img src="images/product-image-2.jpg" />
+							<img src="images/product-image-3.jpg" />
+							<img src="images/product-image-4.jpg" />
+						</div>
+						<div class="user-info">
+							<img src="images/user-pic.jpg" />
+							<div>
+								<h5 class="user-name">UsernameXXX</h5>
+								<p class="user-meta">Owns 45 Tools</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tutorial tut-one"><h4>Explore Collections</h4><p>Browse other users' collections and follow the ones you like best.</p><p>Check "My Network Only" to only see the tool chests of users you are following.</p></div>
+		</div>
+		
+		<div class="recommended exp-tools">
+			<div class="rec-title">
+				<div>
+					<h3><span class="icon-tools_ico"></span>Explore Tools</h3>
+				</div>
+				<input class="rec-search" type="text" name="recsearch" placeholder="Search..." />
+			</div>
+			<div class="rec-lists">
+				<div id="rec-tools" class="rec-content light title-hidden">
+					<div class="standard-tool brick small">
+						<img src="images/product-image-1.jpg" />
+						<h4 class="tool-title">
+							Craftsman Bolt-On&trade; 20 Volt MAX* Lithium Ion Drill/Driver Kit
+						</h4>
+						<ul class="tool-actions">
+							<li class="icon-like_ico" data-tip="Like This"></li>
+							<li class="icon-want_ico" data-tip="Want This"></li>
+							<li class="icon-own_ico" data-tip="Own This"></li>
+							<li class="icon-projects_ico" data-tip="Start Project"></li>
+							<li class="icon-shop_ico" data-tip="Shop Now"></li>
+						</ul>
+					</div>
+					<div class="standard-tool brick small">
+						<img src="images/product-image-2.jpg" />
+						<h4 class="tool-title">
+							DeWalt 20 V MAX* XR Lithium Ion Brushless Compact Drill Driver
+						</h4>
+						<ul class="tool-actions">
+							<li class="icon-like_ico" data-tip="Like This"></li>
+							<li class="icon-want_ico" data-tip="Want This"></li>
+							<li class="icon-own_ico" data-tip="Own This"></li>
+							<li class="icon-projects_ico" data-tip="Start Project"></li>
+							<li class="icon-shop_ico" data-tip="Shop Now"></li>
+						</ul>
+					</div>
+					<div class="standard-tool brick small">
+						<img src="images/product-image-3.jpg" />
+						<h4 class="tool-title">
+							Craftsman C3 19.2V Lithium-Ion Hammer Drill Kit
+						</h4>
+						<ul class="tool-actions">
+							<li class="icon-like_ico" data-tip="Like This"></li>
+							<li class="icon-want_ico" data-tip="Want This"></li>
+							<li class="icon-own_ico" data-tip="Own This"></li>
+							<li class="icon-projects_ico" data-tip="Start Project"></li>
+							<li class="icon-shop_ico" data-tip="Shop Now"></li>
+						</ul>
+					</div>
+					
+					<div class="standard-tool brick small">
+						<img src="images/product-image-4.jpg" />
+						<h4 class="tool-title">
+							DeWalt 20 V MAX* 6-1/2 in. Circular Saw (Tool Only)
+						</h4>
+						<ul class="tool-actions">
+							<li class="icon-like_ico" data-tip="Like This"></li>
+							<li class="icon-want_ico" data-tip="Want This"></li>
+							<li class="icon-own_ico" data-tip="Own This"></li>
+							<li class="icon-projects_ico" data-tip="Start Project"></li>
+							<li class="icon-shop_ico" data-tip="Shop Now"></li>
+						</ul>
+					</div>
+					<div class="standard-tool brick small">
+						<img src="images/product-image-5.jpg" />
+						<h4 class="tool-title">
+							Estwing Claw Hammer 20 Oz Smooth Vinyl Grip
+						</h4>
+						<ul class="tool-actions">
+							<li class="icon-like_ico" data-tip="Like This"></li>
+							<li class="icon-want_ico" data-tip="Want This"></li>
+							<li class="icon-own_ico" data-tip="Own This"></li>
+							<li class="icon-projects_ico" data-tip="Start Project"></li>
+							<li class="icon-shop_ico" data-tip="Shop Now"></li>
+						</ul>
+					</div>
+					<div class="standard-tool brick small">
+						<img src="images/product-image-1.jpg" />
+						<h4 class="tool-title">
+							Craftsman Bolt-On&trade; 20 Volt MAX* Lithium Ion Drill/Driver Kit
+						</h4>
+						<ul class="tool-actions">
+							<li class="icon-like_ico" data-tip="Like This"></li>
+							<li class="icon-want_ico" data-tip="Want This"></li>
+							<li class="icon-own_ico" data-tip="Own This"></li>
+							<li class="icon-projects_ico" data-tip="Start Project"></li>
+							<li class="icon-shop_ico" data-tip="Shop Now"></li>
+						</ul>
+					</div>
+					<div class="standard-tool brick small">
+						<img src="images/product-image-2.jpg" />
+						<h4 class="tool-title">
+							DeWalt 20 V MAX* XR Lithium Ion Brushless Compact Drill Driver
+						</h4>
+						<ul class="tool-actions">
+							<li class="icon-like_ico" data-tip="Like This"></li>
+							<li class="icon-want_ico" data-tip="Want This"></li>
+							<li class="icon-own_ico" data-tip="Own This"></li>
+							<li class="icon-projects_ico" data-tip="Start Project"></li>
+							<li class="icon-shop_ico" data-tip="Shop Now"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="tutorial tut-one"><h4>Explore Tools</h4><p>Discover the tools you don't own and add them to your Tool Chest, even if you just want or like them</p></div>
+		</div>
+	</div>
+	
+	<div class="new-project">
+		<div class="min-max clear">
+			<div class="close-section">close<span class="icon-close_ico"></span></div>
+			<div class="new-proj-form">
+				<div class="new-proj-header">
+					<h3>Add a New Project</h3>
+				</div>
+				<div class="new-proj-add-tools">
+					<h4>Add Tools &amp; Products</h4>
+					<a class="add-database cta" href="#">Find a Tool or Product</a>
+					<div class="add-my-tools">
+						<h4>Add Tools from your Collection <span>Drag them over from the right</span></h4>
+						<div class="new-proj-add-area">
+							<div class="placeholder"></div>
+						</div>
+					</div>
+				</div>
+				<div class="new-project-info">
+					<h4>Tell us about your Project</h4>
+					<div class="add-text">
+						<input class="project-title" type="text" placeholder="Enter a title for your project..." />
+						<textarea class="project-description" placeholder="Describe your project..." /></textarea>
+					</div>
+					<div class="add-image"><span class="icon-images_ico"></span>Upload an Image</div>
+				</div>
+				<div class="add-steps">
+					<a class="add-step-cta"><span class="icon-add_ico"></span><h4>Add a Step</h4></a>
+				</div>
+				<div class="add-tags">
+					<input class="add-database" type="text" placeholder="Add tag words..." />
+				</div>
+				<a class="save-cta">Save Project</a>
+			</div>
+			
+			<div class="new-proj-tools">
+				<h3>Tools I Own</h3>
+				<div class="add-tool-list">
+					<div class="standard-tool brick small">
+						<img src="images/product-image-1.jpg" />
+						<h4 class="tool-title">
+							Craftsman Bolt-On&trade; 20 Volt MAX* Lithium Ion Drill/Driver Kit
+						</h4>
+						</div>
+					<div class="standard-tool brick small">
+						<img src="images/product-image-2.jpg" />
+						<h4 class="tool-title">
+							DeWalt 20 V MAX* XR Lithium Ion Brushless Compact Drill Driver
+						</h4>
+					</div>
+					<div class="standard-tool brick small">
+						<img src="images/product-image-3.jpg" />
+						<h4 class="tool-title">
+							Craftsman C3 19.2V Lithium-Ion Hammer Drill Kit
+						</h4>
+					</div>
+					<div class="standard-tool brick small">
+						<img src="images/product-image-4.jpg" />
+						<h4 class="tool-title">
+							DeWalt 20 V MAX* 6-1/2 in. Circular Saw (Tool Only)
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="project-details">
+		<div class="min-max clear">
+			<div class="close-section">close<span class="icon-close_ico"></span></div>
+			<div class="project-info">
+				<div class="project-header">
+					<h3>How to Change a Carburetor</h3>
+				</div>
+				<ul class="project-details-actions">
+					<li><span class="icon-like_ico"></span>32 Like</li>
+					<li><span class="icon-made_ico"></span>12 Made</li>
+					<li><span class="icon-want_ico"></span>6 Want to Make</li>
+				</ul>
+				<div class="tag-products"><a href="#"><span class="icon-add_ico"></span>Tag Products</a></div>
+				<img class="project-image" src="images/project-image.jpg" />
+				<p class="description">Most of us gear heads can change a carburetor in our sleep but to a first timer it can be quite intimidating. So i have listed 8 steps to help get you through it.</p>
+				<div class="lists">
+					<ul class="material-list">
+						<h4>Materials</h4>
+						<li>New carburetor base gasket.</li>
+						<li>Vacuum lines and cotter pins if needed</li>
+						<li>New carburetor base gasket.</li>
+						<li>New air filter</li>
+					</ul>
+					<ul class="tool-list">
+						<h4>Tools</h4>
+						<li>Sae or metric combination wrenches</li>
+						<li>Rags</li>
+						<li>Fender cover</li>
+						<li>A pair of safety glasses</li>
+						<li>Regular and needle nose pliers</li>
+					</ul>
+				</div>
+				<ul class="steps">
+					<li>
+						<h5>Step 1</h5>
+						<p>Put on your safety glasses and disconnect the battery. Also with todays modern technology just about everybody has a camera on their phone so take a few pictures to use for reference before removing anything from the carburetor. They will come in handy for reinstalling.</p>
+					</li>
+					<li>
+						<h5>Step 2</h5>
+						<p>Remove the air cleaner from the carburetor (check air filter for replacement) and put a rag under the fuel lines to catch any spilling of the fuel then remove the fuel lines from the carburetor.</p>
+					</li>
+					<li>
+						<h5>Step 3</h5>
+						<p>Disconnect the throttle linkage..Note: With an automatic transmission you might have a kick down cable below the throttle linkage. This is where a picture for reference will come in handy during reassembly. Also remove any vacuum lines. This is a good time to inspect the rubber lines for cracks or If their hard and brittle, replace them.</p>
+					</li>
+					<li>
+						<h5>Step 4</h5>
+						<p>Remove the nuts or bolts that secure the carburetor to the intake manifold (counter clockwise to remove). Lift the carburetor straight up and keep it level to avoid spilling any fuel. Once its removed stuff some rags into the open ports on the intake manifold to keep anything from falling inside.</p>
+					</li>
+					<li>
+						<h5>Step 5</h5>
+						<p>Clean the gasket surface on the intake manifold. Be sure the bottom of the carburetor surface is also clean and smooth. If it needs cleaning turn it over inside a pan large enough to hold the carburetor due to the gas draining out.</p>
+					</li>
+					<li>
+						<h5>Step 6</h5>
+						<p>Remove the rags from the intake manifold ports and install the new gasket (dry) no gasket sealer needed.</p>
+					</li>
+					<li>
+						<h5>Step 7</h5>
+						<p>Reinstall the carburetor and the nuts/bolts and tighten them down, if it's secured with 4 nut/bolts tighten them in a crisscross pattern until firmly snugged down (do not over tighten). Reinstall the throttle linkage, vacuum lines,and the fuel lines (once again tighten till snugged down do not over tighten them).</p>
+					</li>
+					<li>
+						<h5>Step 8</h5>
+						<p>At this point check your engine area for any rags or tools and remove them. Reconnect the battery and start the car. Check your fuel lines while its running to make sure there are no leaks. Then reinstall your air cleaner.</p>
+					</li>
+				</ul>
+			</div>
+			<div class="additional-info">
+				<div class="user-info">
+					<img src="images/user-pic.jpg" />
+					<div class="user-copy clear">
+						<a class="user-name" href="#">Craftsman Club</a>
+						<p class="make-count">227 Made</p>
+						<p class="date-count">87 days ago</p>
+						<a class="follow"><span class="icon-follow_ico"></span>Follow</a>
+					</div>
+				</div>
+				<div class="products">
+					<ul>
+						<li>
+							<img src="images/project-details-1.jpg" />
+							<div class="tool-copy">
+								<a class="tool-name" href="#">Craftsman 11543 19.2-volt C3 Hammer Drill/Driver</a>
+								<p class="tool-desc">19.2-Volt C3 Hammer Drill/Driver Is a Powerful Tool. The Craftsman Cordless 1/2'' Hammer Drill...</p>
+							</div>
+							<div class="shop-it">
+								<a class="cta" href="#"><span class="icon-shop_ico"></span>Shop It Now</a>
+								<p class="price">$149.99</p>
+							</div>
+						</li>
+						<li>
+							<img src="images/project-details-2.jpg" />
+							<div class="tool-copy">
+								<a class="tool-name" href="#">Craftsman 33 gal. Air Compressor</a>
+								<p class="tool-desc">This vertical air compressor from Craftsman features a highly efficient and highly durable universal...</p>
+							</div>
+							<div class="shop-it">
+								<a class="cta" href="#"><span class="icon-shop_ico"></span>Shop It Now</a>
+								<p class="price">$349.99</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="tags">
+					<a class="tag-this"><span class="icon-tag_ico"></span>Tag This Project</a>
+					<ul class="tag-cloud">
+						<li>Auto, Boat and Bike</li>
+						<li>Craftsman</li>
+						<li>Repair</li>
+						<li>Maintenance</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="tools-comments">
+		<div class="comments min-max clear">
+			<div class="close-section">close<span class="icon-close_ico"></span></div>
+			<div class="comments-actions">
+				<div class="new-comment"><span class="icon-add_ico"></span>New Comment</div>
+			</div>
+			
+			<div class="post-list">
+				<div class="post">
+					<div class="user-info">
+						<a class="post-like" href="#"><span class="icon-like_ico"></span>4 likes</a>
+						<img class="user-image" src="images/user-pic.jpg" />
+						<div class="user-copy">
+							<h4>UsernameXXX</h4>
+							<a class="follow" href="#">Follow</a>
+						</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="post-time">43 minutes ago</p>
+				</div>
+				<div class="post">
+					<div class="user-info">
+						<a class="post-like" href="#"><span class="icon-like_ico"></span>4 likes</a>
+						<img class="user-image" src="images/user-pic.jpg" />
+						<div class="user-copy">
+							<h4>UsernameXXX</h4>
+							<a class="follow" href="#">Follow</a>
+						</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="post-time">56 minutes ago</p>
+				</div>
+				<div class="post">
+					<div class="user-info">
+						<a class="post-like" href="#"><span class="icon-like_ico"></span>4 likes</a>
+						<img class="user-image" src="images/user-pic.jpg" />
+						<div class="user-copy">
+							<h4>UsernameXXX 
+							</h4>
+							<a class="follow" href="#">Follow
+							</a>
+						</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="post-time">4 hours ago</p>
+				</div>
+				<div class="post">
+					<div class="user-info">
+						<a class="post-like" href="#"><span class="icon-like_ico"></span>4 likes</a>
+						<img class="user-image" src="images/user-pic.jpg" />
+						<div class="user-copy">
+							<h4>UsernameXXX</h4>
+							<a class="follow" href="#">Follow</a>
+						</div>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae venenatis odio, et tempus nisl. Sed dui odio. Dolor sit amet, consectetur adipiscing elit.</p>
+					<p class="post-time">2 days ago</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="tool-projects">
+		<div class="project-list">
+			<div class="min-max clear">
+				<div class="drawer-nav">
+					<div class="user-info">
+						<h3>Projects Using: Craftsman 11543 19.2-volt C3 Hammer Drill/Driver</h3>
+					</div>
+					<div class="close-projects"><span class="icon-close_ico"></span></div>
+				</div>
+				<div class="listings">
+					<div class="project-card">
+						<div class="project-info">
+							<img class="project-image" src="images/project-image-2.jpg" />
+							<p class="project-steps">1 Step</p>
+						</div>
+						<h4 class="project-name">Windmill drive prop</h4>
+						<ul class="project-actions">
+							<li><span class="icon-like_ico"></span>5 Likes</li>
+							<li><span class="icon-projects_ico"></span>6 Made</li>
+							<li></li>
+						</ul>
+						<div class="user-info">
+							<img class="user-image" src="images/user-pic.jpg" />
+							<div class="user-copy">
+								<a class="user-name">Craftsman Club</a>
+								<p class="post-time">5 Days Ago</p>
+							</div>
+						</div>
+					</div>
+					<div class="project-card">
+						<div class="project-info">
+							<img class="project-image" src="images/project-image-5.jpg" />
+							<p class="project-steps">3 Steps</p>
+						</div>
+						<h4 class="project-name">Guitar Sculpture</h4>
+						<ul class="project-actions">
+							<li><span class="icon-like_ico"></span>1 Likes</li>
+							<li><span class="icon-projects_ico"></span>1 Made</li>
+							<li></li>
+						</ul>
+						<div class="user-info">
+							<img class="user-image" src="images/user-pic.jpg" />
+							<div class="user-copy">
+								<a class="user-name">Craftsman Club</a>
+								<p class="post-time">100 Days Ago</p>
+							</div>
+						</div>
+					</div>
+					<div class="project-card">
+						<div class="project-info">
+							<img class="project-image" src="images/project-image.jpg" />
+							<p class="project-steps">8 Steps</p>
+						</div>
+						<h4 class="project-name">How to Change a Carburetor</h4>
+						<ul class="project-actions">
+							<li><span class="icon-like_ico"></span>2 Likes</li>
+							<li><span class="icon-projects_ico"></span>2 Made</li>
+							<li></li>
+						</ul>
+						<div class="user-info">
+							<img class="user-image" src="images/user-pic.jpg" />
+							<div class="user-copy">
+								<a class="user-name">Craftsman Club</a>
+								<p class="post-time">72 Days Ago</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="about">
+		<div class="min-max clear">
+			<div class="close-section">close<span class="icon-close_ico"></span></div>
+			<h3>Frequently Asked Questions</h3>
+			<ul class="faq">
+				<li>
+					<h4>What is Workshop?</h4>
+					<p>Workbench is the digital home for your tool collection. Organize your tools, explore new additions and find inspiring projects to put your tools to the test.</p>
+				</li>
+				<li>
+					<h4>What can I do in the Workshop?</h4>
+					<p>There are three main areas in your Workshop. 
+					<strong>Shop Talk</strong>Talk about tools, projects or anything else with your fellow tool enthusiasts.
+					<strong>Tool Chest</strong> Find, manage and organize your personal tool collection.
+					<strong>Projects</strong> Explore an extensive library of projects to complete or add your own to inspire others.</p>
+				</li>
+				<li>
+					<h4>How do I add tools to my Tool Chest?</h4>
+					<p>In your Tool Chest, it's as simple as clicking 'Add a Tool' in the respective 'Drawer'. If you see a tool anywhere else in the Workshop you can add it to your collection by clicking the right action. If you own a tool, click the checkmark <span class="icon-own_ico"></span>, the heart <span class="icon-want_ico"></span> if you want it, and give it a thumbs-up <span class="icon-like_ico"></span> if you simply like it.</p>
+				</li>
+				<li>
+					<h4>What's the difference between owning, liking and wanting tools? </h4>
+					<p>Any one of these actions builds out your tool chest but there is a distinct difference between them.
+					<strong><span class="icon-own_ico"></span> Own a Tool</strong>You own this tool, it's in your personal collection and ready to use at a moments notice.
+					<strong><span class="icon-want_ico"></span> Want a Tool</strong>You don't yet own this tool but someday it will be yours. Think of it as your personal tool wishlist, and who knows, if you're nice someone may just get it for you.
+					<strong><span class="icon-like_ico"></span> Like a Tool</strong>Maybe there's a tool you admire but have no personal use for. Feel free to like it anyway, even tools appreciate admiration.</p>
+				</li>
+				<li>
+					<h4>I make awesome stuff, how do I show off my work?</h4>
+					<p>Showing off is easy, teaching others is a little more involved but much more rewarding. If you want to brag to the world, just post in Shop Talk. Feel free to add some images, the tools you used, and someone will surely notice your handiwork. If you want to teach and inspire others head to the projects section and add your own, step-by-step. Adding a cool project is a great way to gain some followers.</p>
+				</li>
+				<li>
+					<h4>I'm ready to get my hands dirty, how do I find new stuff to do?</h4>
+					<p>Simple, click on the projects section and go to 'Explore Projects'. Browse through and find the perfect project for your next conquest.</p>
+				</li>
+				<li>
+					<h4>How do I view the tools of other users?</h4>
+					<p>All around the Workshop there are others just like you managing their own tools and working on projects. Any time you see a user just click on the link below their name where it says their tool count. You can then browse their tool collection, see what they have, what they want and what they like.</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+<!--	End HTML-->
+
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.gridly.js"></script>
+<script src="js/Draggable.min.js"></script>
+<script src="js/ThrowPropsPlugin.min.js"></script>
+<script src="js/jquery.waterfall.js"></script>
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/jquery.easydropdown.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>

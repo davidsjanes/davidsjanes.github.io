@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" class="desktop">
+<head>
+	<meta charset="UTF-8">
+	<title>Discover Miles</title>
+	
+	<meta name="viewport" content="initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style-3.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+
+	<div id="container">
+	
+		<nav class="main-nav">
+			<h1 class="logo">Discover</h1>
+			<div class="search-link">
+				<h2>
+					<span class="icon">&#128269;</span>
+				</h2>
+			</div>
+			<div class="links">
+				<div class="card">
+					<h2>Credit Cards</h2>
+				</div>
+				<div class="banking-link">
+					<h2>Bank</h2>
+				</div>
+				<div class="loans-link">
+					<h2>Loans</h2>
+				</div>
+				<div class="login-link">
+					<h2>Account</h2>
+				</div>
+			</div>
+		</nav>
+		
+		<div id="main-content" class="miles">
+			<section id="hero" class="hero">
+				<div class="background">
+					<img src="images/old/placeholder.png" / >
+					<video id="intro-vid" class="bg-video" autoplay loop>
+						<source src="video/miles-video-stitched-2.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="headlines">
+					<div class="intro-text blue">
+						<h4>New</h4>
+						<h3>Discover it<sup>&reg;</sup> Miles</h3>
+					</div>
+			</section>
+			<section id="benefits" class="benefits">
+				<div class="benefit">
+					<h3><span>1.5x Unlimited&nbsp;</span>Miles.</h3>
+					<p>Earn unlimited 1.5x miles for every $1 you spend.</p>
+				</div>
+				<div class="benefit">
+					<h3><span>Double Miles&nbsp;</span>Your First Year.</h3>
+					<p>Now, we'll double the miles you've earned during your first year.</p>
+				</div>
+				<div class="benefit">
+					<h3><span>No Blackout Dates.&nbsp;</span>
+						No Restrictions.
+					</h3>
+					<p>Redeem miles in any amount toward travel purchases on your statement.</p>
+				</div>
+				<div class="benefit">
+					<h3><span>In-flight Wi-Fi&nbsp;</span>on us.</h3>
+					<p>We'll give you a $30 credit to use towards in-flight Wi-Fi access, each year.</p>
+				</div>
+			</section>
+			<section id="sub-content" class="sub-content">
+				<section class="security">
+					<div class="image">
+						<img src="images/old/DIM-MILES-blue-2.png" />
+					</div>
+					<div class="copy">
+						<h3>You're never responsible for unauthorized purchases on your Discover card.</h3>
+						<p>We monitor every purchase, every day and alert you of unusual activity by e-mail, phone or text. We'll replace your lost, stolen or damaged card overnight—for free—anywhere you are, even on vacation. Plus, our U.S.-based Fraud Specialists can help any time.</p>
+					</div>
+				</section>
+				<section class="service">
+					<div class="image">
+						<img src="images/old/miles-mobile-access.png" />
+					</div>
+					<div class="copy">
+						<h3>Service on-call, online and on-the-go.</h3>
+						<p>You can reach a real person here in the U.S. any time you call your dedicated service line, day or night. Plus, our powerful mobile and online tools make managing your account fast and easy. Make payments. See your FICO<sup>&reg;</sup> Credit Score2. Get alerts and reminders. All with a tap of your finger.</p>
+					</div>
+				</section>
+				<section class="fico">
+					<div class="image">
+						<img class="fico-board" src="images/old/fico-meter-box-lg-bg.png" />
+					</div>
+					<div class="copy">
+						<h3>Free FICO<sup>&reg;</sup> Credit Score on your monthly statement, online and mobile.</h3>
+						<p>We think you should see what lenders might see when they're making a credit decision about you. Knowing your FICO<sup>&reg;</sup> Credit Score for free will help you stay on top of your credit and avoid surprises.</p>
+					</div>
+				</section>
+				<section class="jdpower">
+					<div class="image">
+						<img src="images/old/jd-power-award-no-shadow.png" />
+					</div>
+					<div class="copy">
+						<h3>"Highest in Customer Satisfaction with Credit Card Companies in a Tie"<sup>&dagger;</sup></h3>
+						<p>We think you should see what lenders might see when they're making a credit decision about you. Knowing your FICO<sup>&reg;</sup> Credit Score for free will help you stay on top of your credit and avoid surprises.</p>
+					</div>
+				</section>
+			</section>
+			<section id="chart" class="chart">
+				<h3>All With No Annual Fee.</h3>
+				<img src="images/chart.jpg" />
+			</section>
+		</div>
+
+	</div>
+	
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	
+	<script>
+		
+	jQuery(function($) {
+	
+//		SET DEFAULT EASE TO LINEAR
+		
+		TweenLite.defaultEase = Power0.easeOut;
+		
+		var introVid = document.getElementById("intro-vid");
+		var introTL = new TimelineMax({paused:true});
+		
+		var defTime = 5;
+		var halfTime = defTime / 2;
+		
+		var transTime = 1;
+		var transHalfTime = 0;
+		
+		introTL.play();
+		introVid.play();
+		
+		var h3From = {left:"4rem"};
+		var h3To = {left:"0rem"};
+		
+		var h4From = {left:"10rem"};
+		var h4To = {left:"1.75rem"};
+		
+		introTL.fromTo($('.intro-text h4'), defTime, h4From, h4To,0)
+			   .fromTo($('.intro-text h3'), defTime, h3From, h3To,0)
+		;
+		
+	});
+    
+	</script>
+
+</body>
+</html>

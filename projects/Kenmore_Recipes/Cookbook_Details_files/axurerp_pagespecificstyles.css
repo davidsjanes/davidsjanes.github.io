@@ -1,0 +1,5471 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+    position: relative;
+    left: -0px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u0_mouseOver.png');
+}
+
+.u0_disabled {
+    background-image: url('../Cookbook_Details_files/button_u0_disabled.png');
+}
+
+.u0_normal {
+    background-image: url('../Cookbook_Details_files/button_u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:865px;
+    top:233px;
+    width:115px;
+    height:35px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:41px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:111px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:20px;
+    top:172px;
+    width:634px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u3 {
+    position:absolute;
+    left:20px;
+    top:96px;
+    width:432px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:20px;
+    top:141px;
+    width:634px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u5 {
+    position:fixed;
+    left: 50%;
+    margin-left: -500px;
+    top:0px;
+    width:1001px;
+    height:212px;
+    overflow:hidden;
+}
+
+#pd0u5 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1001px;
+    height:212px;
+    
+}
+
+.u6_normal {
+    background-image: url('../Main_Navigation_files/u1_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1000px;
+    height:70px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1006px;
+    height:76px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:996px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_normal {
+    background-image: url('../Main_Navigation_files/u3_normal.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:248px;
+    top:11px;
+    width:87px;
+    height:57px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:93px;
+    height:63px;
+}
+
+.u9 {
+    position:absolute;
+    left:2px;
+    top:20px;
+    width:83px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../Main_Navigation_files/u5_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:334px;
+    top:11px;
+    width:115px;
+    height:57px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:63px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:20px;
+    width:111px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_line {
+    background-image: url('../Main_Navigation_files/u7_line.png');
+}
+
+.u12_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:1000px;
+    height:3px;
+}
+
+.u12 {
+    position:absolute;
+    left:0px;
+    top:65px;
+    width:1000px;
+    height:10px;
+    
+}
+
+.u13_normal {
+    background-image: url('../Main_Navigation_files/u8_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:459px;
+    top:25px;
+    width:250px;
+    height:30px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:36px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:246px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u15 {
+    position:absolute;
+    left:459px;
+    top:55px;
+    width:251px;
+    height:128px;
+    overflow:hidden;
+}
+
+#pd1u15 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:251px;
+    height:128px;
+    
+}
+
+.u16_menu {
+    background-image: url('../Main_Navigation_files/u11_menu.png');
+}
+
+.u16_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:259px;
+    height:115px;
+}
+
+#u16_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:112px;
+}
+
+#u17 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:249px;
+    height:105px
+}
+
+.u18_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u18_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u18_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u18_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:244px;
+    height:25px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u20_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u20_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u20_container {
+    position:absolute;
+    left:0px;
+    top:25px;
+    width:244px;
+    height:25px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u22_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u22_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u22_container {
+    position:absolute;
+    left:0px;
+    top:50px;
+    width:244px;
+    height:25px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u24_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u24_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u24_container {
+    position:absolute;
+    left:0px;
+    top:75px;
+    width:244px;
+    height:25px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u15 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:251px;
+    height:128px;
+    
+}
+
+.u26_menu {
+    background-image: url('../Main_Navigation_files/u21_menu.png');
+}
+
+.u26_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:259px;
+    height:115px;
+}
+
+#u26_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:112px;
+}
+
+#u27 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:249px;
+    height:105px
+}
+
+.u28_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u28_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u28_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u28_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:244px;
+    height:25px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u30_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u30_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u30_container {
+    position:absolute;
+    left:0px;
+    top:25px;
+    width:244px;
+    height:25px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u32_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u32_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u32_container {
+    position:absolute;
+    left:0px;
+    top:50px;
+    width:244px;
+    height:25px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u34_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u34_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u34_container {
+    position:absolute;
+    left:0px;
+    top:75px;
+    width:244px;
+    height:25px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../Main_Navigation_files/u31_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:682px;
+    top:31px;
+    width:18px;
+    height:14px;
+}
+
+#u36_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:18px;
+    height:14px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:-1px;
+    width:14px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u38 {
+    position:absolute;
+    left:757px;
+    top:70px;
+    width:244px;
+    height:141px;
+    overflow:hidden;
+}
+
+#pd0u38 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:244px;
+    height:141px;
+    
+}
+
+.u39_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u39_container {
+    position:absolute;
+    left:-17px;
+    top:0px;
+    width:258px;
+    height:150px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:264px;
+    height:156px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:67px;
+    width:254px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../Main_Navigation_files/u36_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:211px;
+    height:35px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:217px;
+    height:41px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:207px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../Main_Navigation_files/u36_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:22px;
+    top:70px;
+    width:211px;
+    height:35px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:217px;
+    height:41px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:207px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../Main_Navigation_files/u36_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:22px;
+    top:105px;
+    width:211px;
+    height:35px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:217px;
+    height:41px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:207px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../Main_Navigation_files/u36_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:22px;
+    top:35px;
+    width:211px;
+    height:35px;
+}
+
+#u47_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:217px;
+    height:41px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:207px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../Main_Navigation_files/u44_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:9px;
+    top:10px;
+    width:180px;
+    height:50px;
+}
+
+#u49_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:180px;
+    height:50px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u51 {
+    position:absolute;
+    left:770px;
+    top:0px;
+    width:231px;
+    height:71px;
+    overflow:hidden;
+}
+
+#pd1u51 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:231px;
+    height:71px;
+    
+}
+
+.u52_normal {
+    background-image: url('../Main_Navigation_files/u47_normal.png');
+}
+
+.u52_container {
+    position:absolute;
+    left:-6px;
+    top:0px;
+    width:234px;
+    height:69px;
+}
+
+#u52_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:240px;
+    height:75px;
+}
+
+.u53 {
+    position:absolute;
+    left:2px;
+    top:26px;
+    width:230px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54_mouseOver {
+    background-image: url('../Main_Navigation_files/Sign_In_Button_u49_mouseOver.png');
+}
+
+.u54_disabled {
+    background-image: url('../Main_Navigation_files/Sign_In_Button_u49_disabled.png');
+}
+
+.u54_normal {
+    background-image: url('../Main_Navigation_files/Sign_In_Button_u49_normal.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:61px;
+    top:23px;
+    width:100px;
+    height:30px;
+}
+
+#u54_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u55 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:96px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u51 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:231px;
+    height:71px;
+    
+}
+
+.u56_normal {
+    background-image: url('../Main_Navigation_files/placeholder_u51_normal.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:13px;
+    top:13px;
+    width:45px;
+    height:45px;
+}
+
+#u56_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:51px;
+    height:51px;
+}
+
+.u57 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:41px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58 {
+    position:absolute;
+    left:67px;
+    top:30px;
+    width:126px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u59_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:223px;
+    height:70px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:229px;
+    height:76px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:219px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../Main_Navigation_files/u56_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:186px;
+    top:35px;
+    width:6px;
+    height:3px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:12px;
+    height:9px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:2px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63 {
+    position:absolute;
+    left:470px;
+    top:31px;
+    width:202px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#6B6B6B;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    border-color:transparent;
+    outline-style:none;
+}
+
+.u65_line {
+    background-image: url('../Cookbook_Details_files/u65_line.png');
+}
+
+.u65_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:960px;
+    height:3px;
+}
+
+.u65 {
+    position:absolute;
+    left:20px;
+    top:206px;
+    width:960px;
+    height:10px;
+    
+}
+
+#u66 {
+    position:absolute;
+    left:890px;
+    top:154px;
+    width:91px;
+    height:31px;
+    overflow:hidden;
+}
+
+#pd1u66 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:91px;
+    height:31px;
+    
+}
+
+.u67_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u67_mouseOver.png');
+}
+
+.u67_disabled {
+    background-image: url('../Cookbook_Details_files/button_u67_disabled.png');
+}
+
+.u67_normal {
+    background-image: url('../Cookbook_Details_files/button_u67_normal.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:90px;
+    height:30px;
+}
+
+#u67_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:36px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:86px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u66 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:91px;
+    height:31px;
+    
+}
+
+.u69_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u69_mouseOver.png');
+}
+
+.u69_disabled {
+    background-image: url('../Cookbook_Details_files/button_u67_disabled.png');
+}
+
+.u69_normal {
+    background-image: url('../Cookbook_Details_files/button_u69_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:90px;
+    height:30px;
+}
+
+#u69_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:36px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:86px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u71 {
+    position:absolute;
+    left:689px;
+    top:154px;
+    width:91px;
+    height:31px;
+    overflow:hidden;
+}
+
+#pd1u71 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:91px;
+    height:31px;
+    
+}
+
+.u72_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u67_mouseOver.png');
+}
+
+.u72_disabled {
+    background-image: url('../Cookbook_Details_files/button_u67_disabled.png');
+}
+
+.u72_normal {
+    background-image: url('../Cookbook_Details_files/button_u67_normal.png');
+}
+
+.u72_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:90px;
+    height:30px;
+}
+
+#u72_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:36px;
+}
+
+.u73 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:86px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u71 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:91px;
+    height:31px;
+    
+}
+
+.u74_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u69_mouseOver.png');
+}
+
+.u74_disabled {
+    background-image: url('../Cookbook_Details_files/button_u67_disabled.png');
+}
+
+.u74_normal {
+    background-image: url('../Cookbook_Details_files/button_u69_normal.png');
+}
+
+.u74_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:90px;
+    height:30px;
+}
+
+#u74_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:36px;
+}
+
+.u75 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:86px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u76 {
+    position:absolute;
+    left:790px;
+    top:154px;
+    width:91px;
+    height:31px;
+    overflow:hidden;
+}
+
+#pd1u76 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:91px;
+    height:31px;
+    
+}
+
+.u77_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u67_mouseOver.png');
+}
+
+.u77_disabled {
+    background-image: url('../Cookbook_Details_files/button_u67_disabled.png');
+}
+
+.u77_normal {
+    background-image: url('../Cookbook_Details_files/button_u67_normal.png');
+}
+
+.u77_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:90px;
+    height:30px;
+}
+
+#u77_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:36px;
+}
+
+.u78 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:86px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u76 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:91px;
+    height:31px;
+    
+}
+
+.u79_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u69_mouseOver.png');
+}
+
+.u79_disabled {
+    background-image: url('../Cookbook_Details_files/button_u67_disabled.png');
+}
+
+.u79_normal {
+    background-image: url('../Cookbook_Details_files/button_u69_normal.png');
+}
+
+.u79_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:90px;
+    height:30px;
+}
+
+#u79_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:36px;
+}
+
+.u80 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:86px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u0_mouseOver.png');
+}
+
+.u81_disabled {
+    background-image: url('../Cookbook_Details_files/button_u0_disabled.png');
+}
+
+.u81_normal {
+    background-image: url('../Cookbook_Details_files/button_u0_normal.png');
+}
+
+.u81_container {
+    position:absolute;
+    left:740px;
+    top:233px;
+    width:115px;
+    height:35px;
+}
+
+#u81_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:41px;
+}
+
+.u82 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:111px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u83 {
+    position:absolute;
+    left:20px;
+    top:293px;
+    width:961px;
+    height:1569px;
+    overflow:hidden;
+}
+
+#pd1u83 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:961px;
+    height:1569px;
+    
+}
+
+#u84 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:961px;
+    height:1561px;
+    overflow:hidden;
+}
+
+#pd1u84 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:961px;
+    height:1561px;
+    
+}
+
+.u85 {
+    position:absolute;
+    left:0px;
+    top:499px;
+    width:136px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u86 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:728px;
+    height:43px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87 {
+    position:absolute;
+    left:0px;
+    top:538px;
+    width:145px;
+    height:162px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u88_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u88_normal.png');
+}
+
+.u88_container {
+    position:absolute;
+    left:0px;
+    top:69px;
+    width:600px;
+    height:400px;
+}
+
+#u88_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:606px;
+    height:406px;
+}
+
+.u89 {
+    position:absolute;
+    left:2px;
+    top:192px;
+    width:596px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u90 {
+    position:absolute;
+    left:0px;
+    top:829px;
+    width:960px;
+    height:738px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91 {
+    position:absolute;
+    left:620px;
+    top:69px;
+    width:280px;
+    height:144px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u92 {
+    position:absolute;
+    left:166px;
+    top:499px;
+    width:136px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93_line {
+    background-image: url('../Cookbook_Details_files/u93_line.png');
+}
+
+.u93_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:960px;
+    height:3px;
+}
+
+.u93 {
+    position:absolute;
+    left:0px;
+    top:795px;
+    width:960px;
+    height:10px;
+    
+}
+
+.u94 {
+    position:absolute;
+    left:166px;
+    top:535px;
+    width:353px;
+    height:240px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u95_line {
+    background-image: url('../Cookbook_Details_files/u95_line.png');
+}
+
+.u95_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:201px;
+}
+
+.u95 {
+    position:absolute;
+    left:140px;
+    top:499px;
+    width:10px;
+    height:201px;
+    
+}
+
+.u96_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u96_mouseOver.png');
+}
+
+.u96_disabled {
+    background-image: url('../Cookbook_Details_files/button_u96_disabled.png');
+}
+
+.u96_normal {
+    background-image: url('../Cookbook_Details_files/button_u96_normal.png');
+}
+
+.u96_container {
+    position:absolute;
+    left:618px;
+    top:435px;
+    width:140px;
+    height:34px;
+}
+
+#u96_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:40px;
+}
+
+.u97 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:136px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98_normal {
+    background-image: url('../Cookbook_Details_files/u98_normal.png');
+}
+
+.u98_container {
+    position:absolute;
+    left:930px;
+    top:7px;
+    width:20px;
+    height:20px;
+}
+
+#u98_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u99 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:16px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100_normal {
+    background-image: url('../Cookbook_Details_files/u100_normal.png');
+}
+
+.u100_container {
+    position:absolute;
+    left:936px;
+    top:13px;
+    width:6px;
+    height:8px;
+}
+
+#u100_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:12px;
+    height:14px;
+}
+
+.u101 {
+    position:absolute;
+    left:2px;
+    top:-4px;
+    width:2px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u102 {
+    position:absolute;
+    left:930px;
+    top:7px;
+    width:20px;
+    height:20px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u84 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:961px;
+    height:1561px;
+    
+}
+
+.u103_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u103_normal.png');
+}
+
+.u103_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+#u103_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+.u104 {
+    position:absolute;
+    left:2px;
+    top:98px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u105 {
+    position:absolute;
+    left:0px;
+    top:6px;
+    width:230px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u105 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:46px;
+    
+}
+
+#u106 {
+    position:absolute;
+    left:6px;
+    top:0px;
+    width:217px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u106 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:217px;
+    height:46px;
+    
+}
+
+.u107_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u107_normal.png');
+}
+
+.u107_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:216px;
+    height:45px;
+}
+
+#u107_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:222px;
+    height:51px;
+}
+
+.u108 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:212px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u109 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u110 {
+    position:absolute;
+    left:7px;
+    top:50px;
+    width:214px;
+    height:117px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u111_mouseOver {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_mouseOver.png');
+}
+
+.u111_disabled {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_disabled.png');
+}
+
+.u111_normal {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_normal.png');
+}
+
+.u111_container {
+    position:absolute;
+    left:146px;
+    top:177px;
+    width:75px;
+    height:25px;
+}
+
+#u111_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:31px;
+}
+
+.u112 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:71px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u113 {
+    position:absolute;
+    left:0px;
+    top:167px;
+    width:109px;
+    height:44px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u115_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u103_normal.png');
+}
+
+.u115_container {
+    position:absolute;
+    left:243px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+#u115_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+.u116 {
+    position:absolute;
+    left:2px;
+    top:98px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u117 {
+    position:absolute;
+    left:243px;
+    top:6px;
+    width:230px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u117 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:46px;
+    
+}
+
+#u118 {
+    position:absolute;
+    left:6px;
+    top:0px;
+    width:217px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u118 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:217px;
+    height:46px;
+    
+}
+
+.u119_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u107_normal.png');
+}
+
+.u119_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:216px;
+    height:45px;
+}
+
+#u119_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:222px;
+    height:51px;
+}
+
+.u120 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:212px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u121 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u122 {
+    position:absolute;
+    left:250px;
+    top:50px;
+    width:214px;
+    height:117px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u123_mouseOver {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_mouseOver.png');
+}
+
+.u123_disabled {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_disabled.png');
+}
+
+.u123_normal {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_normal.png');
+}
+
+.u123_container {
+    position:absolute;
+    left:389px;
+    top:177px;
+    width:75px;
+    height:25px;
+}
+
+#u123_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:31px;
+}
+
+.u124 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:71px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u125 {
+    position:absolute;
+    left:243px;
+    top:167px;
+    width:109px;
+    height:44px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u127_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u103_normal.png');
+}
+
+.u127_container {
+    position:absolute;
+    left:731px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+#u127_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+.u128 {
+    position:absolute;
+    left:2px;
+    top:98px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u129 {
+    position:absolute;
+    left:731px;
+    top:6px;
+    width:230px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u129 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:46px;
+    
+}
+
+#u130 {
+    position:absolute;
+    left:6px;
+    top:0px;
+    width:217px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u130 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:217px;
+    height:46px;
+    
+}
+
+.u131_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u107_normal.png');
+}
+
+.u131_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:216px;
+    height:45px;
+}
+
+#u131_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:222px;
+    height:51px;
+}
+
+.u132 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:212px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u133 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u134 {
+    position:absolute;
+    left:738px;
+    top:50px;
+    width:214px;
+    height:117px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u135_mouseOver {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_mouseOver.png');
+}
+
+.u135_disabled {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_disabled.png');
+}
+
+.u135_normal {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_normal.png');
+}
+
+.u135_container {
+    position:absolute;
+    left:877px;
+    top:177px;
+    width:75px;
+    height:25px;
+}
+
+#u135_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:31px;
+}
+
+.u136 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:71px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u137 {
+    position:absolute;
+    left:731px;
+    top:167px;
+    width:109px;
+    height:44px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u139_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u103_normal.png');
+}
+
+.u139_container {
+    position:absolute;
+    left:487px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+#u139_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+.u140 {
+    position:absolute;
+    left:2px;
+    top:98px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u141 {
+    position:absolute;
+    left:487px;
+    top:6px;
+    width:230px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u141 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:46px;
+    
+}
+
+#u142 {
+    position:absolute;
+    left:6px;
+    top:0px;
+    width:217px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u142 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:217px;
+    height:46px;
+    
+}
+
+.u143_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u107_normal.png');
+}
+
+.u143_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:216px;
+    height:45px;
+}
+
+#u143_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:222px;
+    height:51px;
+}
+
+.u144 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:212px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u145 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u146 {
+    position:absolute;
+    left:494px;
+    top:50px;
+    width:214px;
+    height:117px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u147_mouseOver {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_mouseOver.png');
+}
+
+.u147_disabled {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_disabled.png');
+}
+
+.u147_normal {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_normal.png');
+}
+
+.u147_container {
+    position:absolute;
+    left:633px;
+    top:177px;
+    width:75px;
+    height:25px;
+}
+
+#u147_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:31px;
+}
+
+.u148 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:71px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u149 {
+    position:absolute;
+    left:487px;
+    top:167px;
+    width:109px;
+    height:44px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u151_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u103_normal.png');
+}
+
+.u151_container {
+    position:absolute;
+    left:0px;
+    top:226px;
+    width:229px;
+    height:211px;
+}
+
+#u151_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+.u152 {
+    position:absolute;
+    left:2px;
+    top:98px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u153 {
+    position:absolute;
+    left:0px;
+    top:232px;
+    width:230px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u153 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:46px;
+    
+}
+
+#u154 {
+    position:absolute;
+    left:6px;
+    top:0px;
+    width:217px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u154 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:217px;
+    height:46px;
+    
+}
+
+.u155_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u107_normal.png');
+}
+
+.u155_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:216px;
+    height:45px;
+}
+
+#u155_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:222px;
+    height:51px;
+}
+
+.u156 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:212px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u157 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u158 {
+    position:absolute;
+    left:7px;
+    top:276px;
+    width:214px;
+    height:117px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u159_mouseOver {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_mouseOver.png');
+}
+
+.u159_disabled {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_disabled.png');
+}
+
+.u159_normal {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_normal.png');
+}
+
+.u159_container {
+    position:absolute;
+    left:146px;
+    top:403px;
+    width:75px;
+    height:25px;
+}
+
+#u159_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:31px;
+}
+
+.u160 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:71px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u161 {
+    position:absolute;
+    left:0px;
+    top:393px;
+    width:109px;
+    height:44px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u163_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u103_normal.png');
+}
+
+.u163_container {
+    position:absolute;
+    left:243px;
+    top:226px;
+    width:229px;
+    height:211px;
+}
+
+#u163_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+.u164 {
+    position:absolute;
+    left:2px;
+    top:98px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u165 {
+    position:absolute;
+    left:243px;
+    top:232px;
+    width:230px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u165 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:46px;
+    
+}
+
+#u166 {
+    position:absolute;
+    left:6px;
+    top:0px;
+    width:217px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u166 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:217px;
+    height:46px;
+    
+}
+
+.u167_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u107_normal.png');
+}
+
+.u167_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:216px;
+    height:45px;
+}
+
+#u167_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:222px;
+    height:51px;
+}
+
+.u168 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:212px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u169 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u170 {
+    position:absolute;
+    left:250px;
+    top:276px;
+    width:214px;
+    height:117px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u171_mouseOver {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_mouseOver.png');
+}
+
+.u171_disabled {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_disabled.png');
+}
+
+.u171_normal {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_normal.png');
+}
+
+.u171_container {
+    position:absolute;
+    left:389px;
+    top:403px;
+    width:75px;
+    height:25px;
+}
+
+#u171_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:31px;
+}
+
+.u172 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:71px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u173 {
+    position:absolute;
+    left:243px;
+    top:393px;
+    width:109px;
+    height:44px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u175_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u103_normal.png');
+}
+
+.u175_container {
+    position:absolute;
+    left:731px;
+    top:226px;
+    width:229px;
+    height:211px;
+}
+
+#u175_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+.u176 {
+    position:absolute;
+    left:2px;
+    top:98px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u177 {
+    position:absolute;
+    left:731px;
+    top:232px;
+    width:230px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u177 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:46px;
+    
+}
+
+#u178 {
+    position:absolute;
+    left:6px;
+    top:0px;
+    width:217px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u178 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:217px;
+    height:46px;
+    
+}
+
+.u179_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u107_normal.png');
+}
+
+.u179_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:216px;
+    height:45px;
+}
+
+#u179_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:222px;
+    height:51px;
+}
+
+.u180 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:212px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u181 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u182 {
+    position:absolute;
+    left:738px;
+    top:276px;
+    width:214px;
+    height:117px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u183_mouseOver {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_mouseOver.png');
+}
+
+.u183_disabled {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_disabled.png');
+}
+
+.u183_normal {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_normal.png');
+}
+
+.u183_container {
+    position:absolute;
+    left:877px;
+    top:403px;
+    width:75px;
+    height:25px;
+}
+
+#u183_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:31px;
+}
+
+.u184 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:71px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u185 {
+    position:absolute;
+    left:731px;
+    top:393px;
+    width:109px;
+    height:44px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u187_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u103_normal.png');
+}
+
+.u187_container {
+    position:absolute;
+    left:487px;
+    top:226px;
+    width:229px;
+    height:211px;
+}
+
+#u187_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+.u188 {
+    position:absolute;
+    left:2px;
+    top:98px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u189 {
+    position:absolute;
+    left:487px;
+    top:232px;
+    width:230px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u189 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:46px;
+    
+}
+
+#u190 {
+    position:absolute;
+    left:6px;
+    top:0px;
+    width:217px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u190 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:217px;
+    height:46px;
+    
+}
+
+.u191_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u107_normal.png');
+}
+
+.u191_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:216px;
+    height:45px;
+}
+
+#u191_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:222px;
+    height:51px;
+}
+
+.u192 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:212px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u193 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u194 {
+    position:absolute;
+    left:494px;
+    top:276px;
+    width:214px;
+    height:117px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u195_mouseOver {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_mouseOver.png');
+}
+
+.u195_disabled {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_disabled.png');
+}
+
+.u195_normal {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_normal.png');
+}
+
+.u195_container {
+    position:absolute;
+    left:633px;
+    top:403px;
+    width:75px;
+    height:25px;
+}
+
+#u195_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:31px;
+}
+
+.u196 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:71px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u197 {
+    position:absolute;
+    left:487px;
+    top:393px;
+    width:109px;
+    height:44px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u199_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u103_normal.png');
+}
+
+.u199_container {
+    position:absolute;
+    left:0px;
+    top:452px;
+    width:229px;
+    height:211px;
+}
+
+#u199_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+.u200 {
+    position:absolute;
+    left:2px;
+    top:98px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u201 {
+    position:absolute;
+    left:0px;
+    top:458px;
+    width:230px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u201 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:46px;
+    
+}
+
+#u202 {
+    position:absolute;
+    left:6px;
+    top:0px;
+    width:217px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u202 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:217px;
+    height:46px;
+    
+}
+
+.u203_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u107_normal.png');
+}
+
+.u203_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:216px;
+    height:45px;
+}
+
+#u203_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:222px;
+    height:51px;
+}
+
+.u204 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:212px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u205 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u206 {
+    position:absolute;
+    left:7px;
+    top:502px;
+    width:214px;
+    height:117px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u207_mouseOver {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_mouseOver.png');
+}
+
+.u207_disabled {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_disabled.png');
+}
+
+.u207_normal {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_normal.png');
+}
+
+.u207_container {
+    position:absolute;
+    left:146px;
+    top:629px;
+    width:75px;
+    height:25px;
+}
+
+#u207_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:31px;
+}
+
+.u208 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:71px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u209 {
+    position:absolute;
+    left:0px;
+    top:619px;
+    width:109px;
+    height:44px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u211_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u103_normal.png');
+}
+
+.u211_container {
+    position:absolute;
+    left:243px;
+    top:452px;
+    width:229px;
+    height:211px;
+}
+
+#u211_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:229px;
+    height:211px;
+}
+
+.u212 {
+    position:absolute;
+    left:2px;
+    top:98px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u213 {
+    position:absolute;
+    left:243px;
+    top:458px;
+    width:230px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u213 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:46px;
+    
+}
+
+#u214 {
+    position:absolute;
+    left:6px;
+    top:0px;
+    width:217px;
+    height:46px;
+    overflow:hidden;
+}
+
+#pd0u214 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:217px;
+    height:46px;
+    
+}
+
+.u215_normal {
+    background-image: url('../Recipe__in_Cookbook__files/u107_normal.png');
+}
+
+.u215_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:216px;
+    height:45px;
+}
+
+#u215_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:222px;
+    height:51px;
+}
+
+.u216 {
+    position:absolute;
+    left:2px;
+    top:14px;
+    width:212px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u217 {
+    position:absolute;
+    left:10px;
+    top:6px;
+    width:196px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u218 {
+    position:absolute;
+    left:250px;
+    top:502px;
+    width:214px;
+    height:117px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u219_mouseOver {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_mouseOver.png');
+}
+
+.u219_disabled {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_disabled.png');
+}
+
+.u219_normal {
+    background-image: url('../Recipe__in_Cookbook__files/button_u111_normal.png');
+}
+
+.u219_container {
+    position:absolute;
+    left:389px;
+    top:629px;
+    width:75px;
+    height:25px;
+}
+
+#u219_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:31px;
+}
+
+.u220 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:71px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u221 {
+    position:absolute;
+    left:243px;
+    top:619px;
+    width:109px;
+    height:44px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u223 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:960px;
+    height:663px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u83 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:961px;
+    height:1569px;
+    
+}
+
+.u224_normal {
+    background-image: url('../Cookbook_Details_files/u224_normal.png');
+}
+
+.u224_container {
+    position:absolute;
+    left:0px;
+    top:67px;
+    width:293px;
+    height:35px;
+}
+
+#u224_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:41px;
+}
+
+.u225 {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:281px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u226_normal {
+    background-image: url('../Cookbook_Details_files/u224_normal.png');
+}
+
+.u226_container {
+    position:absolute;
+    left:0px;
+    top:102px;
+    width:293px;
+    height:35px;
+}
+
+#u226_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:41px;
+}
+
+.u227 {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:281px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u228_normal {
+    background-image: url('../Cookbook_Details_files/u224_normal.png');
+}
+
+.u228_container {
+    position:absolute;
+    left:0px;
+    top:137px;
+    width:293px;
+    height:35px;
+}
+
+#u228_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:41px;
+}
+
+.u229 {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:281px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u230_normal {
+    background-image: url('../Cookbook_Details_files/u224_normal.png');
+}
+
+.u230_container {
+    position:absolute;
+    left:0px;
+    top:172px;
+    width:293px;
+    height:35px;
+}
+
+#u230_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:41px;
+}
+
+.u231 {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:281px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u232_normal {
+    background-image: url('../Cookbook_Details_files/u224_normal.png');
+}
+
+.u232_container {
+    position:absolute;
+    left:0px;
+    top:207px;
+    width:293px;
+    height:35px;
+}
+
+#u232_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:41px;
+}
+
+.u233 {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:281px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u234_normal {
+    background-image: url('../Cookbook_Details_files/u224_normal.png');
+}
+
+.u234_container {
+    position:absolute;
+    left:0px;
+    top:242px;
+    width:293px;
+    height:35px;
+}
+
+#u234_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:41px;
+}
+
+.u235 {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:281px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u236_normal {
+    background-image: url('../Cookbook_Details_files/u224_normal.png');
+}
+
+.u236_container {
+    position:absolute;
+    left:0px;
+    top:277px;
+    width:293px;
+    height:35px;
+}
+
+#u236_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:41px;
+}
+
+.u237 {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:281px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u238_normal {
+    background-image: url('../Cookbook_Details_files/u224_normal.png');
+}
+
+.u238_container {
+    position:absolute;
+    left:0px;
+    top:312px;
+    width:293px;
+    height:35px;
+}
+
+#u238_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:41px;
+}
+
+.u239 {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:281px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u240_normal {
+    background-image: url('../Cookbook_Details_files/u240_normal.png');
+}
+
+.u240_container {
+    position:absolute;
+    left:264px;
+    top:75px;
+    width:20px;
+    height:20px;
+}
+
+#u240_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u241 {
+    position:absolute;
+    left:7px;
+    top:4px;
+    width:11px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u242_normal {
+    background-image: url('../Cookbook_Details_files/u240_normal.png');
+}
+
+.u242_container {
+    position:absolute;
+    left:264px;
+    top:110px;
+    width:20px;
+    height:20px;
+}
+
+#u242_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u243 {
+    position:absolute;
+    left:7px;
+    top:4px;
+    width:11px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u244_normal {
+    background-image: url('../Cookbook_Details_files/u240_normal.png');
+}
+
+.u244_container {
+    position:absolute;
+    left:264px;
+    top:145px;
+    width:20px;
+    height:20px;
+}
+
+#u244_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u245 {
+    position:absolute;
+    left:7px;
+    top:4px;
+    width:11px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u246_normal {
+    background-image: url('../Cookbook_Details_files/u240_normal.png');
+}
+
+.u246_container {
+    position:absolute;
+    left:264px;
+    top:180px;
+    width:20px;
+    height:20px;
+}
+
+#u246_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u247 {
+    position:absolute;
+    left:7px;
+    top:4px;
+    width:11px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u248_normal {
+    background-image: url('../Cookbook_Details_files/u240_normal.png');
+}
+
+.u248_container {
+    position:absolute;
+    left:264px;
+    top:215px;
+    width:20px;
+    height:20px;
+}
+
+#u248_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u249 {
+    position:absolute;
+    left:4px;
+    top:4px;
+    width:14px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u250_normal {
+    background-image: url('../Cookbook_Details_files/u240_normal.png');
+}
+
+.u250_container {
+    position:absolute;
+    left:264px;
+    top:250px;
+    width:20px;
+    height:20px;
+}
+
+#u250_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u251 {
+    position:absolute;
+    left:7px;
+    top:4px;
+    width:11px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u252_normal {
+    background-image: url('../Cookbook_Details_files/u240_normal.png');
+}
+
+.u252_container {
+    position:absolute;
+    left:264px;
+    top:284px;
+    width:20px;
+    height:20px;
+}
+
+#u252_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u253 {
+    position:absolute;
+    left:4px;
+    top:4px;
+    width:14px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u254_normal {
+    background-image: url('../Cookbook_Details_files/u240_normal.png');
+}
+
+.u254_container {
+    position:absolute;
+    left:264px;
+    top:320px;
+    width:20px;
+    height:20px;
+}
+
+#u254_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u255 {
+    position:absolute;
+    left:7px;
+    top:4px;
+    width:11px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u256_normal {
+    background-image: url('../Cookbook_Details_files/u224_normal.png');
+}
+
+.u256_container {
+    position:absolute;
+    left:0px;
+    top:32px;
+    width:293px;
+    height:35px;
+}
+
+#u256_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:41px;
+}
+
+.u257 {
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:281px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u258_normal {
+    background-image: url('../Cookbook_Details_files/u240_normal.png');
+}
+
+.u258_container {
+    position:absolute;
+    left:264px;
+    top:40px;
+    width:20px;
+    height:20px;
+}
+
+#u258_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u259 {
+    position:absolute;
+    left:4px;
+    top:4px;
+    width:14px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u260 {
+    position:absolute;
+    left:313px;
+    top:0px;
+    width:648px;
+    height:1558px;
+    overflow:hidden;
+}
+
+#pd1u260 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:648px;
+    height:1558px;
+    
+}
+
+.u261 {
+    position:absolute;
+    left:0px;
+    top:316px;
+    width:136px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u262 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:618px;
+    height:31px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u263 {
+    position:absolute;
+    left:0px;
+    top:355px;
+    width:145px;
+    height:162px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u264_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u264_normal.png');
+}
+
+.u264_container {
+    position:absolute;
+    left:0px;
+    top:59px;
+    width:350px;
+    height:233px;
+}
+
+#u264_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:356px;
+    height:239px;
+}
+
+.u265 {
+    position:absolute;
+    left:2px;
+    top:109px;
+    width:346px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u266 {
+    position:absolute;
+    left:0px;
+    top:646px;
+    width:626px;
+    height:882px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u267 {
+    position:absolute;
+    left:370px;
+    top:59px;
+    width:263px;
+    height:144px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u268 {
+    position:absolute;
+    left:166px;
+    top:316px;
+    width:136px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u269_line {
+    background-image: url('../Cookbook_Details_files/u269_line.png');
+}
+
+.u269_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:626px;
+    height:3px;
+}
+
+.u269 {
+    position:absolute;
+    left:0px;
+    top:612px;
+    width:626px;
+    height:10px;
+    
+}
+
+.u270 {
+    position:absolute;
+    left:166px;
+    top:352px;
+    width:353px;
+    height:240px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u271_line {
+    background-image: url('../Cookbook_Details_files/u271_line.png');
+}
+
+.u271_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:201px;
+}
+
+.u271 {
+    position:absolute;
+    left:140px;
+    top:316px;
+    width:10px;
+    height:201px;
+    
+}
+
+.u272_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u96_mouseOver.png');
+}
+
+.u272_disabled {
+    background-image: url('../Cookbook_Details_files/button_u96_disabled.png');
+}
+
+.u272_normal {
+    background-image: url('../Cookbook_Details_files/button_u96_normal.png');
+}
+
+.u272_container {
+    position:absolute;
+    left:370px;
+    top:260px;
+    width:140px;
+    height:34px;
+}
+
+#u272_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:146px;
+    height:40px;
+}
+
+.u273 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:136px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u274_normal {
+    background-image: url('../Cookbook_Details_files/u98_normal.png');
+}
+
+.u274_container {
+    position:absolute;
+    left:618px;
+    top:7px;
+    width:20px;
+    height:20px;
+}
+
+#u274_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u275 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:16px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u276_normal {
+    background-image: url('../Cookbook_Details_files/u100_normal.png');
+}
+
+.u276_container {
+    position:absolute;
+    left:624px;
+    top:13px;
+    width:6px;
+    height:8px;
+}
+
+#u276_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:12px;
+    height:14px;
+}
+
+.u277 {
+    position:absolute;
+    left:2px;
+    top:-4px;
+    width:2px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u278 {
+    position:absolute;
+    left:618px;
+    top:7px;
+    width:20px;
+    height:20px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u260 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:648px;
+    height:1558px;
+    
+}
+
+.u279_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u279_normal.png');
+}
+
+.u279_container {
+    position:absolute;
+    left:0px;
+    top:2px;
+    width:100px;
+    height:100px;
+}
+
+#u279_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:106px;
+}
+
+.u280 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u281 {
+    position:absolute;
+    left:167px;
+    top:28px;
+    width:480px;
+    height:34px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u282 {
+    position:absolute;
+    left:167px;
+    top:-1px;
+    width:465px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u283 {
+    position:absolute;
+    left:167px;
+    top:86px;
+    width:140px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u284_line {
+    background-image: url('../Cookbook_Details_files/u284_line.png');
+}
+
+.u284_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:647px;
+    height:3px;
+}
+
+.u284 {
+    position:absolute;
+    left:0px;
+    top:117px;
+    width:647px;
+    height:10px;
+    
+}
+
+.u285_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u285_normal.png');
+}
+
+.u285_container {
+    position:absolute;
+    left:0px;
+    top:2px;
+    width:150px;
+    height:100px;
+}
+
+#u285_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:106px;
+}
+
+.u286 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:146px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u287_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u279_normal.png');
+}
+
+.u287_container {
+    position:absolute;
+    left:0px;
+    top:144px;
+    width:100px;
+    height:100px;
+}
+
+#u287_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:106px;
+}
+
+.u288 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u289 {
+    position:absolute;
+    left:167px;
+    top:170px;
+    width:480px;
+    height:34px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u290 {
+    position:absolute;
+    left:167px;
+    top:141px;
+    width:465px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u291 {
+    position:absolute;
+    left:167px;
+    top:228px;
+    width:140px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u292_line {
+    background-image: url('../Cookbook_Details_files/u292_line.png');
+}
+
+.u292_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:647px;
+    height:3px;
+}
+
+.u292 {
+    position:absolute;
+    left:0px;
+    top:259px;
+    width:647px;
+    height:10px;
+    
+}
+
+.u293_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u285_normal.png');
+}
+
+.u293_container {
+    position:absolute;
+    left:0px;
+    top:144px;
+    width:150px;
+    height:100px;
+}
+
+#u293_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:106px;
+}
+
+.u294 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:146px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u295_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u279_normal.png');
+}
+
+.u295_container {
+    position:absolute;
+    left:0px;
+    top:287px;
+    width:100px;
+    height:100px;
+}
+
+#u295_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:106px;
+}
+
+.u296 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u297 {
+    position:absolute;
+    left:167px;
+    top:313px;
+    width:480px;
+    height:34px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u298 {
+    position:absolute;
+    left:167px;
+    top:284px;
+    width:465px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u299 {
+    position:absolute;
+    left:167px;
+    top:371px;
+    width:140px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u300_line {
+    background-image: url('../Cookbook_Details_files/u300_line.png');
+}
+
+.u300_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:647px;
+    height:3px;
+}
+
+.u300 {
+    position:absolute;
+    left:0px;
+    top:402px;
+    width:647px;
+    height:10px;
+    
+}
+
+.u301_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u285_normal.png');
+}
+
+.u301_container {
+    position:absolute;
+    left:0px;
+    top:287px;
+    width:150px;
+    height:100px;
+}
+
+#u301_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:106px;
+}
+
+.u302 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:146px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u303_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u279_normal.png');
+}
+
+.u303_container {
+    position:absolute;
+    left:0px;
+    top:430px;
+    width:100px;
+    height:100px;
+}
+
+#u303_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:106px;
+}
+
+.u304 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u305 {
+    position:absolute;
+    left:167px;
+    top:456px;
+    width:480px;
+    height:34px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u306 {
+    position:absolute;
+    left:167px;
+    top:427px;
+    width:465px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u307 {
+    position:absolute;
+    left:167px;
+    top:514px;
+    width:140px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u308_line {
+    background-image: url('../Cookbook_Details_files/u308_line.png');
+}
+
+.u308_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:647px;
+    height:3px;
+}
+
+.u308 {
+    position:absolute;
+    left:0px;
+    top:545px;
+    width:647px;
+    height:10px;
+    
+}
+
+.u309_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u285_normal.png');
+}
+
+.u309_container {
+    position:absolute;
+    left:0px;
+    top:430px;
+    width:150px;
+    height:100px;
+}
+
+#u309_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:106px;
+}
+
+.u310 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:146px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u311_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u279_normal.png');
+}
+
+.u311_container {
+    position:absolute;
+    left:0px;
+    top:573px;
+    width:100px;
+    height:100px;
+}
+
+#u311_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:106px;
+}
+
+.u312 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u313 {
+    position:absolute;
+    left:167px;
+    top:599px;
+    width:480px;
+    height:34px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u314 {
+    position:absolute;
+    left:167px;
+    top:570px;
+    width:465px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u315 {
+    position:absolute;
+    left:167px;
+    top:657px;
+    width:140px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u316_line {
+    background-image: url('../Cookbook_Details_files/u316_line.png');
+}
+
+.u316_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:647px;
+    height:3px;
+}
+
+.u316 {
+    position:absolute;
+    left:0px;
+    top:688px;
+    width:647px;
+    height:10px;
+    
+}
+
+.u317_normal {
+    background-image: url('../Cookbook_Details_files/placeholder_u285_normal.png');
+}
+
+.u317_container {
+    position:absolute;
+    left:0px;
+    top:573px;
+    width:150px;
+    height:100px;
+}
+
+#u317_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:106px;
+}
+
+.u318 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:146px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u319 {
+    position:absolute;
+    left:0px;
+    top:2px;
+    width:293px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u320_mouseOver {
+    background-image: url('../Cookbook_Details_files/button_u0_mouseOver.png');
+}
+
+.u320_disabled {
+    background-image: url('../Cookbook_Details_files/button_u0_disabled.png');
+}
+
+.u320_normal {
+    background-image: url('../Cookbook_Details_files/button_u0_normal.png');
+}
+
+.u320_container {
+    position:absolute;
+    left:615px;
+    top:233px;
+    width:115px;
+    height:35px;
+}
+
+#u320_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:41px;
+}
+
+.u321 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:111px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

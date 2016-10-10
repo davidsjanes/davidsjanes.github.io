@@ -1,0 +1,424 @@
+/* I know there is a lot of classes here, but I was just experimenting with a mostly class based way of styling the page for unique elements. I find the shoot to kill method to be kind of nice. Rather than having something like #wrapper > .main > div > ul > li {style} it's .product-item {style}. Nothing mind blowing here but just a slightly different thought process than my norm. Not sure if this helps or hinders semantics but I like it. */
+
+body {
+	background: #fff;
+	font-size: 16px;
+}
+a {
+	cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+ul, li {
+	font-weight: normal;
+}
+@font-face {
+		font-family: 'FuturaStd-Bold';
+		src: url('../fonts/futurastdbold.eot');
+		src: url('../fonts/futurastdbold.eot?#iefix') format('embedded-opentype'),
+				 url('../fonts/futurastdbold.woff') format('woff'),
+				 url('../fonts/futurastdbold.ttf') format('truetype'),
+				 url('../fonts/futurastdbold.svg#futurastdbold') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+@font-face {
+		font-family: 'FuturaStd-Book';
+		src: url('../fonts/futurastdbook.eot');
+		src: url('../fonts/futurastdbook.eot?#iefix') format('embedded-opentype'),
+				 url('../fonts/futurastdbook.woff') format('woff'),
+				 url('../fonts/futurastdbook.ttf') format('truetype'),
+				 url('../fonts/futurastdbook.svg#futurastdbook') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+.icon {
+	font-family: 'icomoon';
+	font-size: 1.1rem;
+}
+
+/********** Main Structural Styles **********/
+
+.wrapper {}
+.main {
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #eee 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#eee)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#eee 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#eee 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#eee 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#eee 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eee',GradientType=0 ); /* IE6-9 */
+}
+.main .container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	height: 600px;
+}
+
+/********** Product Image Styles **********/
+
+.refrigerator-model {
+	position: relative;
+	top: 75px;
+	left: 350px;
+}
+
+/********** Product Module Styles **********/
+
+.module {
+	z-index: 500;
+	width: 240px;
+	height: 460px;
+	position: absolute;
+	top: 70px;
+	left: 20px;
+	font-size: .8em;
+	font-family: 'futura', sans-serif;
+	color: #444;
+	background: #FFF;
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.1);
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.module div div {
+	padding: 20px;
+	border-bottom: 1px solid #eee;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+}
+.module div div:last-child {
+	border: none;
+}
+.module h2 {
+	margin: 0;
+	font-size: 1rem;
+	line-height:1.3rem;
+	text-transform: uppercase;
+	font-family: 'FuturaStd-Bold', arial, sans-serif;
+}
+.module h3 {
+	font-size: 1em;
+	font-weight: 300;
+	margin: 10px 0 0 0;
+	font-family: 'FuturaStd-Book', arial, sans-serif;
+}
+.module p {
+	margin: 0;
+}
+.module ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+.product-price p {
+	color: #296230;
+	font-size: 1.7rem;
+	font-family: 'FuturaStd-Book', arial, sans-serif;
+}
+.product-price span {
+	color: #888;
+	font-size: .7rem;
+}
+.module .product-price {
+	padding-bottom: 13px;
+}
+ul.product-colors {
+	display: block;
+	width: 12%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.product-colors li {
+	text-indent: -9999px;
+	display: inline-block;
+	background: #000;
+	width: 25px;
+	height: 25px;
+	margin: 0 10px 0 0;
+}
+.product-colors li:last-child, .product-dimensions li:last-child, .module-links li:last-child {
+	margin: 0;
+}
+.product-colors .black {
+	background: #000;
+	border: 1px solid #000;
+}
+.product-colors .stainless {
+	background: #888;
+	border: 1px solid #888;
+}
+.product-colors .white {
+	background: #fff;
+	border: 2px solid #e8e8e8;
+	border-radius: 20px;
+}
+.product-dimensions li {
+	display: inline-block;
+	font-size: .70rem;
+	font-weight: normal;
+	margin: 0 10px 0 0;
+	letter-spacing: -.1rem;
+}
+ul.product-dimensions {
+	width: auto;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	font-family: 'FuturaStd-Bold', arial, sans-serif;
+}
+.module .module-links {
+	padding: 0;
+}
+.module-links li {
+	color: #aaa;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-bottom: 1px solid #eee;
+	font-family: 'FuturaStd-Bold', arial, sans-serif;
+	font-size: .8rem;
+}
+/*.module-links li:first-child {
+	border-top: 1px solid #eee;
+}*/
+/*.module-links li:last-child {
+	/*border-bottom: 2px solid green;
+	border-top: 2px solid green;*!/
+	background: #296230;
+}*/
+.module-links .where-to-buy a {
+	color: #296230;
+}
+.module-links li a {
+	color: #aaa;
+	padding: 17px 10px 14px 50px;
+	display: block;
+	line-height: 1rem;
+	border-radius: 0px;
+	position: relative;
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+}
+.module-links li a:hover {
+	color: #b7c573;
+	border-radius: 0px;
+	cursor: pointer;
+	padding-left: 55px;
+}
+.module-links a .icon-feature {
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	font-size: 1.2rem;
+}
+.module-links .icon-arrow {
+	position: absolute;
+	right: 12px;
+	top: 15px;
+}
+.product-heading {
+	height: 150px;
+}
+.product-price {
+	height: 67px;
+}
+.product-specs {
+	height: 100px;
+}
+.module-links li {
+	height: 47px;
+}
+
+/********** Sub Nav Bar Styles **********/
+
+#nav-bar {
+	width: 100%;
+	background: #f4f4f4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f4f4f4 0%, #f1f1f1 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(100%,#f1f1f1)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f4f4f4 0%,#f1f1f1 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f4f4f4 0%,#f1f1f1 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f4f4f4 0%,#f1f1f1 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f4f4f4 0%,#f1f1f1 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#f1f1f1',GradientType=0 ); /* IE6-9 */
+	/*-webkit-box-shadow:  0px 0px 5px 5px #dddddd;*/
+	box-shadow:  0px 0px 5px 3px #ddd;
+
+}
+#nav-bar ul {
+	padding: 0;
+	display: block;
+	text-align: center;
+	margin: 0;
+	color: #444;
+	width: 960px;
+	position: relative;
+	margin: 0 auto;
+}
+#nav-bar li {
+	list-style-type: none;
+	display: inline-block;
+	float: none;
+}
+#nav-bar li a {
+	text-transform: lowercase;
+	color: #888;
+	padding: 22px 20px 20px 17px;
+	border-right: 1px solid #ddd;
+	display: block;
+	font-style: italic;
+	font-family: 'georgia', serif;
+	font-size:.9rem;
+}
+#nav-bar li a:hover {
+	-webkit-transition: all .5s linear;
+	-moz-transition: all .5s linear;
+	-ms-transition: all .5s linear;
+	-o-transition: all .5s linear;
+	transition: all .5s linear;
+	color: #96aa4f;
+	cursor: pointer;
+}
+#nav-bar li:first-child a {
+	border-left: 1px solid #ddd;
+	padding-left: 20px;
+}
+
+/*********** Video Under/Overlay Styles **********/
+
+.video-panel {
+	width: 0px;
+	height: 460px;
+	position: absolute;
+	top: 70px;
+	left:260px;
+	z-index: 200;
+	background: #444;
+	color: #fff;
+	font-family: 'futura', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+.video-panel h3 {
+	margin: 20px;
+	opacity: 0;
+}
+.video-element {
+	margin: 20px;
+	background: #888;
+	width: 680;
+	height: 380px;
+	opacity: 0;
+}
+.video-close {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	background: #333;
+	opacity: 0;
+}
+.dim-lights {
+	width: 100%;
+	height: 600px;
+	position: absolute;
+	background: #000;
+	opacity: 0;
+}
+
+/********** Main Navigation Styles **********/
+
+.navigation {
+	font-family: 'FuturaStd-Bold', arial, sans-serif;
+	text-transform: uppercase;
+	position: relative;
+/*	position: fixed;*/
+	width: 100%;
+	background: #fff;
+	font-size: .75rem;
+	border-bottom: 1px solid #ddd;
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(100, 100, 100, .2);
+	box-shadow: 0px 0px 10px 1px rgba(100, 100, 100, .2);
+	z-index: 500;
+	overflow: hidden;
+}
+.navigation .nav-list {
+	width: 960px;
+	margin: 0 auto;
+}
+.navigation a {
+	color: #333;
+	padding: 33px 21px 27px 21px;
+	display: inline-block;
+	float: left;
+	border-right: 1px solid #ddd;
+	line-height: .8rem;
+}
+.navigation a.nav-text, .navigation .nav-icon {
+	-webkit-transition: all .3s linear;
+	-moz-transition: all .3s linear;
+	-ms-transition: all .3s linear;
+	-o-transition: all .3s linear;
+	transition: all .3s linear;
+}
+.navigation a.nav-text:hover, .navigation .nav-icon:hover {
+	color: #cf2630;
+	}
+.navigation .nav-icon {
+	font-family: 'icomoon';
+	font-size: 1.1rem;
+	color: #aaa;
+}
+.nav-icon.profile {
+	font-size: 1rem;
+}
+.navigation .logo {
+	width: 140px;
+	text-indent: -9999px;
+	overflow: hidden;
+	background: url('../images/amana-logo.png') no-repeat left 18px;
+}
+.image-360-container {
+	height: 570px;
+	overflow: hidden;
+	position: relative;
+	top: 50px;
+}
+#image-360-reel {
+	position: relative;
+	top: -80px;
+	left: 315px;
+	display: block;
+}
+#bottom-of-page {
+	display: block;
+	margin: 0 auto;
+}
+.refer #image-360-reel {
+	top: -30px;
+}
+.image-360-container.refer {
+	height: 500px;
+}

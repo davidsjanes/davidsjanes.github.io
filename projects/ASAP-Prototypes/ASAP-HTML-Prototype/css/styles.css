@@ -1,0 +1,455 @@
+/*Bootstrap Overrides*/
+html{
+	font-size: 10px;
+}
+body {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5;
+	background: #ccc;
+	-webkit-font-smoothing: antialiased;
+	font-family: 'Roboto', arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+}
+p {
+	font-size: 1.25rem;
+}
+a, a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+h4 {
+  margin-top: 2.5rem;
+}
+.row {
+  margin-bottom: 2rem;
+}
+.row .row {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.container-fluid, .container {
+	padding: 0;
+}
+hr {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.cta {
+	background: #119DA4;
+	background: #C90107;
+	border: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.25rem;
+	padding: .5rem 1.5rem;
+	border-radius: .3rem;
+}
+input {
+	padding: .5rem 1rem;
+	border: 1px solid #ccc;
+	height: 3rem;
+	outline: none;
+}
+.container-fluid {
+	max-width: 192rem;
+}
+.overlay {
+	transition: opacity .25s ease-out;
+	opacity: 0;
+}
+
+/*Icon Styles*/
+
+.icon {
+	width: 100%;
+	height: 100%;
+	fill: #fff;
+}
+.bookmarks .icon {
+	fill: #888;
+}
+header button .icon {
+	width: 1.25rem;
+	height: 1.25rem;
+	position: relative;
+	top: .1rem;
+}
+header .settings-link .icon {
+	width: 1.5rem;
+	height: 1.5rem;
+	top: .3rem;
+}
+
+/* GLOBAL HEADER STYLES */
+
+header {
+	height: 5rem;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0 0 2rem rgba(0,0,0,.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background: #fff;
+	width: 100%;
+}
+header h1.main-button {
+	font-size: 2.5rem;
+	margin: 0;
+	flex-grow: 0;
+	padding: 0;
+	font-weight: normal;
+}
+header h1 a {
+	color: #fff;
+	display: block;
+	height: 100%;
+	padding: 1.2rem 2rem;
+	font-family: 'Roboto Condensed';
+	font-weight: 700;
+}
+header h1 a:hover {
+	color: #ddd;
+	background: rgba(0,0,0,.2);
+}
+header .shortcut {
+	display: flex;
+	flex: none;
+	width: 12rem;
+	flex-grow: 0;
+	position: relative;
+	padding: 0;
+	height:100%;
+}
+header .shortcut .shortcut-field {
+	width: 100%;
+	height: 100%;
+	border: none;
+	border-left: 1px solid #ccc;
+}
+header .search {
+	flex-grow: 1;
+	display: flex;
+	position: relative;
+	height:100%;
+}
+header .search .search-field {
+	width: 100%;
+	height:100%;
+	border: none;
+	border-right: 1px solid #ccc;
+}
+header input {
+	padding: .5rem 1.5rem;
+}
+header .search .search-submit, header .shortcut .shortcut-submit {
+	position: absolute;
+	right: 0;
+	height: 100%;
+	width: auto;
+	padding: 1.6rem 1.5rem;
+	background: none;
+}
+header .search .search-submit .icon, header .shortcut .shortcut-submit .icon {
+	fill: #C90107;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+header .spacer {
+	flex-grow: 2;
+}
+header .main-button {
+	height: 100%;
+	padding: 1rem 2rem;
+	width: auto;
+	border: none;
+	flex-shrink: 0;
+	background: #C90107;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+header .main-button.settings-link {
+	background: #a40b0a;
+}
+header .main-button.notifications-link {
+	background: #7b0606;
+}
+
+/*NAVIGATION STYLES*/
+
+.menu {
+	box-shadow: 0px 0px 2rem rgba(0,0,0,.2);
+}
+.menu {
+	position: fixed;
+	right: -32rem;
+	top: 0;
+	z-index: 20;
+	width: 32rem;
+	background: #fff;
+	height: 100%;
+	padding: 5rem 0rem 4rem;
+	transition: right .25s ease-out;
+}
+.menu-active .menu {
+	right: 0;
+}
+.menu-active .overlay {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.65);
+	top: 0;
+	left: 0;
+	z-index: 10;
+	opacity: 1;
+}
+.menu .level {
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+}
+.menu > .level {
+	position: relative;
+	height: 100%;
+}
+.menu .category {
+	border-bottom: 1px solid #ccc;
+}
+.menu .category:first-child {
+	border-top: 1px solid #ccc;
+}
+.menu .category > a, .menu .back {
+	padding:.8rem 2rem;
+	display: block;
+}
+.menu .back {
+	background: #434343;
+	color: #fff;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	padding: .5rem 2rem;
+	text-align: right;
+	flex: none;
+}
+.menu .level .level {
+	position: fixed;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background: #fff;
+}
+.menu .links {
+	overflow: scroll;
+}
+.menu .links > div:nth-child(2n) {
+	background: #f4f4f4;
+}
+.menu .links a {
+	color: #333;
+/*	font-family: "Roboto Condensed", sans-serif;*/
+	font-size: 1.4rem;
+}
+.menu h3 {
+	background: #333;
+	color: #fff;
+	padding: 2rem 2rem 1rem 2rem;
+	font-size: 2rem;
+	flex: none;
+}
+.menu .heading {
+	
+}
+
+/* GLOBAL FOOTER/BOOKMARK BAR STYLES*/
+
+footer {
+	background: #222;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 4rem;
+	z-index: 50;
+	box-shadow: 0 0 .5rem rgba(0,0,0,.2);
+}
+footer ul, .add-container, .list-container {
+	padding: 0;
+	margin: 0;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: auto;
+	position: absolute;
+	list-style-type: none;
+}
+footer .list-container {
+	right: 0;
+	left: auto;
+}
+footer ul.bookmarks {
+	left: 4.5rem;
+	width: calc(100% - 4.5rem);
+}
+footer ul li {
+	background: #333;
+	border: none;
+	color: #fff;
+	height: 100%;
+	font-weight: 700;
+	font-size: 1.25rem;
+	padding: 1rem 3rem .5rem 1.5rem;
+	margin: 0 .5rem 0 0;
+	width: auto;
+	float: left;
+	white-space:nowrap;
+/*	border-radius: .3rem;*/
+}
+footer a {
+	color: #fff;
+}
+footer a:hover {
+	color: #ccc;
+}
+footer li button {
+	background: none;
+	color: #888;
+	color: rgba(255,255,255,.5);
+	position: absolute;
+	border: none;
+	padding: 0;
+	right: .75rem;
+	top: 1.25rem;
+	width: 1.25rem;
+	height: 1.25rem;
+	line-height: 0;
+}
+footer .add-bookmark, footer .list-bookmarks {
+	background: #119DA4;
+	background: #C90107;
+	color: #fff;
+	border: none;
+	width: 4rem;
+	height: 4rem;
+	display: block;
+	font-size: 2rem;
+	padding: 1.1rem 1.3rem;
+	line-height:0;
+	margin: 0;
+}
+.bookmarks .packery-drop-placeholder {
+	outline-offset: -.3rem;
+	background: rgba(255, 255, 255, .05);
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: transform 0.2s;
+}
+.bookmark.ui-draggable-dragging, .bookmark.is-positioning-post-drag {
+	z-index: 2;
+}
+
+/* MAIN DASHBOARD GRID STYLES */
+
+main {
+	padding: 5rem 0rem 5rem 0rem;
+}
+.dashboard {
+	padding: 1rem;
+}
+.page-title {
+	width: 100%;
+	padding: 0 2rem;
+	background: #333;
+	height: 4rem;
+	top: 5rem;
+	display: block;
+	position: relative;
+	display: flex;
+	align-items:center;
+}
+.page-title h2 {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #fff;
+	padding: 0 1.5rem;
+}
+.grid-item {
+/*	height: 150px;*/
+	padding: 1rem;
+}
+.grid-item:nth-child(2n) {
+/*	height: 300px;*/
+}
+.grid-item .inner {
+	width: 100%;
+	height: 100%;
+	min-height: 15rem;
+	position: relative;
+	background: #fff;
+	border-radius: .3rem;
+	overflow: hidden;
+/*	border: 1px solid #ddd;*/
+	transition: box-shadow .2s ease-in-out, transform .2s ease-in-out;
+	box-shadow: 0 0 .5rem rgba(0,0,0,.1);
+}
+.grid-item:hover {
+ 	border-color: hsla(0, 0%, 100%, 0.5);
+}
+.grid-item .topper:hover {
+	cursor: move;
+}
+.grid-item.ui-draggable-dragging, .grid-item.is-positioning-post-drag {
+	z-index: 2;
+}
+.grid-item.ui-draggable-dragging .inner,
+.grid-item.is-positioning-post-drag .inner {
+	box-shadow: 0 0 2rem rgba(0,0,0,.2);
+	transform: scale(1.05,1.05);
+}
+.grid .packery-drop-placeholder {
+	outline: 2px dashed rgba(0, 0, 0, .2);
+	outline-offset: -1rem;
+	-webkit-transition: -webkit-transform 0.2s;
+	transition: transform 0.2s;
+}
+.grid-item .topper {
+	background: #eee;
+}
+.grid-item h3 {
+	padding: 1rem 0 .5rem 1rem;
+	font-size: 1.6rem;
+	color: #333;
+	border-bottom: 1px solid #ddd;
+}
+.grid-item .inner .content {
+	padding: 1rem;
+}
+
+/*Search Styles*/
+
+.search {
+	height: auto;
+}
+.search .inner {
+	height: auto;
+	min-height: 0;
+}
+.search .stock {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
+.grid .search input[type=text] {
+	margin-right: .5rem;
+	flex-grow: 1;
+/*	width: 85%;*/
+}

@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="../../favicon.ico">
+		
+		<title>ASAP Advanced Search</title>
+		
+		<!-- Custom styles for this template -->
+		
+		<link href="js/kendoUI/kendo.common-bootstrap.css" rel="stylesheet">
+		<link href="js/kendoUI/kendo.asap.css" rel="stylesheet">
+		<link href="css/asap-global-styles.css" rel="stylesheet">
+		<link href="css/asap-style-guide.css" rel="stylesheet">
+		<link href="css/asap-search.css" rel="stylesheet">
+		
+		<!--Add Google Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700|Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+		
+		<!--Include jQuery-->
+		<script src="js/jquery/jquery-1.12.0.min.js"></script>
+		
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+<body>
+
+	<header>
+		<button class="main-button asap">
+			<img src="img/asap-logo.svg" class="logo" />
+		</button>
+		<div class="header-section">
+			<div class="left-side">
+				<form class="search">
+					<input class="search-field" type="text" name="search" placeholder="Search" />
+					<button class="search-submit" type="submit">
+						<svg class="icon-search icon">
+						  <use xlink:href="img/icons-iaai.svg#icon-search"></use>
+						</svg>
+					</button>
+				</form>
+				<form class="shortcut">
+					<input id="shortcuts" class="form-control shortcut-field" placeholder="Shortcut" />
+					<button class="shortcut-submit" type="submit">
+						<svg class="icon-shortcut icon">
+						  <use xlink:href="img/icons-iaai.svg#icon-shortcut"></use>
+						</svg>
+					</button>
+				</form>
+			</div>
+			<div class="right-side">
+				<button class="notifications-link sec-button">
+					<svg class="icon-alert icon">
+					  <use xlink:href="img/icons-iaai.svg#icon-alert"></use>
+					</svg>
+					<span class="notif-number">12</span>
+				</button>
+				<button class="settings-link sec-button">
+					<svg class="icon-settings icon">
+					  <use xlink:href="img/icons-iaai.svg#icon-cog"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<button class="menu-link main-button">
+			<svg class="icon-menu icon">
+			  <use xlink:href="img/icons-iaai.svg#icon-menu"></use>
+			</svg>
+			<span>Menu</span>
+		</button>
+	</header>
+	
+	<div class="content">
+		
+		<footer>
+			<button class="add-bookmark">
+				<svg class="icon-add icon">
+				  <use xlink:href="img/icons-iaai.svg#icon-plus"></use>
+				</svg>
+			</button>
+			
+			<button class="list-bookmarks">
+				<svg class="icon-list icon">
+				  <use xlink:href="img/icons-iaai.svg#icon-list"></use>
+				</svg>
+			</button>
+		</footer>
+		
+		<div class="modal fade ad-search" id="advancedSearch" tabindex="-1" role="dialog" aria-labelledby="advancedSearch">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+			        	<h3 class="modal-title" id="advancedSearchLabel">Advanced Search</h3>
+			        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			        		<svg class="icon-close icon">
+			        		  <use xlink:href="img/icons-iaai.svg#icon-close"></use>
+			        		</svg>
+			        	</button>
+			      	</div>
+					<div class="modal-body">
+						<div class="tab-container search-tabs">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><a href="#stock" aria-controls="home" role="tab" data-toggle="tab">Stock</a></li>
+								<li role="presentation"><a href="#buyer" aria-controls="profile" role="tab" data-toggle="tab">Buyer</a></li>
+								<li role="presentation"><a href="#provider" aria-controls="messages" role="tab" data-toggle="tab">Provider</a></li>
+								<li role="presentation" class="storage"><a href="#storage" aria-controls="settings" role="tab" data-toggle="tab">Storage Location</a></li>
+							</ul>
+							<div class="search-options row">
+								<div class="archive checkbox">
+									<label>
+										<input type="checkbox" value />
+										Search Archive
+									</label>
+								</div>
+								<div class="edit-criteria">
+									<a href="#">
+										<svg class="icon-plus icon">
+											<use xlink:href="img/icons-iaai.svg#icon-plus"></use>
+										</svg>
+										<span>Select Criteria</span>
+									</a>
+								</div>
+							</div>
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane fade in active" id="stock">
+									<div class="criteria-container">
+										<form class="criteria-selected">
+											<ul class="criteria">
+												<li class="active default" nameID="stockNumber">
+													<label for="stockNumber">Stock Number</label>
+													<input class="form-control" id="stockNumber" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockProvider">
+													<label for="stockProvider" >Salvage Provider</label>
+													<input class="form-control" id="stockProvider" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockVin">
+													<label for="stockVin">VIN</label>
+													<input class="form-control" id="stockVin" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockPartialVin">
+													<label for="stockPartialVin">Partial VIN</label>
+													<input class="form-control" id="stockPartialVin" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockOwner">
+													<label for="stockOwner">Owner</label>
+													<input class="form-control" id="stockOwner" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockYear">
+													<label for="stockYear">Year</label>
+													<input class="form-control" id="stockYear" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockMake">
+													<label for="stockMake">Make</label>
+													<input class="form-control" id="stockMake" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockModel">
+													<label for="stockModel">Model</label>
+													<input class="form-control" id="stockModel" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockClaim">
+													<label for="stockClaim">Claim Number</label>
+													<input class="form-control" id="stockClaim" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockPolicy">
+													<label for="stockPolicy">Policy Number</label>
+													<input class="form-control" id="stockPolicy" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li class="active default" nameID="stockAssnDate">
+													<label>Assignment Date</label>
+													<div class="dates row">
+														<div class="start">
+															<input id="start" class="form-control" value="10/10/2015" />
+														</div>
+														<div class="end">
+															<input id="end" class="form-control" value="10/10/2016" />
+														</div>
+													</div>
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockAssnType">
+													<label for="stockAssnType">Assignment Type</label>
+													<select id="stockAssnType" class="form-control">
+										                <option>Bid Fast Assignment</option>
+										                <option>Bid Fast Bid</option>
+										                <option>Special Recovery</option>
+										                <option>Standard</option>
+										                <option>Title Work Only</option>
+										                <option>Tow Only</option>
+										            </select>
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockAccManager">
+													<label for="stockAccManager">Account Manager</label>
+													<select id="stockAccManager" class="form-control">
+													    <option>Corporate</option>
+													    <option>Donation Division</option>
+													    <option>INS</option>
+													    <option>NRC</option>
+													    <option>Remarketing Division</option>
+													    <option>Title Solutions</option>
+													    <option>Veh Purch Sol</option>
+													</select>
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockBranch">
+													<label for="stockBranch">Branch</label>
+													<input class="form-control" id="stockBranch" placeholder="" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="stockZip">
+													<label for="stockZip">Zip Code</label>
+													<input class="form-control" id="stockZip" placeholder="" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+											</ul>
+											<div class="row no-criteria">
+												<p>No search criteria selected, please add some.</p>
+											</div>
+										</form>
+										<div class="criteria-select">
+											<ul class="criteria">
+												<li class="active default" nameID="stockNumber">Stock Number</li>
+												<li nameID="stockProvider">Salvage Provider</li>
+												<li nameID="stockVin">VIN</li>
+												<li nameID="stockPartialVin">Partial VIN</li>
+												<li nameID="stockOwner">Owner</li>
+												<li nameID="stockYear">Year</li>
+												<li nameID="stockMake">Make</li>
+												<li nameID="stockModel">Model</li>
+												<li nameID="stockClaim">Claim Number</li>
+												<li nameID="stockPolicy">Policy Number</li>
+												<li class="active default" nameID="stockAssnDate">Assignment Date</li>
+												<li nameID="stockAssnType">Assignment Type</li>
+												<li nameID="stockAccManager">Account Manager</li>
+												<li nameID="stockBranch">Branch</li>
+												<li nameID="stockZip">Zip Code</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div role="tabpanel" class="tab-pane fade" id="buyer">
+									<div class="criteria-container">
+										<form class="criteria-selected">
+											<ul class="criteria">
+												<li class="active default" nameID="buyerName">
+													<label for="buyerName">Buyer Name</label>
+													<input class="form-control" id="buyerName" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="buyerEmail">
+													<label for="buyerEmail">Email</label>
+													<input class="form-control" id="buyerEmail" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="buyerType">
+													<label for="buyerType">Buyer Type</label>
+													<input class="form-control" id="buyerType" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="buyerStatus">
+													<label for="buyerStatus">Status</label>
+													<input class="form-control" id="buyerStatus" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="buyerEmployee">
+													<label for="buyerEmployee">Employee</label>
+													<input class="form-control" id="buyerEmployee" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="buyerCity">
+													<label for="buyerCity">City</label>
+													<input class="form-control" id="buyerCity" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="buyerState">
+													<label for="buyerState">State</label>
+													<input class="form-control" id="stockMake" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="buyerZip">
+													<label for="buyerZip">Zip Code</label>
+													<input class="form-control" id="buyerZip" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+											</ul>
+											<div class="row no-criteria">
+												<p>No search criteria selected, please add some.</p>
+											</div>
+										</form>
+										<div class="criteria-select">
+											<ul class="criteria">
+												<li class="active default" nameID="buyerName">Buyer Name</li>
+												<li nameID="buyerEmail">Email</li>
+												<li nameID="buyerType">Buyer Type</li>
+												<li nameID="buyerStatus">Status</li>
+												<li nameID="buyerEmployee">Employee</li>
+												<li nameID="buyerCity">City</li>
+												<li nameID="buyerState">State</li>
+												<li nameID="buyerZip">Zip Code</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div role="tabpanel" class="tab-pane fade" id="provider">
+									<div class="criteria-container">
+										<form class="criteria-selected">
+											<ul class="criteria">
+												<li class="active default" nameID="providerID">
+													<label for="providerID">Salvage Provider ID</label>
+													<input class="form-control" id="providerID" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="providerName">
+													<label for="providerName">Name</label>
+													<input class="form-control" id="providerName" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="providerLocation">
+													<label for="providerLocation">Location Type</label>
+													<input class="form-control" id="providerLocation" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="providerCity">
+													<label for="providerCity">City</label>
+													<input class="form-control" id="providerCity" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="providerState">
+													<label for="providerState">State</label>
+													<input class="form-control" id="providerState" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="providerZip">
+													<label for="providerZip">Zip Code</label>
+													<input class="form-control" id="providerZip" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="providerStatus">
+													<label for="providerStatus">Status</label>
+													<input class="form-control" id="providerStatus" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="providerSettlement">
+													<label for="providerSettlement">Settlement Group</label>
+													<input class="form-control" id="providerSettlement" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="providerRegion">
+													<label for="providerRegion">Region</label>
+													<input class="form-control" id="providerRegion" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="providerGroup">
+													<label for="providerGroup">Group</label>
+													<input class="form-control" id="providerGroup" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="providerDisplay">
+													<label for="providerDisplay">AC Display Name</label>
+													<input class="form-control" id="providerDisplay" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+											</ul>
+											<div class="row no-criteria">
+												<p>No search criteria selected, please add some.</p>
+											</div>
+										</form>
+										<div class="criteria-select">
+											<ul class="criteria">
+												<li class="active default" nameID="providerID">Salvage Provider ID</li>
+												<li nameID="providerName">Name</li>
+												<li nameID="providerLocation">Location Type</li>
+												<li nameID="providerCity">City</li>
+												<li nameID="providerState">State</li>
+												<li nameID="providerZip">Zip</li>
+												<li nameID="providerStatus">Status</li>
+												<li nameID="providerSettlement">Settlement Group</li>
+												<li nameID="providerRegion">Region</li>
+												<li nameID="providerGroup">Group</li>
+												<li nameID="providerDisplay">AC Display Name</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div role="tabpanel" class="tab-pane fade" id="storage">
+									<div class="criteria-container">
+										<form class="criteria-selected">
+											<ul class="criteria">
+												<li class="active default" nameID="storageBranch">
+													<label for="storageBranch">Branch Number</label>
+													<input class="form-control" id="storageBranch" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="storageCity">
+													<label for="storageCity">City</label>
+													<input class="form-control" id="storageCity" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="storageLocation">
+													<label for="storageLocation">Location Name</label>
+													<input class="form-control" id="storageLocation" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="storagePhone">
+													<label for="storagePhone">Phone Number</label>
+													<input class="form-control" id="storagePhone" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="storageState">
+													<label for="storageState">State</label>
+													<input class="form-control" id="storageState" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="storageZip">
+													<label for="storageZip">Zip Code</label>
+													<input class="form-control" id="storageZip" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="storageStatus">
+													<label for="storageStatus">Status</label>
+													<input class="form-control" id="storageStatus" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="storageLocationID">
+													<label for="storageLocationID">Location ID</label>
+													<input class="form-control" id="storageLocationID" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+												<li nameID="storageType">
+													<label for="storageType">Type</label>
+													<input class="form-control" id="storageType" />
+													<svg class="icon-trash icon">
+														<use xlink:href="img/icons-iaai.svg#icon-trash"></use>
+													</svg>
+												</li>
+											</ul>
+											<div class="row no-criteria">
+												<p>No search criteria selected, please add some.</p>
+											</div>
+										</form>
+										<div class="criteria-select">
+											<ul class="criteria">
+												<li class="active default" nameID="storageBranch">Branch Number</li>
+												<li nameID="storageCity">City</li>
+												<li nameID="storageLocation">Location Name</li>
+												<li nameID="storagePhone">Phone Number</li>
+												<li nameID="storageState">State</li>
+												<li nameID="storageZip">Zip Code</li>
+												<li nameID="storageStatus">Status</li>
+												<li nameID="storageLocationID">Location ID</li>
+												<li nameID="storageType">Type</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<a class="quick-link" href="#">
+							<svg class="icon-search icon">
+								<use xlink:href="img/icons-iaai.svg#icon-search"></use>
+							</svg>
+							<span>Quick Search</span>
+						</a>
+						<div class="button-container">
+							<button type="button" class="btn btn-large btn-outline" data-dismiss="modal">Cancel</button>
+							<button type="button" class="btn btn-large">Search</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="overlay"></div>
+		
+	</div>
+		
+	<!-- Include SVGxUse -->
+	<script src="js/svg/svgxuse.min.js"></script>
+	<!--Include Bootstrap scripts-->
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<!-- Include Kendo UI Scripts-->
+	<script src="js/kendoUI/kendo.web.min.js"></script>
+	<!-- Include MouseTrap -->
+	<script src="js/keys/mousetrap.min.js"></script>
+		
+	<script type="text/javascript">
+	
+		$(document).ready(function(){
+
+			Mousetrap.bind('ctrl+a', function(e) {
+				event.preventDefault();
+			    $('#advancedSearch').modal('show');
+			});
+			
+			function startChange() {
+                var startDate = start.value(),
+                endDate = end.value();
+
+                if (startDate) {
+                    startDate = new Date(startDate);
+                    startDate.setDate(startDate.getDate());
+                    end.min(startDate);
+                } else if (endDate) {
+                    start.max(new Date(endDate));
+                } else {
+                    endDate = new Date();
+                    start.max(endDate);
+                    end.min(endDate);
+                }
+            }
+            
+            function endChange() {
+                var endDate = end.value(),
+                startDate = start.value();
+
+                if (endDate) {
+                    endDate = new Date(endDate);
+                    endDate.setDate(endDate.getDate());
+                    start.max(endDate);
+                } else if (startDate) {
+                    end.min(new Date(startDate));
+                } else {
+                    endDate = new Date();
+                    start.max(endDate);
+                    end.min(endDate);
+                }
+            }
+
+            var start = $("#start").kendoDatePicker({
+                change: startChange
+            }).data("kendoDatePicker");
+
+            var end = $("#end").kendoDatePicker({
+                change: endChange
+            }).data("kendoDatePicker");
+
+            start.max(end.value());
+            end.min(start.value());
+            
+			// ADD AND REMOVE CRITERIA FROM LIST
+			
+			// Set and Cache Criteria Variables
+
+			var critTrash = $('.criteria .icon-trash'),
+				critSelectedItem = $('.criteria-selected li'),
+				critSelectItem = $('.criteria-select li'),
+				critSelected = $(".criteria-selected"),
+				critSelect = $('.criteria-select'),
+				critDefault =  $('.criteria .default'),
+				critList = $('.criteria li'),
+				criteria = $('.criteria'),
+				critContainer = $('.criteria-container')
+				editCriteria = $('.edit-criteria'),
+				editText = $('.edit-criteria > a span'),
+				quickSearch = $('.quick-link'),
+				selectText = "Select Criteria",
+				applyText = "Apply Selected Criteria",
+				adSearch = $('#advancedSearch')
+				;
+				
+			
+			// Create Toggle Text Plugin for Later
+			
+			$.fn.toggleText = function(t1, t2){
+			  if (this.text() == t1) this.text(t2);
+			  else                   this.text(t1);
+			  return this;
+			};
+			
+			function toggleEditText() {
+				$(editText).toggleText(selectText, applyText);
+			}
+			
+			// Create function to restore default criteria   
+
+			function restoreDefaults(){
+				$(critList).removeClass('active');
+				$(critSelectItem).removeClass('active focused');
+				$(critDefault).addClass('active');
+				$(critContainer).removeClass('add-criteria');
+				$(editText).text(selectText);
+			}
+			
+			// Deleting criteria removes it from the list and unselects it from criteria selection
+
+			$(critTrash).on('click', function(e) {
+				var nameID = $(this).parent().attr('nameID');
+				$(this).parent().removeClass('active');
+				$(critSelect).find("[nameID='" + nameID + "']").removeClass('active');
+				setCriteriaHeights();
+			});
+			
+			// Restore criteria defaults when closing the modal
+			$(adSearch).on('hidden.bs.modal', function (e) {
+				restoreDefaults();
+			});
+			
+			// Set Functions on Modal Activate
+			$(adSearch).on('shown.bs.modal', function(e) {
+				setCriteriaHeights();
+				adArrowKeys();
+			});
+
+			var adTab = $('.ad-search a[data-toggle="tab"]');
+			
+			$(adTab).on('shown.bs.tab', function(e) {
+				setCriteriaHeights();
+				restoreDefaults();
+			});
+			
+			function setCriteriaHeights() {
+				var activeContainer = $('.active > .criteria-container'),
+					activeSelectedHeight = $('.active .criteria-selected').height(),
+					activeSelectHeight = $('.active .criteria-select').height();
+				
+				if ($(activeContainer).hasClass('add-criteria')){
+					$(activeContainer).outerHeight(activeSelectHeight);
+				}
+				else{
+					$(activeContainer).outerHeight(activeSelectedHeight);
+				}
+			}
+			
+			function selectCriteria() {
+				var activeContainer = $('.active > .criteria-container');
+				$(activeContainer).toggleClass('add-criteria');
+				toggleEditText();
+				setCriteriaHeights();
+			}
+			
+			$(editCriteria).on('click', function(e) {
+				selectCriteria();
+			});
+					
+			function adArrowKeys() {
+			
+				var $adTabs = $('.search-tabs li');
+				
+				Mousetrap.bind('shift+right', function(e) {
+					event.preventDefault();
+					if (($(adSearch).data('bs.modal') || {}).isShown) {
+						$adTabs.filter('.active').next('li').find('a[data-toggle="tab"]').tab('show');
+					}
+				});
+				Mousetrap.bind('shift+left', function(e) {
+					event.preventDefault();
+					if (($(adSearch).data('bs.modal') || {}).isShown) {
+						$adTabs.filter('.active').prev('li').find('a[data-toggle="tab"]').tab('show');
+					}
+				});
+				Mousetrap.bind('shift+tab', function(e) {
+					event.preventDefault();
+					if (($(adSearch).data('bs.modal') || {}).isShown) {
+				    	selectCriteria();
+				    }
+				});
+				Mousetrap.bind('shift+down', function(e) {
+					event.preventDefault();
+					if (($(adSearch).data('bs.modal') || {}).isShown) {
+						if (!$(critContainer).hasClass('add-criteria')){
+							$('.tab-content').find('.tab-pane.active .criteria-selected .active:first').find('input').focus();
+						}
+					    else{
+					    	if (!$('.tab-pane.active .criteria-select li').hasClass('focused')) {
+					    		$('.tab-pane.active .criteria-select li:first').addClass('focused');
+					    	}
+					    	else{
+					    		$('.tab-pane.active .criteria-select li').filter('.focused').next('li').addClass('focused').prev('li').removeClass('focused');
+					    	}
+					    }
+				    }
+				});
+				Mousetrap.bind('shift+up', function(e) {
+					event.preventDefault();
+					if (($(adSearch).data('bs.modal') || {}).isShown) {
+						
+				    	if($('.tab-pane.active .criteria-select li').hasClass('focused')){
+				    		$('.tab-pane.active .criteria-select li').filter('.focused').prev('li').addClass('focused').next('li').removeClass('focused');
+				    	}
+				    }
+				});
+				Mousetrap.bind('shift+enter', function(e) {
+					event.preventDefault();
+					if (($(adSearch).data('bs.modal') || {}).isShown) {
+						var critFocused = $('.criteria-select li.focused'),
+							nameID = $(critFocused).attr('nameID');
+						if(!$(critFocused).hasClass('active')){
+							$(critFocused).addClass('active');
+							$(critSelected).find("[nameID='" + nameID + "']").addClass('active');
+						}
+						else{
+							$(critFocused).removeClass('active');
+							$(critSelected).find("[nameID='" + nameID + "']").removeClass('active');
+						}
+					}
+				});
+			}
+			
+			// When selecting from criteria list, add and remove criteria from selected list
+			$(critSelectItem).on('click', function(e) {
+				var nameID = $(this).attr('nameID');
+				if(!$(this).hasClass('active')){
+					$(this).addClass('active');
+					$(critSelected).find("[nameID='" + nameID + "']").addClass('active');
+				}
+				else{
+					$(this).removeClass('active');
+					$(critSelected).find("[nameID='" + nameID + "']").removeClass('active');
+				}
+			});
+			
+			$(quickSearch).on('click', function(e) {
+				$(adSearch).modal('hide');
+				$(adSearch).on('hidden.bs.modal', function (e) {
+					$('.search-field').focus();
+				});
+			});
+			
+		});
+		
+	</script>
+	
+  </body>
+  
+</html>

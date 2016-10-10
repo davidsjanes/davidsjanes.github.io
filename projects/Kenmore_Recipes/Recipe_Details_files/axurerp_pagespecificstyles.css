@@ -1,0 +1,5261 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+    position: relative;
+    left: -0px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:20px;
+    top:420px;
+    width:136px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u1 {
+    position:fixed;
+    left: 50%;
+    margin-left: -500px;
+    top:0px;
+    width:1001px;
+    height:212px;
+    overflow:hidden;
+}
+
+#pd0u1 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1001px;
+    height:212px;
+    
+}
+
+.u2_normal {
+    background-image: url('../Main_Navigation_files/u1_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1000px;
+    height:70px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1006px;
+    height:76px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:996px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../Main_Navigation_files/u3_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:248px;
+    top:11px;
+    width:87px;
+    height:57px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:93px;
+    height:63px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:20px;
+    width:83px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../Main_Navigation_files/u5_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:334px;
+    top:11px;
+    width:115px;
+    height:57px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:121px;
+    height:63px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:20px;
+    width:111px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8_line {
+    background-image: url('../Main_Navigation_files/u7_line.png');
+}
+
+.u8_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:1000px;
+    height:3px;
+}
+
+.u8 {
+    position:absolute;
+    left:0px;
+    top:65px;
+    width:1000px;
+    height:10px;
+    
+}
+
+.u9_normal {
+    background-image: url('../Main_Navigation_files/u8_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:459px;
+    top:25px;
+    width:250px;
+    height:30px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:36px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:246px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u11 {
+    position:absolute;
+    left:459px;
+    top:55px;
+    width:251px;
+    height:128px;
+    overflow:hidden;
+}
+
+#pd1u11 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:251px;
+    height:128px;
+    
+}
+
+.u12_menu {
+    background-image: url('../Main_Navigation_files/u11_menu.png');
+}
+
+.u12_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:259px;
+    height:115px;
+}
+
+#u12_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:112px;
+}
+
+#u13 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:249px;
+    height:105px
+}
+
+.u14_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u14_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u14_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u14_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:244px;
+    height:25px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u16_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u16_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u16_container {
+    position:absolute;
+    left:0px;
+    top:25px;
+    width:244px;
+    height:25px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u18_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u18_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u18_container {
+    position:absolute;
+    left:0px;
+    top:50px;
+    width:244px;
+    height:25px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u20_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u13_mouseOver.png');
+}
+
+.u20_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u20_container {
+    position:absolute;
+    left:0px;
+    top:75px;
+    width:244px;
+    height:25px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u11 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:251px;
+    height:128px;
+    
+}
+
+.u22_menu {
+    background-image: url('../Main_Navigation_files/u21_menu.png');
+}
+
+.u22_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:259px;
+    height:115px;
+}
+
+#u22_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:256px;
+    height:112px;
+}
+
+#u23 {
+    position:absolute;
+    left:3px;
+    top:3px;
+    width:249px;
+    height:105px
+}
+
+.u24_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u24_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u24_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u24_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:244px;
+    height:25px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u26_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u26_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u26_container {
+    position:absolute;
+    left:0px;
+    top:25px;
+    width:244px;
+    height:25px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u28_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u28_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u28_container {
+    position:absolute;
+    left:0px;
+    top:50px;
+    width:244px;
+    height:25px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u29 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_mouseOver {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u30_selected {
+    background-image: url('../Main_Navigation_files/Match_1_u23_mouseOver.png');
+}
+
+.u30_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u30_container {
+    position:absolute;
+    left:0px;
+    top:75px;
+    width:244px;
+    height:25px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:250px;
+    height:31px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:240px;
+    height:12px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../Main_Navigation_files/u31_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:682px;
+    top:31px;
+    width:18px;
+    height:14px;
+}
+
+#u32_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:18px;
+    height:14px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:-1px;
+    width:14px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u34 {
+    position:absolute;
+    left:757px;
+    top:70px;
+    width:244px;
+    height:141px;
+    overflow:hidden;
+}
+
+#pd0u34 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:244px;
+    height:141px;
+    
+}
+
+.u35_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u35_container {
+    position:absolute;
+    left:-17px;
+    top:0px;
+    width:258px;
+    height:150px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:264px;
+    height:156px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:67px;
+    width:254px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../Main_Navigation_files/u36_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:211px;
+    height:35px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:217px;
+    height:41px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:207px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_normal {
+    background-image: url('../Main_Navigation_files/u36_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:22px;
+    top:70px;
+    width:211px;
+    height:35px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:217px;
+    height:41px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:207px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../Main_Navigation_files/u36_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:22px;
+    top:105px;
+    width:211px;
+    height:35px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:217px;
+    height:41px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:207px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../Main_Navigation_files/u36_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:22px;
+    top:35px;
+    width:211px;
+    height:35px;
+}
+
+#u43_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:217px;
+    height:41px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:207px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../Main_Navigation_files/u44_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:9px;
+    top:10px;
+    width:180px;
+    height:50px;
+}
+
+#u45_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:180px;
+    height:50px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:176px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u47 {
+    position:absolute;
+    left:770px;
+    top:0px;
+    width:231px;
+    height:71px;
+    overflow:hidden;
+}
+
+#pd1u47 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:231px;
+    height:71px;
+    
+}
+
+.u48_normal {
+    background-image: url('../Main_Navigation_files/u47_normal.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:-6px;
+    top:0px;
+    width:234px;
+    height:69px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:240px;
+    height:75px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:26px;
+    width:230px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50_mouseOver {
+    background-image: url('../Main_Navigation_files/Sign_In_Button_u49_mouseOver.png');
+}
+
+.u50_disabled {
+    background-image: url('../Main_Navigation_files/Sign_In_Button_u49_disabled.png');
+}
+
+.u50_normal {
+    background-image: url('../Main_Navigation_files/Sign_In_Button_u49_normal.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:61px;
+    top:23px;
+    width:100px;
+    height:30px;
+}
+
+#u50_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:36px;
+}
+
+.u51 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:96px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u47 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:231px;
+    height:71px;
+    
+}
+
+.u52_normal {
+    background-image: url('../Main_Navigation_files/placeholder_u51_normal.png');
+}
+
+.u52_container {
+    position:absolute;
+    left:13px;
+    top:13px;
+    width:45px;
+    height:45px;
+}
+
+#u52_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:51px;
+    height:51px;
+}
+
+.u53 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:41px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54 {
+    position:absolute;
+    left:67px;
+    top:30px;
+    width:126px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u55_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:223px;
+    height:70px;
+}
+
+#u55_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:229px;
+    height:76px;
+}
+
+.u56 {
+    position:absolute;
+    left:2px;
+    top:27px;
+    width:219px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57_normal {
+    background-image: url('../Main_Navigation_files/u56_normal.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:186px;
+    top:35px;
+    width:6px;
+    height:3px;
+}
+
+#u57_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:12px;
+    height:9px;
+}
+
+.u58 {
+    position:absolute;
+    left:2px;
+    top:-6px;
+    width:2px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59 {
+    position:absolute;
+    left:470px;
+    top:31px;
+    width:202px;
+    height:20px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 12px;
+    color:#6B6B6B;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    border-color:transparent;
+    outline-style:none;
+}
+
+.u61 {
+    position:absolute;
+    left:20px;
+    top:104px;
+    width:618px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62 {
+    position:absolute;
+    left:20px;
+    top:459px;
+    width:145px;
+    height:162px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63_normal {
+    background-image: url('../Recipe_Details_files/placeholder_u63_normal.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:20px;
+    top:163px;
+    width:350px;
+    height:233px;
+}
+
+#u63_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:356px;
+    height:239px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:109px;
+    width:346px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:20px;
+    top:796px;
+    width:626px;
+    height:972px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u66 {
+    position:absolute;
+    left:908px;
+    top:213px;
+    width:64px;
+    height:31px;
+    overflow:hidden;
+}
+
+#pd1u66 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:64px;
+    height:31px;
+    
+}
+
+.u67_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u67_mouseOver.png');
+}
+
+.u67_disabled {
+    background-image: url('../Recipe_Details_files/button_u67_disabled.png');
+}
+
+.u67_normal {
+    background-image: url('../Recipe_Details_files/button_u67_normal.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:63px;
+    height:30px;
+}
+
+#u67_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:69px;
+    height:36px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:59px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u66 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:64px;
+    height:31px;
+    
+}
+
+.u69_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u69_mouseOver.png');
+}
+
+.u69_disabled {
+    background-image: url('../Recipe_Details_files/button_u67_disabled.png');
+}
+
+.u69_normal {
+    background-image: url('../Recipe_Details_files/button_u69_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:63px;
+    height:30px;
+}
+
+#u69_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:69px;
+    height:36px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:59px;
+    height:13px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u71 {
+    position:absolute;
+    left:762px;
+    top:213px;
+    width:64px;
+    height:31px;
+    overflow:hidden;
+}
+
+#pd1u71 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:64px;
+    height:31px;
+    
+}
+
+.u72_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u67_mouseOver.png');
+}
+
+.u72_disabled {
+    background-image: url('../Recipe_Details_files/button_u67_disabled.png');
+}
+
+.u72_normal {
+    background-image: url('../Recipe_Details_files/button_u67_normal.png');
+}
+
+.u72_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:63px;
+    height:30px;
+}
+
+#u72_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:69px;
+    height:36px;
+}
+
+.u73 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:59px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u71 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:64px;
+    height:31px;
+    
+}
+
+.u74_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u69_mouseOver.png');
+}
+
+.u74_disabled {
+    background-image: url('../Recipe_Details_files/button_u67_disabled.png');
+}
+
+.u74_normal {
+    background-image: url('../Recipe_Details_files/button_u69_normal.png');
+}
+
+.u74_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:63px;
+    height:30px;
+}
+
+#u74_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:69px;
+    height:36px;
+}
+
+.u75 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:59px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u76 {
+    position:absolute;
+    left:390px;
+    top:366px;
+    width:86px;
+    height:31px;
+    overflow:hidden;
+}
+
+#pd1u76 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:86px;
+    height:31px;
+    
+}
+
+.u77_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u77_mouseOver.png');
+}
+
+.u77_disabled {
+    background-image: url('../Recipe_Details_files/button_u77_disabled.png');
+}
+
+.u77_normal {
+    background-image: url('../Recipe_Details_files/button_u77_normal.png');
+}
+
+.u77_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:85px;
+    height:30px;
+}
+
+#u77_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u78 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:81px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u76 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:86px;
+    height:31px;
+    
+}
+
+.u79_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u79_mouseOver.png');
+}
+
+.u79_disabled {
+    background-image: url('../Recipe_Details_files/button_u77_disabled.png');
+}
+
+.u79_normal {
+    background-image: url('../Recipe_Details_files/button_u79_normal.png');
+}
+
+.u79_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:85px;
+    height:30px;
+}
+
+#u79_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:36px;
+}
+
+.u80 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:81px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u81 {
+    position:absolute;
+    left:835px;
+    top:213px;
+    width:64px;
+    height:31px;
+    overflow:hidden;
+}
+
+#pd1u81 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:64px;
+    height:31px;
+    
+}
+
+.u82_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u67_mouseOver.png');
+}
+
+.u82_disabled {
+    background-image: url('../Recipe_Details_files/button_u67_disabled.png');
+}
+
+.u82_normal {
+    background-image: url('../Recipe_Details_files/button_u67_normal.png');
+}
+
+.u82_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:63px;
+    height:30px;
+}
+
+#u82_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:69px;
+    height:36px;
+}
+
+.u83 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:59px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u81 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:64px;
+    height:31px;
+    
+}
+
+.u84_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u69_mouseOver.png');
+}
+
+.u84_disabled {
+    background-image: url('../Recipe_Details_files/button_u67_disabled.png');
+}
+
+.u84_normal {
+    background-image: url('../Recipe_Details_files/button_u69_normal.png');
+}
+
+.u84_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:63px;
+    height:30px;
+}
+
+#u84_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:69px;
+    height:36px;
+}
+
+.u85 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:59px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u86_normal {
+    background-image: url('../Recipe_Details_files/placeholder_u86_normal.png');
+}
+
+.u86_container {
+    position:absolute;
+    left:686px;
+    top:109px;
+    width:61px;
+    height:61px;
+}
+
+#u86_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:67px;
+    height:67px;
+}
+
+.u87 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:57px;
+    height:30px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u88 {
+    position:absolute;
+    left:757px;
+    top:109px;
+    width:243px;
+    height:30px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89_normal {
+    background-image: url('../Recipe_Details_files/u89_normal.png');
+}
+
+.u89_container {
+    position:absolute;
+    left:20px;
+    top:1763px;
+    width:50px;
+    height:50px;
+}
+
+#u89_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:56px;
+}
+
+.u90 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:46px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91 {
+    position:absolute;
+    left:81px;
+    top:1763px;
+    width:154px;
+    height:33px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u92 {
+    position:absolute;
+    left:80px;
+    top:1819px;
+    width:484px;
+    height:30px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93_mouseOver {
+    background-image: url('../Recipe_Details_files/u93_mouseOver.png');
+}
+
+.u93_disabled {
+    background-image: url('../Recipe_Details_files/u93_disabled.png');
+}
+
+.u93_normal {
+    background-image: url('../Recipe_Details_files/u93_disabled.png');
+}
+
+.u93_container {
+    position:absolute;
+    left:586px;
+    top:1763px;
+    width:60px;
+    height:20px;
+}
+
+#u93_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:26px;
+}
+
+.u94 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:56px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u95_line {
+    background-image: url('../Recipe_Details_files/u95_line.png');
+}
+
+.u95_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:626px;
+    height:3px;
+}
+
+.u95 {
+    position:absolute;
+    left:20px;
+    top:1729px;
+    width:626px;
+    height:10px;
+    
+}
+
+.u96_normal {
+    background-image: url('../Recipe_Details_files/u89_normal.png');
+}
+
+.u96_container {
+    position:absolute;
+    left:20px;
+    top:1908px;
+    width:50px;
+    height:50px;
+}
+
+#u96_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:56px;
+}
+
+.u97 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:46px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98 {
+    position:absolute;
+    left:80px;
+    top:1964px;
+    width:520px;
+    height:45px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u99_mouseOver {
+    background-image: url('../Recipe_Details_files/u93_mouseOver.png');
+}
+
+.u99_disabled {
+    background-image: url('../Recipe_Details_files/u93_disabled.png');
+}
+
+.u99_normal {
+    background-image: url('../Recipe_Details_files/u93_disabled.png');
+}
+
+.u99_container {
+    position:absolute;
+    left:586px;
+    top:1908px;
+    width:60px;
+    height:20px;
+}
+
+#u99_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:26px;
+}
+
+.u100 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:56px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u101_line {
+    background-image: url('../Recipe_Details_files/u101_line.png');
+}
+
+.u101_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:626px;
+    height:3px;
+}
+
+.u101 {
+    position:absolute;
+    left:20px;
+    top:1874px;
+    width:626px;
+    height:10px;
+    
+}
+
+.u102 {
+    position:absolute;
+    left:80px;
+    top:1908px;
+    width:151px;
+    height:35px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u103_line {
+    background-image: url('../Recipe_Details_files/u103_line.png');
+}
+
+.u103_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:626px;
+    height:3px;
+}
+
+.u103 {
+    position:absolute;
+    left:20px;
+    top:2034px;
+    width:626px;
+    height:10px;
+    
+}
+
+#u104 {
+    position:absolute;
+    left:20px;
+    top:2060px;
+    width:627px;
+    height:475px;
+    overflow:hidden;
+}
+
+#pd2u104 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:627px;
+    height:475px;
+    
+}
+
+.u105_normal {
+    background-image: url('../Recipe_Details_files/u105_normal.png');
+}
+
+.u105_container {
+    position:absolute;
+    left:0px;
+    top:10px;
+    width:50px;
+    height:50px;
+}
+
+#u105_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:56px;
+}
+
+.u106 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:46px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u107 {
+    position:absolute;
+    left:60px;
+    top:66px;
+    width:535px;
+    height:45px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108_mouseOver {
+    background-image: url('../Recipe_Details_files/u108_mouseOver.png');
+}
+
+.u108_disabled {
+    background-image: url('../Recipe_Details_files/u108_disabled.png');
+}
+
+.u108_normal {
+    background-image: url('../Recipe_Details_files/u108_disabled.png');
+}
+
+.u108_container {
+    position:absolute;
+    left:554px;
+    top:10px;
+    width:70px;
+    height:20px;
+}
+
+#u108_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:76px;
+    height:26px;
+}
+
+.u109 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:66px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u110 {
+    position:absolute;
+    left:60px;
+    top:10px;
+    width:260px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u111 {
+    position:absolute;
+    left:60px;
+    top:28px;
+    width:200px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u112_normal {
+    background-image: url('../Recipe_Details_files/u112_normal.png');
+}
+
+.u112_container {
+    position:absolute;
+    left:0px;
+    top:150px;
+    width:624px;
+    height:40px;
+}
+
+#u112_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:630px;
+    height:46px;
+}
+
+.u113 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:620px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u114_line {
+    background-image: url('../Recipe_Details_files/u114_line.png');
+}
+
+.u114_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:624px;
+    height:3px;
+}
+
+.u114 {
+    position:absolute;
+    left:0px;
+    top:200px;
+    width:624px;
+    height:10px;
+    
+}
+
+#pd1u104 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:627px;
+    height:475px;
+    
+}
+
+.u115_container {
+    position:absolute;
+    left:283px;
+    top:58px;
+    width:32px;
+    height:32px;
+}
+
+#u115_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u116 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u117 {
+    position:absolute;
+    left:93px;
+    top:16px;
+    width:440px;
+    height:25px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u104 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:627px;
+    height:475px;
+    
+}
+
+.u118 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:200px;
+    height:21px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119 {
+    position:absolute;
+    left:0px;
+    top:59px;
+    width:294px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u120 {
+    position:absolute;
+    left:0px;
+    top:119px;
+    width:294px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u121 {
+    position:absolute;
+    left:0px;
+    top:40px;
+    width:280px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u122 {
+    position:absolute;
+    left:0px;
+    top:98px;
+    width:280px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u123 {
+    position:absolute;
+    left:0px;
+    top:179px;
+    width:294px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u124 {
+    position:absolute;
+    left:0px;
+    top:158px;
+    width:280px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u125 {
+    position:absolute;
+    left:0px;
+    top:224px;
+    width:280px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u126 {
+    position:absolute;
+    left:0px;
+    top:244px;
+    width:626px;
+    height:170px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u127_mouseOver {
+    background-image: url('../Recipe_Details_files/u127_mouseOver.png');
+}
+
+.u127_disabled {
+    background-image: url('../Recipe_Details_files/u127_disabled.png');
+}
+
+.u127_normal {
+    background-image: url('../Recipe_Details_files/u127_disabled.png');
+}
+
+.u127_container {
+    position:absolute;
+    left:0px;
+    top:425px;
+    width:294px;
+    height:30px;
+}
+
+#u127_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:300px;
+    height:36px;
+}
+
+.u128 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:290px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u129 {
+    position:absolute;
+    left:72px;
+    top:28px;
+    width:136px;
+    height:28px;
+    overflow:hidden;
+}
+
+#pd0u129 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:136px;
+    height:28px;
+    
+}
+
+.u130_normal {
+    background-image: url('../Recipe_Details_files/u130_normal.png');
+}
+
+.u130_container {
+    position:absolute;
+    left:14px;
+    top:1px;
+    width:114px;
+    height:25px;
+}
+
+#u130_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u131 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u132_normal {
+    background-image: url('../Recipe_Details_files/u132_normal.png');
+}
+
+.u132_container {
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:12px;
+    height:25px;
+}
+
+#u132_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:31px;
+}
+
+.u133 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u134_normal {
+    background-image: url('../Recipe_Details_files/u134_normal.png');
+}
+
+.u134_container {
+    position:absolute;
+    left:13px;
+    top:0px;
+    width:114px;
+    height:25px;
+}
+
+#u134_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u135 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u136 {
+    position:absolute;
+    left:17px;
+    top:4px;
+    width:120px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u137 {
+    position:absolute;
+    left:72px;
+    top:90px;
+    width:136px;
+    height:28px;
+    overflow:hidden;
+}
+
+#pd0u137 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:136px;
+    height:28px;
+    
+}
+
+.u138_normal {
+    background-image: url('../Recipe_Details_files/u130_normal.png');
+}
+
+.u138_container {
+    position:absolute;
+    left:14px;
+    top:1px;
+    width:114px;
+    height:25px;
+}
+
+#u138_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u139 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u140_normal {
+    background-image: url('../Recipe_Details_files/u132_normal.png');
+}
+
+.u140_container {
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:12px;
+    height:25px;
+}
+
+#u140_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:31px;
+}
+
+.u141 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u142_normal {
+    background-image: url('../Recipe_Details_files/u134_normal.png');
+}
+
+.u142_container {
+    position:absolute;
+    left:13px;
+    top:0px;
+    width:114px;
+    height:25px;
+}
+
+#u142_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u143 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u144 {
+    position:absolute;
+    left:17px;
+    top:4px;
+    width:120px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u145 {
+    position:absolute;
+    left:65px;
+    top:214px;
+    width:136px;
+    height:28px;
+    overflow:hidden;
+}
+
+#pd0u145 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:136px;
+    height:28px;
+    
+}
+
+.u146_normal {
+    background-image: url('../Recipe_Details_files/u130_normal.png');
+}
+
+.u146_container {
+    position:absolute;
+    left:14px;
+    top:1px;
+    width:114px;
+    height:25px;
+}
+
+#u146_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u147 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u148_normal {
+    background-image: url('../Recipe_Details_files/u132_normal.png');
+}
+
+.u148_container {
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:12px;
+    height:25px;
+}
+
+#u148_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:31px;
+}
+
+.u149 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u150_normal {
+    background-image: url('../Recipe_Details_files/u134_normal.png');
+}
+
+.u150_container {
+    position:absolute;
+    left:13px;
+    top:0px;
+    width:114px;
+    height:25px;
+}
+
+#u150_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u151 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u152 {
+    position:absolute;
+    left:17px;
+    top:4px;
+    width:120px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u153 {
+    position:absolute;
+    left:20px;
+    top:2159px;
+    width:10px;
+    height:10px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u154 {
+    position:absolute;
+    left:390px;
+    top:163px;
+    width:231px;
+    height:126px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u155_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u155_mouseOver.png');
+}
+
+.u155_disabled {
+    background-image: url('../Recipe_Details_files/button_u155_disabled.png');
+}
+
+.u155_normal {
+    background-image: url('../Recipe_Details_files/button_u155_normal.png');
+}
+
+.u155_container {
+    position:absolute;
+    left:757px;
+    top:149px;
+    width:75px;
+    height:20px;
+}
+
+#u155_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:26px;
+}
+
+.u156 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:71px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u157 {
+    position:absolute;
+    left:186px;
+    top:420px;
+    width:136px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u158_line {
+    background-image: url('../Recipe_Details_files/u158_line.png');
+}
+
+.u158_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:201px;
+}
+
+.u158 {
+    position:absolute;
+    left:156px;
+    top:420px;
+    width:10px;
+    height:201px;
+    
+}
+
+.u159_line {
+    background-image: url('../Recipe_Details_files/u159_line.png');
+}
+
+.u159_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:626px;
+    height:3px;
+}
+
+.u159 {
+    position:absolute;
+    left:20px;
+    top:762px;
+    width:626px;
+    height:10px;
+    
+}
+
+.u160 {
+    position:absolute;
+    left:186px;
+    top:456px;
+    width:353px;
+    height:240px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u161 {
+    position:absolute;
+    left:666px;
+    top:325px;
+    width:335px;
+    height:1404px;
+    overflow:hidden;
+}
+
+#pd0u161 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:335px;
+    height:1404px;
+    
+}
+
+.u162 {
+    position:absolute;
+    left:20px;
+    top:0px;
+    width:314px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u163_normal {
+    background-image: url('../Recipe_Details_files/u163_normal.png');
+}
+
+.u163_container {
+    position:absolute;
+    left:20px;
+    top:34px;
+    width:91px;
+    height:86px;
+}
+
+#u163_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:97px;
+    height:92px;
+}
+
+.u164 {
+    position:absolute;
+    left:2px;
+    top:35px;
+    width:87px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u165_normal {
+    background-image: url('../Recipe_Details_files/u163_normal.png');
+}
+
+.u165_container {
+    position:absolute;
+    left:121px;
+    top:34px;
+    width:91px;
+    height:86px;
+}
+
+#u165_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:97px;
+    height:92px;
+}
+
+.u166 {
+    position:absolute;
+    left:2px;
+    top:35px;
+    width:87px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u167_normal {
+    background-image: url('../Recipe_Details_files/u163_normal.png');
+}
+
+.u167_container {
+    position:absolute;
+    left:222px;
+    top:34px;
+    width:91px;
+    height:86px;
+}
+
+#u167_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:97px;
+    height:92px;
+}
+
+.u168 {
+    position:absolute;
+    left:2px;
+    top:35px;
+    width:87px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u169_normal {
+    background-image: url('../Recipe_Details_files/u163_normal.png');
+}
+
+.u169_container {
+    position:absolute;
+    left:20px;
+    top:130px;
+    width:91px;
+    height:86px;
+}
+
+#u169_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:97px;
+    height:92px;
+}
+
+.u170 {
+    position:absolute;
+    left:2px;
+    top:35px;
+    width:87px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u171_normal {
+    background-image: url('../Recipe_Details_files/u163_normal.png');
+}
+
+.u171_container {
+    position:absolute;
+    left:121px;
+    top:130px;
+    width:91px;
+    height:86px;
+}
+
+#u171_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:97px;
+    height:92px;
+}
+
+.u172 {
+    position:absolute;
+    left:2px;
+    top:35px;
+    width:87px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u173_normal {
+    background-image: url('../Recipe_Details_files/u163_normal.png');
+}
+
+.u173_container {
+    position:absolute;
+    left:222px;
+    top:130px;
+    width:91px;
+    height:86px;
+}
+
+#u173_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:97px;
+    height:92px;
+}
+
+.u174 {
+    position:absolute;
+    left:2px;
+    top:35px;
+    width:87px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u175_normal {
+    background-image: url('../Recipe_Details_files/u175_normal.png');
+}
+
+.u175_container {
+    position:absolute;
+    left:20px;
+    top:246px;
+    width:293px;
+    height:250px;
+}
+
+#u175_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:256px;
+}
+
+.u176 {
+    position:absolute;
+    left:2px;
+    top:116px;
+    width:289px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u177_normal {
+    background-image: url('../Recipe_Details_files/u175_normal.png');
+}
+
+.u177_container {
+    position:absolute;
+    left:20px;
+    top:516px;
+    width:293px;
+    height:250px;
+}
+
+#u177_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:299px;
+    height:256px;
+}
+
+.u178 {
+    position:absolute;
+    left:2px;
+    top:116px;
+    width:289px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u179 {
+    position:absolute;
+    left:20px;
+    top:796px;
+    width:314px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u180_normal {
+    background-image: url('../Recipe_Details_files/placeholder_u180_normal.png');
+}
+
+.u180_container {
+    position:absolute;
+    left:20px;
+    top:835px;
+    width:60px;
+    height:60px;
+}
+
+#u180_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:66px;
+}
+
+.u181 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:56px;
+    height:30px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u182 {
+    position:absolute;
+    left:95px;
+    top:832px;
+    width:223px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u183 {
+    position:absolute;
+    left:95px;
+    top:873px;
+    width:218px;
+    height:112px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u184_line {
+    background-image: url('../Recipe_Details_files/u184_line.png');
+}
+
+.u184_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:293px;
+    height:3px;
+}
+
+.u184 {
+    position:absolute;
+    left:20px;
+    top:998px;
+    width:293px;
+    height:10px;
+    
+}
+
+.u185_normal {
+    background-image: url('../Recipe_Details_files/placeholder_u180_normal.png');
+}
+
+.u185_container {
+    position:absolute;
+    left:20px;
+    top:1024px;
+    width:60px;
+    height:60px;
+}
+
+#u185_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:66px;
+}
+
+.u186 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:56px;
+    height:30px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u187 {
+    position:absolute;
+    left:95px;
+    top:1021px;
+    width:223px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u188 {
+    position:absolute;
+    left:95px;
+    top:1062px;
+    width:218px;
+    height:112px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u189_line {
+    background-image: url('../Recipe_Details_files/u189_line.png');
+}
+
+.u189_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:293px;
+    height:3px;
+}
+
+.u189 {
+    position:absolute;
+    left:20px;
+    top:1187px;
+    width:293px;
+    height:10px;
+    
+}
+
+.u190_normal {
+    background-image: url('../Recipe_Details_files/placeholder_u180_normal.png');
+}
+
+.u190_container {
+    position:absolute;
+    left:20px;
+    top:1213px;
+    width:60px;
+    height:60px;
+}
+
+#u190_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:66px;
+}
+
+.u191 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:56px;
+    height:30px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u192 {
+    position:absolute;
+    left:95px;
+    top:1210px;
+    width:223px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u193 {
+    position:absolute;
+    left:95px;
+    top:1251px;
+    width:218px;
+    height:112px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u194_line {
+    background-image: url('../Recipe_Details_files/u194_line.png');
+}
+
+.u194_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:293px;
+    height:3px;
+}
+
+.u194 {
+    position:absolute;
+    left:20px;
+    top:1376px;
+    width:293px;
+    height:10px;
+    
+}
+
+#u195 {
+    position:absolute;
+    left:666px;
+    top:276px;
+    width:335px;
+    height:304px;
+    overflow:hidden;
+}
+
+#pd1u195 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:335px;
+    height:304px;
+    
+}
+
+.u196_normal {
+    background-image: url('../Recipe_Details_files/u196_normal.png');
+}
+
+.u196_container {
+    position:absolute;
+    left:20px;
+    top:32px;
+    width:291px;
+    height:25px;
+}
+
+#u196_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:297px;
+    height:31px;
+}
+
+.u197 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:287px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u198 {
+    position:absolute;
+    left:20px;
+    top:5px;
+    width:284px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u199 {
+    position:absolute;
+    left:20px;
+    top:72px;
+    width:291px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 16px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u200 {
+    position:absolute;
+    left:34px;
+    top:36px;
+    width:140px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u201 {
+    position:absolute;
+    left:0px;
+    top:94px;
+    width:335px;
+    height:191px;
+    overflow:hidden;
+}
+
+#pd0u201 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:335px;
+    height:191px;
+    
+}
+
+#u202 {
+    position:absolute;
+    left:20px;
+    top:20px;
+    width:7px;
+    height:11px;
+    overflow:hidden;
+}
+
+#pd0u202 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:7px;
+    height:11px;
+    
+}
+
+.u203 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:195px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u204 {
+    position:absolute;
+    left:20px;
+    top:20px;
+    width:294px;
+    height:110px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+#u205 {
+    position:absolute;
+    left:20px;
+    top:141px;
+    width:151px;
+    height:35px;
+    overflow:hidden;
+}
+
+#pd0u205 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:151px;
+    height:35px;
+    
+}
+
+.u206_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u206_mouseOver.png');
+}
+
+.u206_disabled {
+    background-image: url('../Recipe_Details_files/button_u206_disabled.png');
+}
+
+.u206_normal {
+    background-image: url('../Recipe_Details_files/button_u206_normal.png');
+}
+
+.u206_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:150px;
+    height:34px;
+}
+
+#u206_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:40px;
+}
+
+.u207 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:146px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u195 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:335px;
+    height:304px;
+    
+}
+
+.u208 {
+    position:absolute;
+    left:20px;
+    top:0px;
+    width:291px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 16px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+#u209 {
+    position:absolute;
+    left:0px;
+    top:22px;
+    width:335px;
+    height:276px;
+    overflow:hidden;
+}
+
+#pd1u209 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:335px;
+    height:276px;
+    
+}
+
+#u210 {
+    position:absolute;
+    left:20px;
+    top:20px;
+    width:7px;
+    height:11px;
+    overflow:hidden;
+}
+
+#pd0u210 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:7px;
+    height:11px;
+    
+}
+
+.u211 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:195px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u212 {
+    position:absolute;
+    left:20px;
+    top:118px;
+    width:294px;
+    height:110px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+#u213 {
+    position:absolute;
+    left:20px;
+    top:239px;
+    width:151px;
+    height:35px;
+    overflow:hidden;
+}
+
+#pd0u213 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:151px;
+    height:35px;
+    
+}
+
+.u214_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u206_mouseOver.png');
+}
+
+.u214_disabled {
+    background-image: url('../Recipe_Details_files/button_u206_disabled.png');
+}
+
+.u214_normal {
+    background-image: url('../Recipe_Details_files/button_u206_normal.png');
+}
+
+.u214_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:150px;
+    height:34px;
+}
+
+#u214_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:40px;
+}
+
+.u215 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:146px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u216 {
+    position:absolute;
+    left:20px;
+    top:48px;
+    width:294px;
+    height:60px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+#u217 {
+    position:absolute;
+    left:20px;
+    top:13px;
+    width:14px;
+    height:12px;
+    overflow:hidden;
+}
+
+#pd0u217 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:14px;
+    height:12px;
+    
+}
+
+.u218 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:195px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u219 {
+    position:absolute;
+    left:20px;
+    top:13px;
+    width:294px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+#pd0u209 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:335px;
+    height:276px;
+    
+}
+
+#u220 {
+    position:absolute;
+    left:20px;
+    top:20px;
+    width:7px;
+    height:11px;
+    overflow:hidden;
+}
+
+#pd0u220 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:7px;
+    height:11px;
+    
+}
+
+.u221 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:195px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u222 {
+    position:absolute;
+    left:20px;
+    top:20px;
+    width:294px;
+    height:110px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+#u223 {
+    position:absolute;
+    left:20px;
+    top:141px;
+    width:151px;
+    height:35px;
+    overflow:hidden;
+}
+
+#pd0u223 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:151px;
+    height:35px;
+    
+}
+
+.u224_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u206_mouseOver.png');
+}
+
+.u224_disabled {
+    background-image: url('../Recipe_Details_files/button_u206_disabled.png');
+}
+
+.u224_normal {
+    background-image: url('../Recipe_Details_files/button_u206_normal.png');
+}
+
+.u224_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:150px;
+    height:34px;
+}
+
+#u224_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:156px;
+    height:40px;
+}
+
+.u225 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:146px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u226 {
+    position:absolute;
+    left:485px;
+    top:373px;
+    width:90px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u227 {
+    position:absolute;
+    left:186px;
+    top:706px;
+    width:166px;
+    height:31px;
+    overflow:hidden;
+}
+
+#pd1u227 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:166px;
+    height:31px;
+    
+}
+
+.u228_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u228_mouseOver.png');
+}
+
+.u228_disabled {
+    background-image: url('../Recipe_Details_files/button_u228_disabled.png');
+}
+
+.u228_normal {
+    background-image: url('../Recipe_Details_files/button_u228_normal.png');
+}
+
+.u228_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:165px;
+    height:30px;
+}
+
+#u228_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:171px;
+    height:36px;
+}
+
+.u229 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:161px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u227 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:166px;
+    height:31px;
+    
+}
+
+.u230_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u230_mouseOver.png');
+}
+
+.u230_disabled {
+    background-image: url('../Recipe_Details_files/button_u228_disabled.png');
+}
+
+.u230_normal {
+    background-image: url('../Recipe_Details_files/button_u230_normal.png');
+}
+
+.u230_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:165px;
+    height:30px;
+}
+
+#u230_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:171px;
+    height:36px;
+}
+
+.u231 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:161px;
+    height:17px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u232_normal {
+    background-image: url('../Recipe_Details_files/placeholder_u232_normal.png');
+}
+
+.u232_container {
+    position:absolute;
+    left:282px;
+    top:328px;
+    width:80px;
+    height:60px;
+}
+
+#u232_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:66px;
+}
+
+.u233 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:76px;
+    height:30px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u234 {
+    position:absolute;
+    left:689px;
+    top:213px;
+    width:64px;
+    height:31px;
+    overflow:hidden;
+}
+
+#pd1u234 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:64px;
+    height:31px;
+    
+}
+
+.u235_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u67_mouseOver.png');
+}
+
+.u235_disabled {
+    background-image: url('../Recipe_Details_files/button_u67_disabled.png');
+}
+
+.u235_normal {
+    background-image: url('../Recipe_Details_files/button_u67_normal.png');
+}
+
+.u235_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:63px;
+    height:30px;
+}
+
+#u235_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:69px;
+    height:36px;
+}
+
+.u236 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:59px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u234 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:64px;
+    height:31px;
+    
+}
+
+.u237_mouseOver {
+    background-image: url('../Recipe_Details_files/button_u69_mouseOver.png');
+}
+
+.u237_disabled {
+    background-image: url('../Recipe_Details_files/button_u67_disabled.png');
+}
+
+.u237_normal {
+    background-image: url('../Recipe_Details_files/button_u69_normal.png');
+}
+
+.u237_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:63px;
+    height:30px;
+}
+
+#u237_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:69px;
+    height:36px;
+}
+
+.u238 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:59px;
+    height:14px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u239 {
+    position:absolute;
+    left:686px;
+    top:243px;
+    width:451px;
+    height:181px;
+    overflow:hidden;
+}
+
+#pd1u239 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:451px;
+    height:181px;
+    
+}
+
+.u240_normal {
+    background-image: url('../Recipe_Details_files/u240_normal.png');
+}
+
+.u240_container {
+    position:absolute;
+    left:1px;
+    top:16px;
+    width:320px;
+    height:56px;
+}
+
+#u240_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:62px;
+}
+
+.u241 {
+    position:absolute;
+    left:2px;
+    top:20px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u242_normal {
+    background-image: url('../Recipe_Details_files/u242_normal.png');
+}
+
+.u242_container {
+    position:absolute;
+    left:0px;
+    top:15px;
+    width:320px;
+    height:56px;
+}
+
+#u242_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:62px;
+}
+
+.u243 {
+    position:absolute;
+    left:2px;
+    top:20px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u244_normal {
+    background-image: url('../Recipe_Details_files/u244_normal.png');
+}
+
+.u244_container {
+    position:absolute;
+    left:20px;
+    top:0px;
+    width:30px;
+    height:15px;
+}
+
+#u244_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:36px;
+    height:21px;
+}
+
+.u245 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:26px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u246_line {
+    background-image: url('../Recipe_Details_files/u246_line.png');
+}
+
+.u246_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:28px;
+    height:3px;
+}
+
+.u246 {
+    position:absolute;
+    left:21px;
+    top:10px;
+    width:28px;
+    height:10px;
+    
+}
+
+.u247 {
+    position:absolute;
+    left:40px;
+    top:34px;
+    width:270px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u248 {
+    position:absolute;
+    left:200px;
+    top:34px;
+    width:60px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u249_normal {
+    background-image: url('../Recipe_Details_files/u249_normal.png');
+}
+
+.u249_container {
+    position:absolute;
+    left:14px;
+    top:33px;
+    width:16px;
+    height:16px;
+}
+
+#u249_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:16px;
+    height:16px;
+}
+
+.u250 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:12px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u239 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:451px;
+    height:181px;
+    
+}
+
+.u251_normal {
+    background-image: url('../Recipe_Details_files/u251_normal.png');
+}
+
+.u251_container {
+    position:absolute;
+    left:1px;
+    top:16px;
+    width:320px;
+    height:155px;
+}
+
+#u251_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:161px;
+}
+
+.u252 {
+    position:absolute;
+    left:2px;
+    top:70px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u253_normal {
+    background-image: url('../Recipe_Details_files/u253_normal.png');
+}
+
+.u253_container {
+    position:absolute;
+    left:0px;
+    top:15px;
+    width:320px;
+    height:155px;
+}
+
+#u253_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:161px;
+}
+
+.u254 {
+    position:absolute;
+    left:2px;
+    top:70px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u255_normal {
+    background-image: url('../Recipe_Details_files/u244_normal.png');
+}
+
+.u255_container {
+    position:absolute;
+    left:20px;
+    top:0px;
+    width:30px;
+    height:15px;
+}
+
+#u255_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:36px;
+    height:21px;
+}
+
+.u256 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:26px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u257_line {
+    background-image: url('../Recipe_Details_files/u257_line.png');
+}
+
+.u257_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:28px;
+    height:3px;
+}
+
+.u257 {
+    position:absolute;
+    left:21px;
+    top:10px;
+    width:28px;
+    height:10px;
+    
+}
+
+.u258 {
+    position:absolute;
+    left:95px;
+    top:30px;
+    width:210px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u259 {
+    position:absolute;
+    left:15px;
+    top:34px;
+    width:90px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u260 {
+    position:absolute;
+    left:95px;
+    top:60px;
+    width:210px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u261 {
+    position:absolute;
+    left:15px;
+    top:64px;
+    width:90px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u262 {
+    position:absolute;
+    left:95px;
+    top:98px;
+    width:210px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#333333;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u263 {
+    position:absolute;
+    left:15px;
+    top:94px;
+    width:70px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u264_mouseOver {
+    background-image: url('../Recipe_Details_files/u264_mouseOver.png');
+}
+
+.u264_disabled {
+    background-image: url('../Recipe_Details_files/u264_disabled.png');
+}
+
+.u264_normal {
+    background-image: url('../Recipe_Details_files/u264_disabled.png');
+}
+
+.u264_container {
+    position:absolute;
+    left:95px;
+    top:133px;
+    width:60px;
+    height:25px;
+}
+
+#u264_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:66px;
+    height:31px;
+}
+
+.u265 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:56px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u266 {
+    position:absolute;
+    left:170px;
+    top:138px;
+    width:100px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u267 {
+    position:absolute;
+    left:310px;
+    top:30px;
+    width:136px;
+    height:28px;
+    overflow:hidden;
+}
+
+#pd0u267 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:136px;
+    height:28px;
+    
+}
+
+.u268_normal {
+    background-image: url('../Recipe_Details_files/u130_normal.png');
+}
+
+.u268_container {
+    position:absolute;
+    left:14px;
+    top:1px;
+    width:114px;
+    height:25px;
+}
+
+#u268_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u269 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u270_normal {
+    background-image: url('../Recipe_Details_files/u132_normal.png');
+}
+
+.u270_container {
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:12px;
+    height:25px;
+}
+
+#u270_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:31px;
+}
+
+.u271 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u272_normal {
+    background-image: url('../Recipe_Details_files/u134_normal.png');
+}
+
+.u272_container {
+    position:absolute;
+    left:13px;
+    top:0px;
+    width:114px;
+    height:25px;
+}
+
+#u272_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u273 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u274 {
+    position:absolute;
+    left:17px;
+    top:4px;
+    width:120px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u275 {
+    position:absolute;
+    left:310px;
+    top:59px;
+    width:136px;
+    height:28px;
+    overflow:hidden;
+}
+
+#pd0u275 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:136px;
+    height:28px;
+    
+}
+
+.u276_normal {
+    background-image: url('../Recipe_Details_files/u130_normal.png');
+}
+
+.u276_container {
+    position:absolute;
+    left:14px;
+    top:1px;
+    width:114px;
+    height:25px;
+}
+
+#u276_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u277 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u278_normal {
+    background-image: url('../Recipe_Details_files/u132_normal.png');
+}
+
+.u278_container {
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:12px;
+    height:25px;
+}
+
+#u278_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:31px;
+}
+
+.u279 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u280_normal {
+    background-image: url('../Recipe_Details_files/u134_normal.png');
+}
+
+.u280_container {
+    position:absolute;
+    left:13px;
+    top:0px;
+    width:114px;
+    height:25px;
+}
+
+#u280_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u281 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u282 {
+    position:absolute;
+    left:17px;
+    top:4px;
+    width:120px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u283 {
+    position:absolute;
+    left:310px;
+    top:98px;
+    width:136px;
+    height:28px;
+    overflow:hidden;
+}
+
+#pd0u283 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:136px;
+    height:28px;
+    
+}
+
+.u284_normal {
+    background-image: url('../Recipe_Details_files/u130_normal.png');
+}
+
+.u284_container {
+    position:absolute;
+    left:14px;
+    top:1px;
+    width:114px;
+    height:25px;
+}
+
+#u284_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u285 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u286_normal {
+    background-image: url('../Recipe_Details_files/u132_normal.png');
+}
+
+.u286_container {
+    position:absolute;
+    left:1px;
+    top:0px;
+    width:12px;
+    height:25px;
+}
+
+#u286_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:18px;
+    height:31px;
+}
+
+.u287 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:8px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u288_normal {
+    background-image: url('../Recipe_Details_files/u134_normal.png');
+}
+
+.u288_container {
+    position:absolute;
+    left:13px;
+    top:0px;
+    width:114px;
+    height:25px;
+}
+
+#u288_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:120px;
+    height:31px;
+}
+
+.u289 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u290 {
+    position:absolute;
+    left:17px;
+    top:4px;
+    width:120px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

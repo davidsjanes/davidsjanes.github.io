@@ -1,0 +1,658 @@
+/*Add the fonts!*/
+
+html {
+	font-size: 12px;
+}
+
+
+@font-face {
+    font-family: 'entypo';
+    src: url('../fonts/entypo.eot');
+    src: url('../fonts/entypo.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/entypo.woff2') format('woff2'),
+         url('../fonts/entypo.woff') format('woff'),
+         url('../fonts/entypo.ttf') format('truetype'),
+         url('../fonts/entypo.svg#entypo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: Meta-Normal;
+	src: url("../fonts/MetaWebPro-Normal.eot");
+	src: url("../fonts/MetaWebPro-Normal.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: Meta-Bold;
+	src: url("../fonts/MetaWebPro-Bold.eot");
+	src: url("../fonts/MetaWebPro-Bold.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+.icon {
+	font-family: 'entypo';
+	display: block;
+	position: relative;
+}
+
+/*NHL Styles*/
+
+html, body {
+	width: 100%;
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+body {
+/*	padding-top: 3.75rem;*/
+}
+#container {
+	height: 100%;
+}
+section, nav, footer, div, ul, li, h1, h2, h3, h4, h5, h6, p, input, textarea, button, img, video, span, .cta {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	display: block;
+	position: relative;
+}
+.cta {
+	cursor: pointer;	
+}
+
+/*Main Navigation Styles*/
+
+.main-nav {
+	background: #fff;
+	height: 3.75rem;
+	padding: 0 2rem;
+	border-bottom: 1px solid #ccc;
+	border-top: 2px solid #ff6600;
+	position: relative;
+	top: 0;
+	width: 100%;
+/*	z-index:5000;*/
+}
+nav .links {
+	width: auto;
+	height: 100%;
+/*	margin-right: 1rem;*/
+	float: right;
+}
+nav .links > div {
+	width: auto;
+	height: 100%;
+	cursor: pointer;
+}
+nav .links > div.active h2 {
+	color: #ff6600;
+}
+nav h2 {
+	font-size: 1rem;
+	height: 100%;
+	font-family: "Meta-Normal", sans-serif;
+	width: auto;
+	display: inline-block;
+	font-size: 1rem;
+	color: #666;
+	margin: 0;
+	padding: 1.75rem 1rem 1rem 1rem;
+	padding: 1.45rem 1rem 1rem 1rem;
+}
+nav .links div:first-child h2 {
+	padding-left: 0;
+}
+nav .links div:last-child h2 {
+	padding-right: 0;
+}
+nav h1 {
+	width: 8rem;
+	height: 100%;
+	overflow: hidden;
+	text-indent: -9999px;
+	background: url('../images/discover-logo-4c-black.svg') no-repeat 0rem 1.25rem;
+	background-size: 8.5rem;
+	background-size: 8rem;
+	cursor: pointer;
+	margin: 0;
+}
+nav .icon {
+	font-size: 3rem;
+	line-height: .25;
+	height: 100%;
+}
+nav .search-link {
+	text-indent: -9999px;
+}
+nav .links h2 span {
+	width: auto;
+	font-size: 2rem;
+	top: .2rem;
+	margin: 0 .25rem 0 0;
+}
+nav .links .search-link span {
+	font-size: 2.5rem;
+	text-indent: 0;
+}
+.mobile nav .search-link {
+	text-indent: 0;
+}
+
+/*Hero Styles*/
+
+.hero {
+/*	min-height: 34rem;*/
+	height: 30rem;
+	background: #000 url('../images/ice-bg.jpg') no-repeat center bottom;
+	background: #000 url('../images/hockey-bg-3.jpg') no-repeat center top;
+	background: none;
+	background-size: 100% auto;
+	background-size: cover;
+	overflow: visible;
+}
+.hero .headline {
+	z-index: 500;
+	top: 1rem;
+	position: absolute;
+	top: 1.25rem;
+}
+.headline h3, .headline span {
+	color: #fff;
+	text-align: center;
+	font-family: "Meta-Normal", Arial, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .35rem;
+	font-size: 1.6rem;
+}
+.headline span {
+	font-size: 3.5rem;
+	white-space: nowrap;
+	position: absolute;
+	opacity: .3;
+	float: none;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 3rem;
+	letter-spacing: .2rem;
+}
+.hero .headline h3 {
+	top: 6.5rem;
+}
+.nhl-logo {
+	width: 4.5rem;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0rem;
+}
+.nhl .cta {
+	color: #fff;
+	padding: .5rem 1rem;
+	line-height: 1;
+	border: 1px solid #fff;
+	border-radius: 30rem;
+	width: auto;
+	text-align: center;
+	font-size: .8rem;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	font-family: "Meta-Normal", Arial, sans-serif;
+	z-index: 500;
+}
+.nhl .headline .cta {
+	width: 9rem;
+	top: 9.25rem;
+	margin: auto;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+.face h4 {
+	color: #fff;
+	position: absolute;
+	left: -10rem;
+	top: 1rem;
+	font-size: .8rem;
+	font-family: "Meta-Normal", Arial, sans-serif;
+	text-transform: uppercase;
+	border: 1px solid #888;
+	padding: .5rem;
+	width: auto;
+}
+
+/*Overlay Styles*/
+
+.overlay {
+	height: 100%;
+	background: #111;
+	position: absolute;
+	position: fixed;
+	top: 0;
+	z-index: 1500;
+	display: none;
+	padding: 1.5rem 2rem;
+	overflow: scroll;
+}
+.close {
+	color: #fff;
+	font-size: 1rem;
+	width: auto;
+	position: absolute;
+	right: 2rem;
+	text-align: center;
+}
+.overlay .headline h3 {
+	margin: 3rem 0 .75rem 0;
+}
+.overlay .teams > div {
+	width: 20%;
+	padding-top: 18%;
+	height: 0;
+	border: 2px solid #111;
+	transition: border .1s ease;
+}
+.overlay .teams a {
+	position: absolute;
+	top: 0;
+	padding: 1rem 1rem;
+	display: block;
+	box-sizing: border-box;
+}
+.overlay .teams div:hover {
+	border: 2px solid #ccc;
+}
+.overlay .teams a h4 {
+	color: #fff;
+	font-family: "Meta-Normal", sans-serif;
+	text-transform: uppercase;
+	letter-spacing:.15rem;
+	font-size: .8rem;
+	margin: .5rem 0 0 0;
+}
+.overlay .cta {
+	padding: .5rem 1.5rem;
+}
+
+/*Logo Section Styles*/
+
+.logos {
+	padding: 1rem 2rem;
+}
+.logos .container > div {
+	width: 6.66%;
+	border: 1px solid #fff;
+}
+.logos .container > div:hover, .logos .main-logo:hover {
+	border: 1px solid #ccc;
+}
+.logos .main-logo {
+	width: 12%;
+	border: 1px solid #fff;
+}
+
+/*Card Styles*/ 
+
+#card {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  position: absolute;
+  overflow: hidden;
+  overflow: visible;
+  width: 100%;
+  height: 100%;
+  background: none;
+  font-size: 48%;
+  top: 5.5rem;
+  z-index: 1000;
+}
+#card.active {
+	z-index: 0;
+}
+.face.tp:after {
+    content:" ";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    border-radius: 50%;
+    left:0;
+    bottom:-10px;
+    box-shadow: 0 30px 20px rgba(0,0,0,.5);
+}
+.scene, .shape, .face, .face-wrapper, .cr {
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.scene {
+	width: 80em;
+	height: 80em;
+	top: 50%;
+	left: 50%;
+	margin: -40em 0 0 -40em;
+	-webkit-transform:rotateX(-90deg) rotateY(0); 
+	-moz-transform:rotateX(-90deg) rotateY(0); 
+	-ms-transform:rotateX(-90deg) rotateY(0); 
+	transform:rotateX(-90deg) rotateY(0); 
+}
+.shape {
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  -webkit-transform-origin: 50%;
+      -ms-transform-origin: 50%;
+          transform-origin: 50%;
+}
+.face, .face-wrapper {
+/*  overflow: hidden;*/
+  -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  /* hidden by default, prevent blinking and other weird rendering glitchs */
+}
+.face {
+  background-size: 100% 100%!important;
+  background-position: center;
+}
+.face-wrapper .face {
+  left: 100%;
+  width: 100%;
+  height: 100%
+}
+.side {
+  left: 50%;
+}
+.cr, .cr .side {
+  height: 100%;
+}
+[class*="cuboid"] .ft, [class*="cuboid"] .bk {
+  width: 100%;
+  height: 100%;
+}
+[class*="cuboid"] .bk {
+  left: 100%;
+}
+[class*="cuboid"] .rt {
+  -webkit-transform: rotateY(-90deg) translateX(-50%);
+          transform: rotateY(-90deg) translateX(-50%);
+}
+[class*="cuboid"] .lt {
+  -webkit-transform: rotateY(90deg) translateX(-50%);
+          transform: rotateY(90deg) translateX(-50%);
+}
+[class*="cuboid"] .tp {
+  -webkit-transform: rotateX(90deg) translateY(-50%);
+          transform: rotateX(90deg) translateY(-50%);
+}
+[class*="cuboid"] .bm {
+  -webkit-transform: rotateX(-90deg) translateY(-50%);
+          transform: rotateX(-90deg) translateY(-50%);
+}
+[class*="cuboid"] .lt {
+  left: 100%;
+}
+[class*="cuboid"] .bm {
+  top: 100%;
+}
+/* .card styles */
+.card {
+  -webkit-transform:translate3D(0em, 0em, 0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+          transform:translate3D(0em, 0em, 0em) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  opacity:1;
+  filter: alpha(opacity=100);
+  width:42em;
+  height:.2em;
+  margin:-0.05em 0 0 -21em;
+}
+.card .ft {
+  -webkit-transform:translateZ(13.25em);
+          transform:translateZ(13.25em);
+}
+.card .bk {
+  -webkit-transform:translateZ(-13.25em) rotateY(180deg);
+          transform:translateZ(-13.25em) rotateY(180deg);
+}
+.card .rt, .card .lt {
+  width:26.5em;
+  height:.2em;
+}
+.card .tp, .card .bm {
+  width:42em;
+  height:26.4em;
+}
+.card .face {
+  background-color:#ff6600;
+}
+.card .ft {
+  background-color:#ff6600;
+}
+.card .bk {
+  background-color:#ff6600;
+}
+.card .tp {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.card .tp > div {
+	width: 100%;
+	height: 100%;
+	background:url(../images/cards/nhl-03.png) no-repeat center center;
+	background-size: 100%;
+}
+.card .bm {
+/*  background:url(http://dfsintranetdev.rw.discoverfinancial.com/groups/hq/incite/Projects/Discover-It-NHL/images/card-back.png);*/
+  background: #111;
+}
+.card .lt {
+  background-color:#ff6600;
+}
+.card .rt {
+  background-color:#ff6600;
+}
+.card .ft {
+  width:39em;
+  margin-left:1.5em;
+}
+.card .bk {
+  width:39em;
+  margin-left:-1.5em;
+}
+.card .rt, .card .lt {
+  width:23.5em;
+}
+.card .tp, .card .bm, .card .tp .photon-shader, .card .bm .photon-shader {
+  border-radius:1.5em;
+}
+.card .cr {
+  width:1.5em;
+  left:0.75em;
+}
+.card .cr-0 {
+  -webkit-transform: translate3D(39em, 0, 11.75em);
+      -ms-transform: translate3D(39em, 0, 11.75em);
+          transform: translate3D(39em, 0, 11.75em);
+}
+.card .cr-1 {
+  -webkit-transform: translate3D(39em, 0, -11.75em);
+      -ms-transform: translate3D(39em, 0, -11.75em);
+          transform: translate3D(39em, 0, -11.75em);
+}
+.card .cr-2 {
+  -webkit-transform: translate3D(0, 0, -11.75em);
+      -ms-transform: translate3D(0, 0, -11.75em);
+          transform: translate3D(0, 0, -11.75em);
+}
+.card .cr-3 {
+  -webkit-transform: translate3D(0, 0, 11.75em);
+      -ms-transform: translate3D(0, 0, 11.75em);
+          transform: translate3D(0, 0, 11.75em);
+}
+.card .cr-0 .s0 {
+  -webkit-transform: rotateY(15deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(15deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-0 .s1 {
+  -webkit-transform: rotateY(45deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(45deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-0 .s2 {
+  -webkit-transform: rotateY(75deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(75deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-1 .s0 {
+  -webkit-transform: rotateY(105deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(105deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-1 .s1 {
+  -webkit-transform: rotateY(135deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(135deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-1 .s2 {
+  -webkit-transform: rotateY(165deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(165deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-2 .s0 {
+  -webkit-transform: rotateY(195deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(195deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-2 .s1 {
+  -webkit-transform: rotateY(225deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(225deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-2 .s2 {
+  -webkit-transform: rotateY(255deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(255deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-3 .s0 {
+  -webkit-transform: rotateY(285deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(285deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-3 .s1 {
+  -webkit-transform: rotateY(315deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(315deg) translate3D(-50%, 0, 1.475em);
+}
+.card .cr-3 .s2 {
+  -webkit-transform: rotateY(345deg) translate3D(-50%, 0, 1.475em);
+          transform: rotateY(345deg) translate3D(-50%, 0, 1.475em);
+}
+.card .side {
+  width:0.8288475772933681em;
+}
+
+/*Media Queries*/
+
+@media (max-width: 640px) {
+
+	.overlay .teams > div {
+		width: 50%;
+		padding-top: 40%;
+	}
+	.overlay .teams a h4 {
+		font-size: 1.2rem;
+	}
+	.logos .container > div {
+		width: 10%;
+	}
+}
+@media (min-width: 640px) { 
+
+	html, body {
+		font-size: 14px;
+	}
+	.overlay .teams > div {
+		width: 33.333%;
+		padding-top: 26%;
+	}
+	.overlay .teams a h4 {
+		font-size: 1rem;
+	}
+
+}
+@media (min-width: 768px) { 
+
+	html, body {
+		font-size: 16px;
+	}
+	.overlay .teams > div {
+		width: 25%;
+		padding-top: 22%;
+	}
+	.overlay .teams a h4 {
+		font-size: .8rem;
+	}
+	.overlay .teams a {
+		padding: .75rem .75rem;
+	}
+}
+@media (min-width: 900px){ 
+
+	html, body {
+		font-size: 16px;
+	}
+	.overlay .teams > div {
+		width: 20%;
+		padding-top: 17.5%;
+	}
+	.overlay .teams a h4 {
+		font-size: .8rem;
+	}
+
+}
+@media (min-width: 1024px){ 
+
+	html, body {
+		font-size: 18px;
+	}
+
+}
+@media (min-width: 1280px) { 
+
+	html, body {
+		font-size: 20px;
+	}
+
+}
+@media (min-width: 1440px) { 
+
+	html, body {
+		font-size: 22px;
+	}
+
+}
+@media (min-width: 1650px) { 
+
+	html, body {
+		font-size: 24px;
+	}
+
+}
+
+/*Clearfix if Necessary and Sometimes be Necessary*/
+
+.clear:before,
+.clear:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clear:after {
+    clear: both;
+}
+.clear {
+    *zoom: 1;
+}

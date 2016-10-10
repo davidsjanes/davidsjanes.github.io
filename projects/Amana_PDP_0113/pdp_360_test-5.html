@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<title>Testing</title>
+	
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/style-4.css" type="text/css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<script src="js/TweenMax.min.js"></script>
+	<script src='js/jquery.reel-1.2.1-bundle.js' type='text/javascript'></script>
+	
+	<style type="text/css">
+		
+	</style>
+		
+</head>
+
+<body>
+
+<!--	Begin HTML-->
+
+<div class="wrapper">
+
+	<div class="navigation">
+		<div class="nav-list clear">
+			<a class="logo">Amana</a>
+			<a class="nav-text">Appliances</a>
+			<a class="nav-text">Where to Buy</a>
+			<a class="nav-text">Customer Service</a>
+			<a class="nav-text">Shop Filters &amp; Accessories</a>
+			<a class="nav-icon chat">&#x31;</a>
+			<a class="nav-icon search">&#x38;</a>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="dim-lights"></div>
+		
+		<div class="container">
+<!--			<div class="image-360-container">-->
+				<img id="image-360-large" class="hide" src="top-refer-sprite-large.jpg" width="800" height="1000" />
+				
+				<a class="zoom-button in">&#x38;</a>
+				<a class="zoom-button out hide">&#x39;</a>
+				
+<!--			</div>-->
+			<img id="360-icon" src="images/360-icon.png" style="position: absolute; right: 20px; top: 270px;"/>
+			
+			<div class="module">
+				<div class="front">
+					<div class="product-heading">
+	        			<h2 class="product-title">14.4 cu. ft. Top-Freezer Refrigerator</h2>
+	        			<h3 class="product-model-number">A4TXNWFWW</h3>
+	        		</div>
+	        		<div class="product-price">
+	        			<p>$599.99<span>MSRP</span></p>
+	        		</div>
+	        		<div class="product-specs">
+	        			<ul class="product-dimensions">
+	        				<li class="width">W 28"</li>
+	        				<li class="height">H 31 1/2"</li>
+	        				<li class="depth">D 27 1/2"</li>
+	        			</ul>
+	        			<ul class="product-colors">
+	        				<li class="white">White</li>
+	        			</ul>
+	        		</div>
+	        		<div class="module-links">
+	        			<ul>
+	        				<li class="where-to-buy"><a><span class="icon-feature icon">&#x33;</span>Where to Buy<span class="icon-arrow icon">&#x35;</span></a></li>
+	        				<li class="image-gallery"><a><span class="icon-feature icon">&#x34;</span>Image Gallery<span class="icon-arrow icon">&#x35;</span></a></li>
+	        				<li class="video"><a><span class="icon-feature icon">&#x32;</span>Video<span class="icon-arrow icon">&#x35;</span></a></li>
+	        			</ul>
+	        		</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<img id="bottom-of-page" src="images/bottom-of-page.jpg" />
+
+</div>
+
+<!--	End HTML-->
+
+<!--	Begin Inline Document Javascripting-->
+  		
+<script language="javascript" type="text/javascript">
+	
+	$(document).ready(function(){
+		
+		$('#image-360-large').reel({
+		  footage:		37,
+		  frames:		37,
+		  rows:			0,
+		  cursor:		'hand',
+		  cw:			false,
+		  horizontal:	true,
+		  loops:		false,
+		  frame:		24,
+		  opening:		.55,
+		  entry:		.75,
+		  throwable:	true
+		});
+		
+		TweenMax.to($("#image-360-large-reel"), 0, {scale:.6, transformOrigin:"50% 0px"});
+		
+		$(".zoom-button.in").click(function() {
+			$('.zoom-button.out').removeClass('hide');
+			TweenMax.fromTo($(".zoom-button.out"), 0, {autoAlpha:0}, {autoAlpha:1});
+			TweenMax.fromTo($(".zoom-button.in"), 0, {autoAlpha:1}, {autoAlpha:0});
+			TweenMax.to($("#image-360-large-reel"), .75, {scale:1, delay:.5});
+			TweenMax.to($(".module, #360-icon"), .75, {autoAlpha:0});
+			TweenMax.to($(".main"), .75, {height:1000, delay:.5});
+		});
+		
+		$(".zoom-button.out").click(function() {
+			$('.zoom-button.out').addClass('hide');
+			TweenMax.fromTo($(".zoom-button.in"), 0, {autoAlpha:0}, {autoAlpha:1});
+			TweenMax.fromTo($(".zoom-button.out"), 0, {autoAlpha:1}, {autoAlpha:0});
+			TweenMax.to($("#image-360-large-reel"), .75, {scale:.6});
+			TweenMax.to($(".module, #360-icon"), .75, {autoAlpha:1, delay:.5});
+			TweenMax.to($(".main"), .75, {height:600});
+		});
+	
+	});
+
+<!--	End Javascripting-->
+	
+</script>
+
+</body>
+
+</html>

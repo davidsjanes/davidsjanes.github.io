@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en" class="desktop">
+<head>
+	<meta charset="UTF-8">
+	<title>Discover Miles</title>
+	
+	<meta name="viewport" content="initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/modernizr-2.6.2.min.js"></script>
+</head>
+
+<body>
+
+	<div id="container" class="blue">
+	
+		<nav class="main-nav">
+			<h1 class="logo">Discover</h1>
+			<div class="search-link">
+				<h2>
+					<span class="icon">&#128269;</span>
+				</h2>
+			</div>
+			<div class="links">
+				<div class="card">
+					<h2>Credit Cards</h2>
+				</div>
+				<div class="banking-link">
+					<h2>Bank</h2>
+				</div>
+				<div class="loans-link">
+					<h2>Loans</h2>
+				</div>
+				<div class="login-link">
+					<h2>Account</h2>
+				</div>
+			</div>
+		</nav>
+		
+		<div id="main-content" class="miles">
+			<section id="hero" class="hero">
+				<div class="background">
+					<video id="vid-1" class="bg-video" autoplay loop>
+						<source src="video/clouds-large.mp4" type="video/mp4">
+					</video>
+					<div class="animated">
+						<h3 class="anim-1">1.5x Unlimited Miles</h3>
+						<h3 class="anim-2">No Blackout Dates</h3>
+						<h3 class="anim-3">In-Flight WiFi Credit</h3>
+					</div>
+				</div>
+				<div class="headline">
+					<h2><span>Introducing</span>Discover it Miles</h2>
+				</div>
+				<div class="cards slider clear">
+					<ul class="slider-list container clear">
+						<li class="pink-card slider-item">
+							<img src="images/miles-it-card-pink.png" />
+						</li>
+						<li class="green-card slider-item slider-item-hide-previous">
+							<img src="images/miles-it-card-green.png" />
+						</li>
+						<li class="blue-card slider-item slider-item-current">
+							<img src="images/miles-it-card-blue.png" />
+						</li>
+					</ul>
+					<button class="slider-btn slider-btn-previous">Previous</button>
+					 <button class="slider-btn slider-btn-next" disabled="disabled">Next</button>
+				</div>
+				<div class="sub-head">
+<!--					<h3>Miles beyond miles.</h3>-->
+					<div class="container">
+						<a class="button orange-button large-button" href="#0">apply now</a>
+					</div>
+				</div>
+			</section>
+			<section id="benefits" class="benefits">
+				<div class="benefit">
+					<h3>1.5x Unlimited Miles</h3>
+					<p>Earn unlimited 1.5x miles for every $1 you spend.</p>
+				</div>
+				<div class="benefit">
+					<h3>No Blackout Dates</h3>
+					<p>Redeem your miles in any amount at any time.</p>
+				</div>
+				<div class="benefit">
+					<h3>In-Flight WiFi Credit</h3>
+					<p>Yearly $30 credit to use towards in-flight Wi-Fi.</p>
+				</div>
+				
+			</section>
+			<section id="sub-content" class="sub-content"></section>
+		</div>
+
+	</div>
+	
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/ScrollToPlugin.min.js"></script>
+	<script src="js/TextPlugin.min.js"></script>
+	<script src="js/WallopSlider.js"></script>
+	
+	<script>
+		
+	jQuery(function($) {
+		
+		TweenLite.defaultEase = Power0.easeOut;
+		
+		var milesTL = new TimelineLite({paused:true, delay:.5, onComplete:repeatTL});
+		
+			milesTL.fromTo($('.anim-1'), 10, {scale:0, left:"-5rem"}, {scale:1.25, left:"-25rem"})
+				   .fromTo($('.anim-1'), 5, {autoAlpha:0}, {autoAlpha:.4}, 0)
+				   .to($('.anim-1'), 5, {autoAlpha:0}, 5)
+				   .fromTo($('.anim-2'), 10, {scale:0, left:"5rem"}, {scale:1.25, left:"25rem"}, 4)
+				   .fromTo($('.anim-2'), 5, {autoAlpha:0}, {autoAlpha:.4}, 4)
+				   .to($('.anim-2'), 5, {autoAlpha:0}, 9)
+				   .fromTo($('.anim-3'), 10, {scale:0, left:"-5rem"}, {scale:1.25, left:"-25rem"}, 8)
+				   .fromTo($('.anim-3'), 5, {autoAlpha:0}, {autoAlpha:.4}, 8)
+				   .to($('.anim-3'), 5, {autoAlpha:0}, 13)
+			;
+			
+//			milesTL.fromTo($('.anim-1'), 10, {left:"0rem"}, {left:"-30rem"})
+//				   .fromTo($('.anim-1'), 5, {autoAlpha:0}, {autoAlpha:.2}, 0)
+//				   .to($('.anim-1'), 5, {autoAlpha:0}, 5)
+//				   .fromTo($('.anim-2'), 10, {left:"0rem"}, {left:"30rem"}, 4)
+//				   .fromTo($('.anim-2'), 5, {autoAlpha:0}, {autoAlpha:.2}, 4)
+//				   .to($('.anim-2'), 5, {autoAlpha:0}, 9)
+//				   .fromTo($('.anim-3'), 10, {left:"0rem"}, {left:"-30rem"}, 8)
+//				   .fromTo($('.anim-3'), 5, {autoAlpha:0}, {autoAlpha:.2}, 8)
+//				   .to($('.anim-3'), 5, {autoAlpha:0}, 13)
+//			;
+		
+		milesTL.play().timeScale(1.5);
+		
+		function repeatTL() {
+			milesTL.restart();
+		}
+		
+		var cardSlider = new WallopSlider('.slider', {
+			wSBtnPreviousClass: 'slider-btn-previous',
+			wSBtnNextClass: 'slider-btn-next',
+			wSItemClass: 'slider-item',
+			wSCurrentItemClass: 'slider-item-current',
+			wSShowPreviousClass: 'slider-item-show-previous',
+			wSShowNextClass: 'slider-item-show-next',
+			wSHidePreviousClass: 'slider-item-hide-previous',
+			wSHideNextClass: 'slider-item-hide-next',
+			wsCarousel: true,
+		});
+		
+		$(document).on('touchend, click', '.slider-item', function(){		
+			
+			if (!$(this).hasClass('slider-item-current')) {
+				var cardIndex = $(this).index() + 1;
+				
+				console.log(cardIndex);
+				
+				cardSlider.goTo(cardIndex);
+				
+				if($(this).hasClass('pink-card')) {
+					$('#container').removeClass().addClass('pink');
+				}
+				if($(this).hasClass('blue-card')) {
+					$('#container').removeClass().addClass('blue');
+				}
+				if($(this).hasClass('green-card')) {
+					$('#container').removeClass().addClass('green');
+				}
+				
+//				var cardTL = new TimelineLite({paused:true, onComplete:addLast});
+//				
+//				cardTL.to($('.slider-item'), .25, {top:"-1.25rem"})
+//					  .to($('.slider-item-current'), .25, {top:"-20rem"}, 0)
+//					  .to($('.slider-item-current'), .25, {top:"0"})
+//					  .to($('.slider-item-hide-previous, .slider-item-hide-next'), .25, {top:"-.75rem"}, 0)
+//				;
+//				
+//				cardTL.play();
+								
+			}
+			
+		});
+	    
+	});
+    
+	</script>
+
+</body>
+</html>
