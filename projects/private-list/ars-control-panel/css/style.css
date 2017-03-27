@@ -1,0 +1,445 @@
+@font-face {
+    font-family: 'GibsonRegular';
+    src: url('../fonts/Gibson-Regular-webfont.eot');
+    src: url('../fonts/Gibson-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Regular-webfont.woff') format('woff'),
+         url('../fonts/Gibson-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-Regular-webfont.svg#GibsonRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GibsonLight';
+    src: url('../fonts/Gibson-Light-webfont.eot');
+    src: url('../fonts/Gibson-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Light-webfont.woff') format('woff'),
+         url('../fonts/Gibson-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-Light-webfont.svg#GibsonLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GibsonSemiBold';
+    src: url('../fonts/Gibson-SemiBold-webfont.eot');
+    src: url('../fonts/Gibson-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-SemiBold-webfont.woff') format('woff'),
+         url('../fonts/Gibson-SemiBold-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-SemiBold-webfont.svg#GibsonLightBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GibsonBold';
+    src: url('../fonts/Gibson-Bold-webfont.eot');
+    src: url('../fonts/Gibson-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Bold-webfont.woff') format('woff'),
+         url('../fonts/Gibson-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-Bold-webfont.svg#GibsonBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'WeatherIcons';
+    src: url('../fonts/artill_clean_icons-webfont.eot');
+    src: url('../fonts/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/artill_clean_icons-webfont.woff') format('woff'),
+         url('../fonts/artill_clean_icons-webfont.ttf') format('truetype'),
+         url('../fonts/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Launchpad';
+	src:url('../fonts/launchpad.eot?-9vxtoa');
+	src:url('../fonts/launchpad.eot?#iefix-9vxtoa') format('embedded-opentype'),
+		url('../fonts/launchpad.woff?-9vxtoa') format('woff'),
+		url('../fonts/launchpad.ttf?-9vxtoa') format('truetype'),
+		url('../fonts/launchpad.svg?-9vxtoa#launchpad') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'launchpad';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-account_ico:before {
+	content: "\31";
+}
+.icon-copy_ico:before {
+	content: "\32";
+}
+.icon-design_ico:before {
+	content: "\33";
+}
+.icon-dev_ico:before {
+	content: "\34";
+}
+.icon-down-arrow_ico:before {
+	content: "\39";
+}
+.icon-edit_ico:before {
+	content: "\38";
+}
+.icon-global_ico:before {
+	content: "\35";
+}
+.icon-ux_ico:before {
+	content: "\36";
+}
+.icon-whiteboard_ico:before {
+	content: "\37";
+}
+body, html {
+	font-family: 'GibsonRegular';
+	height: 100%;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body {
+	background: #fefefe; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fefefe 0%, #f2f2f2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fefefe 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fefefe 0%,#f2f2f2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fefefe 0%,#f2f2f2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fefefe 0%,#f2f2f2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+	
+}
+a {
+	color: #0e4a69;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: none;
+}
+#page {
+	padding: 0;
+	height: 100%;
+	position: absolute;
+	padding-top: 45px;
+	width: 100%;
+	top: 0;
+}
+#page > .row {
+	height: 100%;
+	top: 0;
+/*	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;*/
+}
+.row {
+	max-width: 100%;
+	position: relative;
+}
+.row > div .panel {
+	min-height: 200px;
+}
+.column, .columns {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+}
+
+
+.top-bar {
+	background: #222;
+	text-transform: lowercase;
+	z-index: 600;
+}
+/*.top-bar-section .left {
+	margin: 0 0 0 20px;
+}*/
+.top-bar-section .left li a {
+	font-size: .85rem;
+	line-height: 30px;
+}
+.top-bar-section .left li:last-child a {
+/*	padding-right: 0;*/
+}
+.top-bar-section .left li a span {
+	font-size: .6rem;
+	background: #d62680;
+	padding: 3px 8px;
+	border-radius: 10px;
+	top: -1px;
+	position: relative;
+	margin: 0 0 0 5px;
+}
+
+
+.utility-bar {
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+}
+#weather .condition-icon {
+	font-family: 'WeatherIcons';
+	font-size: 3rem;
+	line-height: 2.5rem;
+}
+#weather .temperature {
+	font-size: 1.5rem;
+	position: relative;
+	top: -2px;
+}
+#weather .location {
+	font-size: .9rem;
+	position: relative;
+	top: -2px;
+	text-transform: lowercase;
+}
+.utility-bar .date, .utility-bar .availability {
+	text-align: center;
+	line-height: 2.8em;
+}
+.utility-bar .availability {
+	font-size: .8rem;
+	line-height: 3.6em;
+	float: right;
+}
+.utility-bar .availability .available {
+	background: #8cd34d;
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	border-radius: 50%;
+	position: relative;
+	top: 2px;
+	margin: 0 3px 0 0;
+}
+
+
+.top-bar h1 a {
+	font-size: 1.3rem;
+}
+#ars-logo {
+	width: 25px;
+	height: 25px;
+	top: 7px;
+	position: relative;
+}
+
+#whiteboard {
+	padding: 0;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	background: #fff;
+	overflow: hidden;
+}
+#whiteboard h3 {
+	padding: 0 15px;
+	margin: 0;
+	height: 40px;
+	background: #d62680;
+	color: #fff;
+	text-transform: lowercase;
+	line-height: 2.5rem;
+	font-size: 1.3rem;
+	position: relative;
+	z-index: 500;
+}
+#whiteboard h3 span {
+	position: relative;
+	top: 2px;
+	margin: 0 5px 0 0;
+}
+.whiteboard-nav {
+	background: #f4f4f4;
+	border-bottom: 1px solid #ccc;
+	max-height: 46px;
+	overflow: hidden;
+	position: relative;
+	z-index: 500;
+}
+.whiteboard-nav li {
+	font-size: .5em;
+	padding: 9px;
+	text-align: center;
+	font-family: 'Launchpad', sans-serif;
+	border-right: 1px solid #ccc;
+}
+.whiteboard-nav li:last-child {
+	border: none;
+}
+.whiteboard-nav li span {
+	font-size: 1.5rem;
+	color: #b1b1b1;
+}
+#whiteboard .post-list {
+	height: 100%;
+	overflow-y: scroll;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 85px;
+	padding-bottom: 35px;
+}
+#whiteboard .post-list li {
+	padding: 15px;
+	line-height: 1rem;
+}
+#whiteboard .post-list li:nth-child(2n) {
+	background: #f4f4f4;
+}
+#whiteboard .post-list li > p {
+	margin: 0 0 5px 0;
+	line-height: 1.3rem;
+	font-family: 'GibsonLight', sans-serif;
+}
+#whiteboard .post-list li a {
+	font-size: .8rem;
+	line-height: .5rem;
+	text-decoration: underline;
+}
+#whiteboard .user-info {
+	margin: 15px 0 0 0;
+}
+#whiteboard .user-info .user-name {
+	text-decoration: none;
+	color: #888;
+	font-family: 'GibsonSemiBold', sans-serif;
+	font-size: .8rem;
+}
+#whiteboard .user-info img {
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	border-radius: 50%;
+	margin: 0 3px 0 0;
+}
+#whiteboard .user-info .post-time {
+	display: inline;
+	float: right;
+	font-size: .8rem;
+	line-height: 1.6rem;
+	color: #aaa;
+}
+#whiteboard .new-post {
+	position: absolute;
+	bottom: 0;
+	z-index: 500;
+	background: #333;
+	color: #fff;
+	padding: 10px 15px;
+	width: 100%;
+	height: 40px;
+}
+#whiteboard .new-post span {
+	position: relative;
+	top: 2px;
+	margin: 0 5px 0 0;
+}
+
+#main-content {
+	height: 100%;
+	background: url('../img/bg-flourish.png') no-repeat 50px top;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-bottom: 2rem;
+}
+
+.row.announcements {
+	margin-bottom: 2rem;
+}
+.announcements h3 {
+	font-size: 3rem;
+	color: #d62680;
+	line-height: 2rem;
+	float: none;
+	padding: 3rem 0 1rem 10rem;
+	font-family: 'GibsonLight', sans-serif;
+}
+.announcements h3 span {
+	display: block;
+	color: #333;
+	font-size: 1.75rem;
+}
+.announcements .new-members {
+	position: relative;
+	right: 0rem;
+	float: right;
+	padding: 0 2rem;
+}
+.announcements .new-members .member-info {
+	background: #333;
+	color: #fff;
+	padding: 5px 10px;
+}
+.announcements .new-members .member-info h4 {
+	font-size:.8rem;
+	color: #fff;
+	margin: 0;
+}
+.announcements .new-members .member-info p {
+	font-size: .6rem;
+	margin: 0;
+}
+
+.time-tracking, .projects {
+	padding: 1rem 2rem;
+	background: #fff;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 1rem !important;
+}
+.time-tracking h3, .projects h3 {
+	color: #d62680;
+	font-size: 1.5rem;
+/*	font-family: 'GibsonRegular', sans-serif;*/
+}
+.time-tracking h3 {
+	background: url('../img/harvest.png') no-repeat right center;
+}
+.projects h3 {
+	background: url('../img/activecollab.png') no-repeat right center;
+}
+.time-tracking .button {
+	background: #d62680;
+	padding: .7rem 1.2rem;
+	font-size: .8rem;
+}
+.time-tracking > div h4, .projects > div h4 {
+	font-size: 1rem;
+	font-family: 'GibsonSemiBold', sans-serif;
+	color: #888;
+	margin: .2rem 0 .8rem 0;
+}
+.time-tracking .hours-list p {
+	font-size: .9rem;
+	line-height: 1.2rem;
+	font-weight: normal;
+}
+.time-tracking .hours-list p span {
+	display: block;
+}
+.time-tracking .hours-list > ul > li > div {
+	padding-left: 0;
+}
+.projects ul li {
+	padding: .5rem 1rem;
+	background: #f4f4f4;
+	font-size: .9rem;
+}
+.projects ul li:nth-child(2n) {
+	background: none;
+}
+.projects .due-date {
+	font-size: .8rem;
+	line-height: 1.4rem;
+	color: #d62680;
+}
+.projects .client-name {
+	line-height: 1.4rem;
+	font-family: 'GibsonSemiBold', sans-serif;
+	color: #888;
+}

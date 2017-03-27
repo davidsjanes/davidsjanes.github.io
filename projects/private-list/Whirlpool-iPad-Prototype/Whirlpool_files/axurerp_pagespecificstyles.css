@@ -1,0 +1,3036 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+#u0 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:749px;
+    overflow:hidden;
+}
+
+#pd0u0 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:749px;
+    
+}
+
+#u1 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:749px;
+    overflow:hidden;
+}
+
+#pd1u1 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:749px;
+    
+}
+
+#u2 {
+    position:absolute;
+    left:0px;
+    top:60px;
+    width:1025px;
+    height:689px;
+    overflow:hidden;
+}
+
+#pd5u2 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:689px;
+    
+}
+
+.u3_normal {
+    background-image: url('../Whirlpool_files/u3_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:640px;
+}
+
+#u3_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:640px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:312px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd4u2 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:689px;
+    
+}
+
+#pd3u2 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:689px;
+    
+}
+
+.u5_normal {
+    background-image: url('../Whirlpool_files/u5_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:687px;
+}
+
+#u5_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:687px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:336px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd2u2 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:689px;
+    
+}
+
+#u7 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:688px;
+    overflow:hidden;
+}
+
+#pd1u7 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:688px;
+    
+}
+
+#u8 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:657px;
+    overflow:hidden;
+}
+
+#pd1u8 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:657px;
+    
+}
+
+.u9_normal {
+    background-image: url('../Whirlpool_files/u9_normal.png');
+}
+
+.u9_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:656px;
+}
+
+#u9_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:656px;
+}
+
+.u10 {
+    position:absolute;
+    left:2px;
+    top:320px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u8 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:657px;
+    
+}
+
+.u11_normal {
+    background-image: url('../Whirlpool_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:656px;
+}
+
+#u11_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:656px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:320px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u13 {
+    position:absolute;
+    left:964px;
+    top:0px;
+    width:60px;
+    height:60px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u7 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:688px;
+    
+}
+
+#u14 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:587px;
+    overflow:hidden;
+}
+
+#pd2u14 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:587px;
+    
+}
+
+#u15 {
+    position:absolute;
+    left:0px;
+    top:30px;
+    width:1025px;
+    height:557px;
+    overflow:hidden;
+}
+
+#pd1u15 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:557px;
+    
+}
+
+.u16_normal {
+    background-image: url('../Whirlpool_files/u16_normal.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:598px;
+}
+
+#u16_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:598px;
+}
+
+.u17 {
+    position:absolute;
+    left:2px;
+    top:291px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u18 {
+    position:absolute;
+    left:545px;
+    top:40px;
+    width:99px;
+    height:32px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u15 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:557px;
+    
+}
+
+.u19_normal {
+    background-image: url('../Whirlpool_files/u19_normal.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:530px;
+}
+
+#u19_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:530px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:257px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u21 {
+    position:absolute;
+    left:655px;
+    top:39px;
+    width:118px;
+    height:33px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd1u14 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:587px;
+    
+}
+
+#u22 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:587px;
+    overflow:hidden;
+}
+
+#pd0u22 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:587px;
+    
+}
+
+.u23_normal {
+    background-image: url('../Whirlpool_files/u23_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:633px;
+    top:125px;
+    width:308px;
+    height:585px;
+}
+
+#u23_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:308px;
+    height:585px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:284px;
+    width:304px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_normal {
+    background-image: url('../Whirlpool_files/u25_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:669px;
+    top:204px;
+    width:252px;
+    height:253px;
+}
+
+#u25_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:252px;
+    height:253px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:118px;
+    width:248px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../Whirlpool_files/u27_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:0px;
+    top:30px;
+    width:1024px;
+    height:46px;
+}
+
+#u27_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:46px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u29 {
+    position:absolute;
+    left:37px;
+    top:125px;
+    width:508px;
+    height:83px;
+    overflow:hidden;
+}
+
+#pd0u29 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:508px;
+    height:83px;
+    
+}
+
+.u30_normal {
+    background-image: url('../Whirlpool_files/u30_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:507px;
+    height:82px;
+}
+
+#u30_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:507px;
+    height:82px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:33px;
+    width:503px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u32 {
+    position:absolute;
+    left:37px;
+    top:248px;
+    width:483px;
+    height:113px;
+    overflow:hidden;
+}
+
+#pd0u32 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:483px;
+    height:113px;
+    
+}
+
+.u33_normal {
+    background-image: url('../Whirlpool_files/u33_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:482px;
+    height:112px;
+}
+
+#u33_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:482px;
+    height:112px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:48px;
+    width:478px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u35 {
+    position:absolute;
+    left:37px;
+    top:405px;
+    width:479px;
+    height:143px;
+    overflow:hidden;
+}
+
+#pd0u35 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:479px;
+    height:143px;
+    
+}
+
+.u36_normal {
+    background-image: url('../Whirlpool_files/u36_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:478px;
+    height:142px;
+}
+
+#u36_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:478px;
+    height:142px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:63px;
+    width:474px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u14 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:587px;
+    
+}
+
+#u38 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:587px;
+    overflow:hidden;
+}
+
+#pd0u38 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:587px;
+    
+}
+
+.u39_normal {
+    background-image: url('../Whirlpool_files/u39_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:18px;
+    top:8px;
+    width:994px;
+    height:542px;
+}
+
+#u39_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:994px;
+    height:542px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:263px;
+    width:990px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u41 {
+    position:absolute;
+    left:8px;
+    top:8px;
+    width:62px;
+    height:59px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u42 {
+    position:absolute;
+    left:969px;
+    top:0px;
+    width:54px;
+    height:50px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u43 {
+    position:absolute;
+    left:0px;
+    top:464px;
+    width:1025px;
+    height:224px;
+    overflow:hidden;
+}
+
+#pd0u43 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:224px;
+    
+}
+
+#u44 {
+    position:absolute;
+    left:0px;
+    top:123px;
+    width:1025px;
+    height:173px;
+    overflow:hidden;
+}
+
+#pd0u44 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:173px;
+    
+}
+
+.u45_normal {
+    background-image: url('../Whirlpool_files/u45_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:172px;
+}
+
+#u45_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:172px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:78px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u47 {
+    position:absolute;
+    left:0px;
+    top:49px;
+    width:1025px;
+    height:124px;
+    overflow:hidden;
+}
+
+#pd1u47 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:124px;
+    
+}
+
+.u48_normal {
+    background-image: url('../Whirlpool_files/u48_normal.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:12px;
+    top:12px;
+    width:541px;
+    height:100px;
+}
+
+#u48_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:541px;
+    height:100px;
+}
+
+.u49 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:537px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u50 {
+    position:absolute;
+    left:12px;
+    top:12px;
+    width:101px;
+    height:101px;
+    overflow:hidden;
+}
+
+#pd1u50 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:101px;
+    height:101px;
+    
+}
+
+.u51_normal {
+    background-image: url('../Whirlpool_files/u51_normal.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+#u51_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u50 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:101px;
+    height:101px;
+    
+}
+
+.u53_normal {
+    background-image: url('../Whirlpool_files/u53_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+#u53_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u47 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:124px;
+    
+}
+
+.u55_normal {
+    background-image: url('../Whirlpool_files/u55_normal.png');
+}
+
+.u55_container {
+    position:absolute;
+    left:12px;
+    top:12px;
+    width:541px;
+    height:100px;
+}
+
+#u55_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:541px;
+    height:100px;
+}
+
+.u56 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:537px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u57 {
+    position:absolute;
+    left:12px;
+    top:11px;
+    width:101px;
+    height:101px;
+    overflow:hidden;
+}
+
+#pd1u57 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:101px;
+    height:101px;
+    
+}
+
+.u58_normal {
+    background-image: url('../Whirlpool_files/u58_normal.png');
+}
+
+.u58_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+#u58_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+.u59 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u57 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:101px;
+    height:101px;
+    
+}
+
+.u60_normal {
+    background-image: url('../Whirlpool_files/u60_normal.png');
+}
+
+.u60_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+#u60_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+.u61 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u62 {
+    position:absolute;
+    left:122px;
+    top:11px;
+    width:101px;
+    height:101px;
+    overflow:hidden;
+}
+
+#pd1u62 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:101px;
+    height:101px;
+    
+}
+
+.u63_normal {
+    background-image: url('../Whirlpool_files/u63_normal.png');
+}
+
+.u63_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+#u63_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+.u64 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u62 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:101px;
+    height:101px;
+    
+}
+
+.u65_normal {
+    background-image: url('../Whirlpool_files/u65_normal.png');
+}
+
+.u65_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+#u65_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:100px;
+}
+
+.u66 {
+    position:absolute;
+    left:2px;
+    top:42px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u67 {
+    position:absolute;
+    left:0px;
+    top:1px;
+    width:257px;
+    height:49px;
+    overflow:hidden;
+}
+
+#pd2u67 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:49px;
+    
+}
+
+#u68 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:49px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd1u67 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:49px;
+    
+}
+
+.u69_normal {
+    background-image: url('../Whirlpool_files/u69_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:48px;
+}
+
+#u69_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:48px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:252px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u67 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:49px;
+    
+}
+
+.u71_normal {
+    background-image: url('../Whirlpool_files/u69_normal.png');
+}
+
+.u71_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:48px;
+}
+
+#u71_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:48px;
+}
+
+.u72 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:252px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u73 {
+    position:absolute;
+    left:256px;
+    top:1px;
+    width:254px;
+    height:49px;
+    overflow:hidden;
+}
+
+#pd2u73 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:254px;
+    height:49px;
+    
+}
+
+.u74_normal {
+    background-image: url('../Whirlpool_files/u74_normal.png');
+}
+
+.u74_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:253px;
+    height:48px;
+}
+
+#u74_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:253px;
+    height:48px;
+}
+
+.u75 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:249px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd1u73 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:254px;
+    height:49px;
+    
+}
+
+.u76_normal {
+    background-image: url('../Whirlpool_files/u74_normal.png');
+}
+
+.u76_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:253px;
+    height:48px;
+}
+
+#u76_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:253px;
+    height:48px;
+}
+
+.u77 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:249px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u73 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:254px;
+    height:49px;
+    
+}
+
+#u78 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:252px;
+    height:48px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u79 {
+    position:absolute;
+    left:0px;
+    top:172px;
+    width:1025px;
+    height:174px;
+    overflow:hidden;
+}
+
+#pd0u79 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:174px;
+    
+}
+
+.u80_normal {
+    background-image: url('../Whirlpool_files/u80_normal.png');
+}
+
+.u80_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:173px;
+}
+
+#u80_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:173px;
+}
+
+.u81 {
+    position:absolute;
+    left:2px;
+    top:78px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u82 {
+    position:absolute;
+    left:121px;
+    top:63px;
+    width:98px;
+    height:98px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd1u2 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:689px;
+    
+}
+
+#u83 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:688px;
+    overflow:hidden;
+}
+
+#pd0u83 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:688px;
+    
+}
+
+#u84 {
+    position:absolute;
+    left:256px;
+    top:0px;
+    width:769px;
+    height:637px;
+    overflow:hidden;
+}
+
+#pd1u84 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:769px;
+    height:637px;
+    
+}
+
+.u85_normal {
+    background-image: url('../Whirlpool_files/u85_normal.png');
+}
+
+.u85_container {
+    position:absolute;
+    left:0px;
+    top:20px;
+    width:769px;
+    height:809px;
+}
+
+#u85_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:769px;
+    height:809px;
+}
+
+.u86 {
+    position:absolute;
+    left:2px;
+    top:396px;
+    width:765px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u87 {
+    position:absolute;
+    left:0px;
+    top:79px;
+    width:769px;
+    height:151px;
+    overflow:hidden;
+}
+
+#pd0u87 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:769px;
+    height:151px;
+    
+}
+
+.u88_normal {
+    background-image: url('../Whirlpool_files/u88_normal.png');
+}
+
+.u88_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:768px;
+    height:150px;
+}
+
+#u88_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:768px;
+    height:150px;
+}
+
+.u89 {
+    position:absolute;
+    left:2px;
+    top:67px;
+    width:764px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u90 {
+    position:absolute;
+    left:578px;
+    top:169px;
+    width:120px;
+    height:40px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u84 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:769px;
+    height:637px;
+    
+}
+
+.u91_normal {
+    background-image: url('../Whirlpool_files/u91_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:20px;
+    top:20px;
+    width:728px;
+    height:697px;
+}
+
+#u91_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:728px;
+    height:697px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:340px;
+    width:724px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u93 {
+    position:absolute;
+    left:-512px;
+    top:0px;
+    width:769px;
+    height:637px;
+    overflow:hidden;
+}
+
+#pd0u93 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:769px;
+    height:637px;
+    
+}
+
+#u94 {
+    position:absolute;
+    left:-2px;
+    top:0px;
+    width:258px;
+    height:637px;
+    overflow:hidden;
+}
+
+#pd0u94 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:258px;
+    height:637px;
+    
+}
+
+.u95_normal {
+    background-image: url('../Whirlpool_files/u95_normal.png');
+}
+
+.u95_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:636px;
+}
+
+#u95_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:636px;
+}
+
+.u96 {
+    position:absolute;
+    left:2px;
+    top:310px;
+    width:253px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u97 {
+    position:absolute;
+    left:0px;
+    top:101px;
+    width:258px;
+    height:50px;
+    overflow:hidden;
+}
+
+#pd1u97 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:258px;
+    height:50px;
+    
+}
+
+.u98_normal {
+    background-image: url('../Whirlpool_files/u98_normal.png');
+}
+
+.u98_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:49px;
+}
+
+#u98_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:49px;
+}
+
+.u99 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:253px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u97 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:258px;
+    height:50px;
+    
+}
+
+#u100 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:50px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u101 {
+    position:absolute;
+    left:205px;
+    top:0px;
+    width:50px;
+    height:50px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u102 {
+    position:absolute;
+    left:-1px;
+    top:0px;
+    width:257px;
+    height:637px;
+    overflow:hidden;
+}
+
+#pd0u102 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:637px;
+    
+}
+
+.u103_normal {
+    background-image: url('../Whirlpool_files/u103_normal.png');
+}
+
+.u103_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:636px;
+}
+
+#u103_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:636px;
+}
+
+.u104 {
+    position:absolute;
+    left:2px;
+    top:310px;
+    width:252px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u105 {
+    position:absolute;
+    left:0px;
+    top:151px;
+    width:256px;
+    height:50px;
+    overflow:hidden;
+}
+
+#pd1u105 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:50px;
+    
+}
+
+.u106_normal {
+    background-image: url('../Whirlpool_files/u106_normal.png');
+}
+
+.u106_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:255px;
+    height:49px;
+}
+
+#u106_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:255px;
+    height:49px;
+}
+
+.u107 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:251px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u105 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:50px;
+    
+}
+
+#u108 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:254px;
+    height:49px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u109 {
+    position:absolute;
+    left:205px;
+    top:0px;
+    width:50px;
+    height:50px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+.u110_normal {
+    background-image: url('../Whirlpool_files/u110_normal.png');
+}
+
+.u110_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:255px;
+    height:636px;
+}
+
+#u110_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:255px;
+    height:636px;
+}
+
+.u111 {
+    position:absolute;
+    left:2px;
+    top:310px;
+    width:251px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u112 {
+    position:absolute;
+    left:205px;
+    top:0px;
+    width:50px;
+    height:50px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u113 {
+    position:absolute;
+    left:0px;
+    top:101px;
+    width:255px;
+    height:50px;
+    overflow:hidden;
+}
+
+#pd1u113 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:255px;
+    height:50px;
+    
+}
+
+.u114_normal {
+    background-image: url('../Whirlpool_files/u114_normal.png');
+}
+
+.u114_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:254px;
+    height:49px;
+}
+
+#u114_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:254px;
+    height:49px;
+}
+
+.u115 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:250px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u113 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:255px;
+    height:50px;
+    
+}
+
+#u116 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:252px;
+    height:49px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u117 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:637px;
+    overflow:hidden;
+}
+
+#pd0u117 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:257px;
+    height:637px;
+    
+}
+
+.u118_normal {
+    background-image: url('../Whirlpool_files/u118_normal.png');
+}
+
+.u118_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:636px;
+}
+
+#u118_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:636px;
+}
+
+.u119 {
+    position:absolute;
+    left:2px;
+    top:310px;
+    width:252px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u120 {
+    position:absolute;
+    left:0px;
+    top:392px;
+    width:256px;
+    height:50px;
+    overflow:hidden;
+}
+
+#pd1u120 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:50px;
+    
+}
+
+#u121 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:254px;
+    height:49px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u120 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:50px;
+    
+}
+
+.u122_normal {
+    background-image: url('../Whirlpool_files/u122_normal.png');
+}
+
+.u122_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:255px;
+    height:49px;
+}
+
+#u122_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:255px;
+    height:49px;
+}
+
+.u123 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:251px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u124 {
+    position:absolute;
+    left:0px;
+    top:492px;
+    width:256px;
+    height:50px;
+    overflow:hidden;
+}
+
+#pd1u124 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:50px;
+    
+}
+
+.u125_normal {
+    background-image: url('../Whirlpool_files/u125_normal.png');
+}
+
+.u125_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:255px;
+    height:49px;
+}
+
+#u125_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:255px;
+    height:49px;
+}
+
+.u126 {
+    position:absolute;
+    left:2px;
+    top:16px;
+    width:251px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u124 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:50px;
+    
+}
+
+#u127 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:256px;
+    height:48px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u2 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:689px;
+    
+}
+
+.u128_normal {
+    background-image: url('../Whirlpool_files/u128_normal.png');
+}
+
+.u128_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:688px;
+}
+
+#u128_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:688px;
+}
+
+.u129 {
+    position:absolute;
+    left:2px;
+    top:336px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u130 {
+    position:absolute;
+    left:0px;
+    top:64px;
+    width:256px;
+    height:269px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u131 {
+    position:absolute;
+    left:256px;
+    top:64px;
+    width:256px;
+    height:269px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u132 {
+    position:absolute;
+    left:512px;
+    top:64px;
+    width:256px;
+    height:269px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u133 {
+    position:absolute;
+    left:768px;
+    top:64px;
+    width:256px;
+    height:269px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u134 {
+    position:absolute;
+    left:0px;
+    top:585px;
+    width:733px;
+    height:50px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u135 {
+    position:absolute;
+    left:0px;
+    top:697px;
+    width:1025px;
+    height:173px;
+    overflow:hidden;
+}
+
+#pd1u135 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:173px;
+    
+}
+
+.u136_normal {
+    background-image: url('../Whirlpool_files/u80_normal.png');
+}
+
+.u136_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:173px;
+}
+
+#u136_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:173px;
+}
+
+.u137 {
+    position:absolute;
+    left:2px;
+    top:78px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u138 {
+    position:absolute;
+    left:844px;
+    top:0px;
+    width:123px;
+    height:51px;
+    overflow:hidden;
+}
+
+#pd1u138 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:123px;
+    height:51px;
+    
+}
+
+#u139 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:122px;
+    height:50px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u138 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:123px;
+    height:51px;
+    
+}
+
+#u140 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:122px;
+    height:50px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u135 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:173px;
+    
+}
+
+#u141 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:62px;
+    overflow:hidden;
+}
+
+#pd0u141 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:62px;
+    
+}
+
+.u142_normal {
+    background-image: url('../Whirlpool_files/u142_normal.png');
+}
+
+.u142_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+#u142_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+.u143 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u144 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:62px;
+    overflow:hidden;
+}
+
+#pd5u144 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:62px;
+    
+}
+
+.u145_normal {
+    background-image: url('../Whirlpool_files/u145_normal.png');
+}
+
+.u145_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+#u145_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+.u146 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd4u144 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:62px;
+    
+}
+
+.u147_normal {
+    background-image: url('../Whirlpool_files/u147_normal.png');
+}
+
+.u147_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+#u147_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+.u148 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd3u144 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:62px;
+    
+}
+
+.u149_normal {
+    background-image: url('../Whirlpool_files/u149_normal.png');
+}
+
+.u149_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+#u149_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+.u150 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd2u144 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:62px;
+    
+}
+
+.u151_normal {
+    background-image: url('../Whirlpool_files/u151_normal.png');
+}
+
+.u151_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+#u151_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+.u152 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd1u144 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:62px;
+    
+}
+
+.u153_normal {
+    background-image: url('../Whirlpool_files/u153_normal.png');
+}
+
+.u153_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+#u153_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:61px;
+}
+
+.u154 {
+    position:absolute;
+    left:2px;
+    top:22px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#pd0u144 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:62px;
+    
+}
+
+#u155 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:60px;
+    height:60px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u156 {
+    position:absolute;
+    left:65px;
+    top:0px;
+    width:60px;
+    height:60px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u157 {
+    position:absolute;
+    left:129px;
+    top:0px;
+    width:60px;
+    height:60px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u158 {
+    position:absolute;
+    left:193px;
+    top:0px;
+    width:60px;
+    height:60px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#u159 {
+    position:absolute;
+    left:257px;
+    top:0px;
+    width:60px;
+    height:60px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
+#pd0u1 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1025px;
+    height:749px;
+    
+}
+
+.u160_normal {
+    background-image: url('../Whirlpool_files/u160_normal.png');
+}
+
+.u160_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:748px;
+}
+
+#u160_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1024px;
+    height:748px;
+}
+
+.u161 {
+    position:absolute;
+    left:2px;
+    top:366px;
+    width:1020px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u162 {
+    position:absolute;
+    left:309px;
+    top:352px;
+    width:400px;
+    height:45px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 21px;
+    color:#6B6B6B;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u163 {
+    position:absolute;
+    left:309px;
+    top:407px;
+    width:400px;
+    height:45px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 21px;
+    color:#6B6B6B;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+#u164 {
+    position:absolute;
+    left:564px;
+    top:462px;
+    width:158px;
+    height:57px;
+    ;
+    ;
+    ;
+    background-image: url('../resources/images/transparent.gif');
+    overflow:hidden;
+}
+
