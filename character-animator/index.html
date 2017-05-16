@@ -19,19 +19,25 @@ var player = document.getElementById('player');
 var rotateValue;
 
 function rotatePlayer() {
-	TweenMax.set(player, {rotation: rotateValue});
+	TweenMax.to(player,.2 , {rotation: rotateValue});
 }
 
 function swingSword() {
-	TweenMax.fromTo(player, .25, {backgroundPosition:"0 0"}, {backgroundPosition:"0 -1600px", ease:SteppedEase.config(4), onComplete:resetPosition});
+	TweenMax.fromTo(player, .25, {backgroundPosition:"0 0"}, {backgroundPosition:"-1024px 0", ease:SteppedEase.config(4), onComplete:resetPosition});
+}
+function shootGun() {
+	TweenMax.fromTo(player, .25, {backgroundPosition:"-1280px 0"}, {backgroundPosition:"-1792px 0", ease:SteppedEase.config(2)});
 }
 
 function resetPosition() {
-	TweenMax.set(player, {backgroundPosition:"0 0", delay:.2});
+	TweenMax.set(player, {backgroundPosition:"0 0", delay:.25});
 }
 
-Mousetrap.bind('s', function() {
+Mousetrap.bind('a', function() {
 	swingSword();
+});
+Mousetrap.bind('s', function() {
+	shootGun();
 });
 Mousetrap.bind('right', function() {
 	window.rotateValue = 90;

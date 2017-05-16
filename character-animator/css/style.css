@@ -27,6 +27,6 @@ body {
 	position: relative;
 	width: 25.6rem;
 	height: 40rem;
-	background: url('../images/player-sword-sprite.png');
+	background: url('../images/player-sprite.png');
 	transform-origin: 50% 65%;
 }
