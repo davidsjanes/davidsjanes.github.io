@@ -23,8 +23,10 @@ body {
 .animate {
 	overflow: hidden;
 }
-#swordSwing {
+#player {
+	position: relative;
 	width: 25.6rem;
 	height: 40rem;
 	background: url('../images/player-sword-sprite.png');
+	transform-origin: 50% 65%;
 }
