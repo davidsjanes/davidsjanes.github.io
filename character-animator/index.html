@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Character Animator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <div data-key="83" id="swordSwing" class="animate key"></div>
+</div>
+
+<script src="js/greensock-js/src/minified/TweenMax.min.js"></script>
+<script src="js/mousetrap.min.js"></script>
+
+<script>
+
+var swordSwing = document.getElementById('swordSwing');
+
+function swingSword() {
+	TweenMax.fromTo(swordSwing, .25, {backgroundPosition:"0 0"}, {backgroundPosition:"0 -1600px", ease:SteppedEase.config(4), onComplete:resetPosition});
+}
+
+function resetPosition() {
+	TweenMax.set(swordSwing, {backgroundPosition:"0 0", delay:.2});
+}
+
+Mousetrap.bind('s', function() {
+	swingSword();
+});
+
+</script>
+
+</body>
+</html>
