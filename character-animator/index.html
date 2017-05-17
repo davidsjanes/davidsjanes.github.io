@@ -23,10 +23,10 @@ function rotatePlayer() {
 }
 
 function swingSword() {
-	TweenMax.fromTo(player, .25, {backgroundPosition:"0 0"}, {backgroundPosition:"-1024px 0", ease:SteppedEase.config(4), onComplete:resetPosition});
+	TweenMax.fromTo(player, .25, {backgroundPosition:"0 0"}, {backgroundPosition:"0 -1600px", ease:SteppedEase.config(4), onComplete:resetPosition});
 }
 function shootGun() {
-	TweenMax.fromTo(player, .25, {backgroundPosition:"-1280px 0"}, {backgroundPosition:"-1792px 0", ease:SteppedEase.config(2)});
+	TweenMax.fromTo(player, .25, {backgroundPosition:"-256px 0"}, {backgroundPosition:"-256px -1200px", ease:SteppedEase.config(3)});
 }
 
 function resetPosition() {
