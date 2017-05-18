@@ -8,7 +8,7 @@ body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
-	background: #aaa;
+	background: url('../images/floor-tile.png')
 }
 .container {
 	width: 100%;
@@ -29,4 +29,13 @@ body {
 	height: 40rem;
 	background: url('../images/player-sprite.png');
 	transform-origin: 50% 65%;
+}
+#shootGoon {
+	width: 25.6rem;
+	height: 20rem;
+	background: url('../images/shoot-goon.png');
+	position: absolute;
+	top:1rem;
+	right: 2rem;
+	transform: rotate(-135deg);
 }
