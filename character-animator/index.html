@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
+<div id="scene" class="container">
   <div id="player" class="animate"></div>
   <div id="shootGoon"></div>
 </div>
@@ -17,6 +17,7 @@
 <script>
 
 var player = document.getElementById('player');
+var scene = document.getElementById('scene');
 var rotateValue;
 
 function rotatePlayer() {
@@ -25,13 +26,16 @@ function rotatePlayer() {
 
 function swingSword() {
 	TweenMax.fromTo(player, .25, {backgroundPosition:"0 0"}, {backgroundPosition:"0 -1600px", ease:SteppedEase.config(4), onComplete:resetPosition});
+	TweenMax.to(scene, .75, {scale:1.1});
 }
 function shootGun() {
 	TweenMax.fromTo(player, .25, {backgroundPosition:"-256px 0"}, {backgroundPosition:"-256px -1200px", ease:SteppedEase.config(3)});
+	TweenMax.to(scene, .75, {scale:.8});
 }
 
 function resetPosition() {
 	TweenMax.set(player, {backgroundPosition:"0 0", delay:.25});
+	TweenMax.to(scene, .75,  {scale:1});
 }
 
 Mousetrap.bind('a', function() {
