@@ -31,12 +31,13 @@ body {
 	background: url('../images/player-sprite.png');
 	transform-origin: 50% 65%;
 }
-#shootGoon {
+#enemyRanged {
 	width: 25.6rem;
-	height: 20rem;
-	background: url('../images/shoot-goon.png');
+	height: 25.6rem;
+	background: url('../images/enemy-ranged-sprite.png');
 	position: absolute;
 	top:10%;
 	right: 10%;
-	transform: rotate(-135deg);
+	transform: rotate(-90deg);
+	transform-origin: 50% 50%;
 }
