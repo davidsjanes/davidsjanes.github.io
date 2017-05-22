@@ -41,3 +41,9 @@ body {
 	transform: rotate(-90deg);
 	transform-origin: 50% 50%;
 }
+#muzzleFlash {
+	position: absolute;
+	left: 11.1rem;
+	top: -3.5rem;
+	
+}
