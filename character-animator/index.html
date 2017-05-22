@@ -47,10 +47,10 @@ var enemyRangedTL = new TimelineMax({repeat:-1});
 
 enemyRangedTL.fromTo(enemyRanged, .5, {backgroundPosition:"0 0"}, {backgroundPosition:"-1792px 0", repeat:5, ease:SteppedEase.config(7)}, 0);
 enemyRangedTL.fromTo(enemyRanged, 3, {left:"100%"}, {left:"45%", ease:Power0.easeNone}, 0);
-enemyRangedTL.fromTo(enemyRanged, .5, {backgroundPosition:"0 -256px"}, {backgroundPosition:"-1024px -256px", ease:SteppedEase.config(4)});
+enemyRangedTL.fromTo(enemyRanged, .25, {backgroundPosition:"0 -256px"}, {backgroundPosition:"-1024px -256px", ease:SteppedEase.config(4)});
 enemyRangedTL.fromTo(muzzleFlash, .1, {opacity:0}, {opacity:1}, "+=.5");
 enemyRangedTL.to(muzzleFlash, .1, {opacity:0});
-enemyRangedTL.to(enemyRanged, .5,{backgroundPosition:"0 -256px", ease:SteppedEase.config(4)}, "+=.5");
+enemyRangedTL.to(enemyRanged, .25,{backgroundPosition:"0 -256px", ease:SteppedEase.config(4)}, "+=.5");
 enemyRangedTL.to(enemyRanged, 3, {left:"-15%", ease:Power0.easeNone});
 enemyRangedTL.fromTo(enemyRanged, .5, {backgroundPosition:"0 0"}, {backgroundPosition:"-1792px 0", repeat:5, ease:SteppedEase.config(7)}, "-=3");
 
