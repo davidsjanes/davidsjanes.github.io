@@ -18,8 +18,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: url('../images/floor-tile.png');
-	background-size: 24rem;
+	background: url('../images/floor-tile-6.png');
+	background-size: 19.2rem;
 }
 .animate {
 	overflow: hidden;
