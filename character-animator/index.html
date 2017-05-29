@@ -9,7 +9,7 @@
 <div id="scene" class="container">
   <div id="player" class="animate"></div>
   <div id="enemyRanged">
-  	<img id="muzzleFlash" src="images/ranged-enemy/muzzle-flash.png" />
+  	<img id="muzzleFlash" src="images/muzzle-flash.png" />
   </div>
 </div>
 
@@ -28,31 +28,43 @@ function rotatePlayer() {
 	TweenMax.to(player,.2 , {rotation: rotateValue});
 }
 
+var swordTL = new TimelineMax({paused:true});
+
+swordTL.set(player, {backgroundPosition: "0 0"});
+swordTL.fromTo(player, .2, {backgroundPosition:"0 0"}, {backgroundPosition:"0 -1200px", ease:SteppedEase.config(6)});
+swordTL.to(player,.2, {backgroundPosition:"0 -1800px", ease:SteppedEase.config(3)});
+
 function swingSword() {
-	TweenMax.fromTo(player, .25, {backgroundPosition:"0 0"}, {backgroundPosition:"0 -1600px", ease:SteppedEase.config(4), onComplete:resetPosition});
-	TweenMax.to(scene, .5, {scale:1.1});
+	swordTL.restart();
 }
+
+var shootTL = new TimelineMax({paused:true});
+
+shootTL.set(player, {backgroundPosition: "-128px 0"});
+shootTL.fromTo(player, .2, {backgroundPosition:"-128px 0"}, {backgroundPosition:"-128px -600px", ease:SteppedEase.config(3)});
+shootTL.to(player,.25, {backgroundPosition:"-128px -1200px", ease:SteppedEase.config(3)}, "+=.5");
 
 function shootGun() {
-	TweenMax.fromTo(player, .25, {backgroundPosition:"-256px 0"}, {backgroundPosition:"-256px -1200px", ease:SteppedEase.config(3)});
-	TweenMax.to(scene, .5, {scale:.75});
+	shootTL.restart();
 }
 
-function resetPosition() {
-	TweenMax.set(player, {backgroundPosition:"0 0", delay:.25});
-	TweenMax.to(scene, .5,  {scale:1});
+function zoomOut() {
+	TweenMax.to(scene, .5, {scale:1});
+}
+function zoomIn() {
+	TweenMax.to(scene, .5, {scale:1.5});
 }
 
 var enemyRangedTL = new TimelineMax({repeat:-1});
 
-enemyRangedTL.fromTo(enemyRanged, .5, {backgroundPosition:"0 0"}, {backgroundPosition:"-1792px 0", repeat:5, ease:SteppedEase.config(7)}, 0);
+enemyRangedTL.fromTo(enemyRanged, .5, {backgroundPosition:"0 0"}, {backgroundPosition:"-896px 0", repeat:5, ease:SteppedEase.config(7)}, 0);
 enemyRangedTL.fromTo(enemyRanged, 3, {left:"100%"}, {left:"45%", ease:Power0.easeNone}, 0);
-enemyRangedTL.fromTo(enemyRanged, .25, {backgroundPosition:"0 -256px"}, {backgroundPosition:"-1024px -256px", ease:SteppedEase.config(4)});
+enemyRangedTL.fromTo(enemyRanged, .25, {backgroundPosition:"0 -128px"}, {backgroundPosition:"-512px -128px", ease:SteppedEase.config(4)});
 enemyRangedTL.fromTo(muzzleFlash, .1, {opacity:0}, {opacity:1}, "+=.5");
 enemyRangedTL.to(muzzleFlash, .1, {opacity:0});
-enemyRangedTL.to(enemyRanged, .25,{backgroundPosition:"0 -256px", ease:SteppedEase.config(4)}, "+=.5");
+enemyRangedTL.fromTo(enemyRanged, .25,{backgroundPosition:"-512px -128px"},{backgroundPosition:"0 -256px", ease:SteppedEase.config(4)}, "+=.5");
 enemyRangedTL.to(enemyRanged, 3, {left:"-15%", ease:Power0.easeNone});
-enemyRangedTL.fromTo(enemyRanged, .5, {backgroundPosition:"0 0"}, {backgroundPosition:"-1792px 0", repeat:5, ease:SteppedEase.config(7)}, "-=3");
+enemyRangedTL.fromTo(enemyRanged, .5, {backgroundPosition:"0 0"}, {backgroundPosition:"-896px 0", repeat:5, ease:SteppedEase.config(7)}, "-=3");
 
 enemyRangedTL.play();
 
@@ -77,6 +89,13 @@ Mousetrap.bind('up', function() {
 Mousetrap.bind('down', function() {
 	window.rotateValue = 180;
 	rotatePlayer();
+});
+
+Mousetrap.bind('.', function() {
+	zoomIn();
+});
+Mousetrap.bind(',', function() {
+	zoomOut();
 });
 
 

@@ -10,30 +10,30 @@ body {
 	margin: 0;
 }
 .container {
-	width: 150%;
-	height: 150%;
+	width: 100%;
+	height: 100%;
 	position: fixed;
-	top: -25%;
-	left: -25%;
+	top: 0;
+	left: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background: url('../images/floor-tile-6.png');
-	background-size: 19.2rem;
+	background-size: 9.6rem;
 }
 .animate {
 	overflow: hidden;
 }
 #player {
 	position: relative;
-	width: 25.6rem;
-	height: 40rem;
+	width: 12.8rem;
+	height: 20rem;
 	background: url('../images/player-sprite.png');
-	transform-origin: 50% 65%;
+	transform-origin: 50% 75%;
 }
 #enemyRanged {
-	width: 25.6rem;
-	height: 25.6rem;
+	width: 12.8rem;
+	height: 12.8rem;
 	background: url('../images/enemy-ranged-sprite.png');
 	position: absolute;
 	top:10%;
@@ -43,7 +43,7 @@ body {
 }
 #muzzleFlash {
 	position: absolute;
-	left: 11.1rem;
-	top: -3.5rem;
+	left: 5.6rem;
+	top: -1.75rem;
 	
 }
