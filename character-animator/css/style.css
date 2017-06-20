@@ -18,18 +18,18 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: url('../images/floor-tile-6.png');
-	background-size: 9.6rem;
+	background: url('../images/floor-tile-64x64.png');
+	background-size:19.2rem;
 }
 .animate {
 	overflow: hidden;
 }
 #player {
 	position: relative;
-	width: 12.8rem;
-	height: 20rem;
-	background: url('../images/player-sprite.png');
-	transform-origin: 50% 75%;
+	width: 25.6rem;
+	height: 25.6rem;
+	background: url('../images/player-sprite-64x64-2.png') no-repeat left top;
+	transform-origin: 50% 65%;
 }
 #enemyRanged {
 	width: 12.8rem;

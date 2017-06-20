@@ -28,23 +28,33 @@ function rotatePlayer() {
 	TweenMax.to(player,.2 , {rotation: rotateValue});
 }
 
-var swordTL = new TimelineMax({paused:true});
+var idleTL = new TimelineMax({yoyo:true, repeat:-1});
 
-swordTL.set(player, {backgroundPosition: "0 0"});
-swordTL.fromTo(player, .2, {backgroundPosition:"0 0"}, {backgroundPosition:"0 -1200px", ease:SteppedEase.config(6)});
-swordTL.to(player,.2, {backgroundPosition:"0 -1800px", ease:SteppedEase.config(3)});
+idleTL.set(player, {backgroundPosition: "-512px 0"});
+idleTL.fromTo(player, 1, {backgroundPosition:"-512px 0"}, {backgroundPosition:"-1024px 0", ease:SteppedEase.config(2)});
 
-function swingSword() {
-	swordTL.restart();
+function goIdle() {
+	idleTL.restart();
 }
 
-var shootTL = new TimelineMax({paused:true});
+//var swordTL = new TimelineMax({paused:true});
+//
+//swordTL.set(player, {backgroundPosition: "0 0"});
+//swordTL.fromTo(player, .2, {backgroundPosition:"0 0"}, {backgroundPosition:"0 -1200px", ease:SteppedEase.config(6)});
+//swordTL.to(player,.2, {backgroundPosition:"0 -1800px", ease:SteppedEase.config(3)});
+//
+//function swingSword() {
+//	swordTL.restart();
+//}
 
-shootTL.set(player, {backgroundPosition: "-128px 0"});
-shootTL.fromTo(player, .2, {backgroundPosition:"-128px 0"}, {backgroundPosition:"-128px -600px", ease:SteppedEase.config(3)});
-shootTL.to(player,.25, {backgroundPosition:"-128px -1200px", ease:SteppedEase.config(3)}, "+=.5");
+var shootTL = new TimelineMax({paused:true, yoyo:true, onComplete:goIdle});
+
+shootTL.set(player, {backgroundPosition: "0 -256px"});
+shootTL.fromTo(player, .2, {backgroundPosition:"0 -256px"}, {backgroundPosition:"-768px -256px", ease:SteppedEase.config(3)});
+shootTL.to(player, .25, {backgroundPosition:"0 -256px", ease:SteppedEase.config(3)}, "+=.5");
 
 function shootGun() {
+	idleTL.pause();
 	shootTL.restart();
 }
 
