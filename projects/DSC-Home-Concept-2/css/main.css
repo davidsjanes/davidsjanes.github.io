@@ -856,9 +856,11 @@ body.active-side .menu.icon:after {
 	z-index: 150;
 	height: 100%;
 	display: none;
+	top: 0;
 }
 body.active-slider .slider {
 	display: block;
+	top: 0;
 }
 .slider-list, .slider-list li {
 	height: 100%;

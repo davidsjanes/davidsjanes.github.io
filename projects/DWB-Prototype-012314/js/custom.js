@@ -12,7 +12,7 @@ $(function() {
 
 //		Initialize Backstretch
 
-		$(".background").backstretch("https://dl.dropboxusercontent.com/u/2960973/DWB-Prototype/images/garage-bg-3.jpg");
+		$(".background").backstretch("https://davidsjanes.github.io/projects/DWB-Prototype-012314/images/garage-bg-3.jpg");
 		
 //		Initialize Gridly for Tool Drawer
 

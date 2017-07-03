@@ -30,8 +30,8 @@ function rotatePlayer() {
 
 var idleTL = new TimelineMax({yoyo:true, repeat:-1});
 
-idleTL.set(player, {backgroundPosition: "-512px 0"});
-idleTL.fromTo(player, 1, {backgroundPosition:"-512px 0"}, {backgroundPosition:"-1024px 0", ease:SteppedEase.config(2)});
+idleTL.set(player, {backgroundPosition: "0 0"});
+idleTL.fromTo(player, .75, {backgroundPosition:"0 0"}, {backgroundPosition:"-256px 0", ease:SteppedEase.config(1)});
 
 function goIdle() {
 	idleTL.restart();

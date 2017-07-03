@@ -28,7 +28,7 @@ body {
 	position: relative;
 	width: 25.6rem;
 	height: 25.6rem;
-	background: url('../images/player-sprite-64x64-2.png') no-repeat left top;
+	background: url('../images/player-sprite-64x64.png') no-repeat left top;
 	transform-origin: 50% 65%;
 }
 #enemyRanged {
