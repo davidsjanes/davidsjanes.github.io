@@ -39,10 +39,10 @@ function rotatePlayer() {
 //	idleTL.restart();
 //}
 
-var idleTL = new TimelineMax({yoyo:true, repeat:-1, repeatDelay:.2});
+var idleTL = new TimelineMax({yoyo:true, repeat:-1, repeatDelay:.25});
 
 idleTL.set(player2, {backgroundPosition: "0 0"});
-idleTL.fromTo(player2, .75, {backgroundPosition:"0 0"}, {backgroundPosition:"-1792px 0", ease:SteppedEase.config(7)});
+idleTL.fromTo(player2, .45, {backgroundPosition:"0 0"}, {backgroundPosition:"-1792px 0", ease:SteppedEase.config(7), delay:.15});
 
 function goIdle() {
 	idleTL.restart();
