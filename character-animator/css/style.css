@@ -31,6 +31,13 @@ body {
 	background: url('../images/player-sprite-64x64.png') no-repeat left top;
 	transform-origin: 50% 65%;
 }
+#player2 {
+	position: relative;
+	width: 25.6rem;
+	height: 40rem;
+	background: url('../images/idle-sprite-test.png') no-repeat left top;
+	transform-origin: 50% 65%;
+}
 #enemyRanged {
 	width: 12.8rem;
 	height: 12.8rem;

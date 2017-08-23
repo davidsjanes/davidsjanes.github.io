@@ -7,7 +7,8 @@
 </head>
 <body>
 <div id="scene" class="container">
-  <div id="player" class="animate"></div>
+  <!--<div id="player" class="animate"></div>-->
+  <div id="player2" class="animate"></div>
   <div id="enemyRanged">
   	<img id="muzzleFlash" src="images/muzzle-flash.png" />
   </div>
@@ -18,7 +19,8 @@
 
 <script>
 
-var player = document.getElementById('player');
+//var player = document.getElementById('player');
+var player2 = document.getElementById('player2');
 var enemyRanged = document.getElementById('enemyRanged');
 var muzzleFlash = document.getElementById('muzzleFlash');
 var scene = document.getElementById('scene');
@@ -28,10 +30,19 @@ function rotatePlayer() {
 	TweenMax.to(player,.2 , {rotation: rotateValue});
 }
 
-var idleTL = new TimelineMax({yoyo:true, repeat:-1});
+//var idleTL = new TimelineMax({yoyo:true, repeat:-1});
+//
+//idleTL.set(player, {backgroundPosition: "0 0"});
+//idleTL.fromTo(player, .75, {backgroundPosition:"0 0"}, {backgroundPosition:"-256px 0", ease:SteppedEase.config(1)});
+//
+//function goIdle() {
+//	idleTL.restart();
+//}
 
-idleTL.set(player, {backgroundPosition: "0 0"});
-idleTL.fromTo(player, .75, {backgroundPosition:"0 0"}, {backgroundPosition:"-256px 0", ease:SteppedEase.config(1)});
+var idleTL = new TimelineMax({yoyo:true, repeat:-1, repeatDelay:.2});
+
+idleTL.set(player2, {backgroundPosition: "0 0"});
+idleTL.fromTo(player2, .75, {backgroundPosition:"0 0"}, {backgroundPosition:"-1792px 0", ease:SteppedEase.config(7)});
 
 function goIdle() {
 	idleTL.restart();
@@ -47,11 +58,11 @@ function goIdle() {
 //	swordTL.restart();
 //}
 
-var shootTL = new TimelineMax({paused:true, yoyo:true, onComplete:goIdle});
-
-shootTL.set(player, {backgroundPosition: "0 -256px"});
-shootTL.fromTo(player, .2, {backgroundPosition:"0 -256px"}, {backgroundPosition:"-768px -256px", ease:SteppedEase.config(3)});
-shootTL.to(player, .25, {backgroundPosition:"0 -256px", ease:SteppedEase.config(3)}, "+=.5");
+//var shootTL = new TimelineMax({paused:true, yoyo:true, onComplete:goIdle});
+//
+//shootTL.set(player, {backgroundPosition: "0 -256px"});
+//shootTL.fromTo(player, .2, {backgroundPosition:"0 -256px"}, {backgroundPosition:"-768px -256px", ease:SteppedEase.config(3)});
+//shootTL.to(player, .25, {backgroundPosition:"0 -256px", ease:SteppedEase.config(3)}, "+=.5");
 
 function shootGun() {
 	idleTL.pause();
