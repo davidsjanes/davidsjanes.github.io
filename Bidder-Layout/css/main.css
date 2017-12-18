@@ -64,6 +64,8 @@ body {
 	background: #eee;
 	font-size: 1.4rem;
 	height: 100%;
+	color: #fff;
+	font-family: sans-serif;
 }
 body * {
 	box-sizing: border-box;
@@ -73,13 +75,11 @@ main {
 	display: flex;
 	align-items: stretch;
 	justify-content: space-between;
-	overflow: hidden;
 	padding-bottom: 3.6rem;
 }
 main > section {
 	width: 100%;
 	height: 100%;
-	overflow-y: auto;
 }
 header {
 	background: #ddd;
@@ -90,6 +90,8 @@ header {
 }
 header h2 {
 	margin: 0;
+	color: #434343;
+	font-size: 1.6rem;
 }
 .nav {
 	display: flex;
@@ -109,13 +111,17 @@ header h2 {
 	width: 100%;
 	background: #ccc;
 }
+.nav__link {
+	height: 100%;
+	width: 4rem;
+	background: #bbb;
+}
 .nav__sections {
 	flex: none;
 	width: 100%;
 	background: #ddd;
 	display: none;
 }
-
 .container {
 	max-width: 48rem;
 	margin: 0 auto;
@@ -125,8 +131,7 @@ header h2 {
 .container--fluid {
 	width: 100%;
 	height: 100%;
-	padding: .5rem;
-	overflow-y: auto;
+	padding: .25rem;
 }
 .l-container--max-width {
 	max-width: 102.4rem;
@@ -142,7 +147,7 @@ header h2 {
 .grid__item {
 	width: 100%;
 	height: 21.3334rem;
-	padding: .5rem;
+	padding: .25rem;
 	z-index: 1;
 }
 .grid__sizer, .grid__item[data-size="full"] {
@@ -156,6 +161,12 @@ header h2 {
 .grid__header {
 	padding: 1rem;
 	background: rgba(0,0,0,.2);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.grid__header h3 {
+	margin: 0;
 }
 .grid__body {
 	padding: 1rem;
@@ -181,6 +192,14 @@ header h2 {
 	outline-offset: -.2rem;
 }
 
+.btn {
+	background: #fff;
+	border: 1px solid #fff;
+	color: #434343;
+	margin-right: .5rem;
+	float: left;
+}
+
 @media only screen and (min-width: 640px) {
  	.grid__content {
  		background: red;
@@ -203,23 +222,38 @@ header h2 {
 }
 @media only screen and (min-width: 960px) {
 	main {
-		padding: 0;
+		padding: 0 0 0 6rem;
+		transition: padding .25s ease-out;
+	}
+	.js-nav-is-open main {
+		padding-left: 32rem;
 	}
 	.nav {
 		order: 0;
-		width: 6rem;
-		position: relative;
-		height: auto;
-	}
-	.js-nav-is-open .nav {
-		width: 32rem;
+		left:0;
+		top: 0;
+		height: 100%;
 	}
 	.nav__links {
 		width: 6rem;
+		z-index: 100;
+	}
+	.nav__link {
+		width: 100%;
+		height: 6rem;
+		background: #bbb;
 	}
 	.nav__sections {
+		position: absolute;
 		display: block;
+		left: 6rem;
+		height: 100%;
 		width: 26rem;
+		transform: translateX(-26rem);
+		transition: transform .25s ease-out;
+	}
+	.js-nav-is-open .nav__sections {
+		transform: translateX(0);
 	}
 	.modal.full .modal-dialog {
 		padding: 0 0 0 6rem;
