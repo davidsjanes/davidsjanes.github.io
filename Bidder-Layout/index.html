@@ -38,7 +38,7 @@
 										<button class="btn js-resize-small">Small</button>
 										<button class="btn js-resize-medium">Medium</button>
 										<button class="btn js-resize-large">Large</button>
-										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-open-full">Full</button>
 										<button class="btn js-remove">Remove</button>
 									</div>
 								</div>
@@ -54,7 +54,7 @@
 										<button class="btn js-resize-small">Small</button>
 										<button class="btn js-resize-medium">Medium</button>
 										<button class="btn js-resize-large">Large</button>
-										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-open-full">Full</button>
 										<button class="btn js-remove">Remove</button>
 									</div>
 								</div>
@@ -70,7 +70,7 @@
 										<button class="btn js-resize-small">Small</button>
 										<button class="btn js-resize-medium">Medium</button>
 										<button class="btn js-resize-large">Large</button>
-										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-open-full">Full</button>
 										<button class="btn js-remove">Remove</button>
 									</div>
 								</div>
@@ -86,7 +86,7 @@
 										<button class="btn js-resize-small">Small</button>
 										<button class="btn js-resize-medium">Medium</button>
 										<button class="btn js-resize-large">Large</button>
-										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-open-full">Full</button>
 										<button class="btn js-remove">Remove</button>
 									</div>
 								</div>
@@ -102,7 +102,7 @@
 										<button class="btn js-resize-small">Small</button>
 										<button class="btn js-resize-medium">Medium</button>
 										<button class="btn js-resize-large">Large</button>
-										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-open-full">Full</button>
 										<button class="btn js-remove">Remove</button>
 									</div>
 								</div>
@@ -118,7 +118,7 @@
 										<button class="btn js-resize-small">Small</button>
 										<button class="btn js-resize-medium">Medium</button>
 										<button class="btn js-resize-large">Large</button>
-										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-open-full">Full</button>
 										<button class="btn js-remove">Remove</button>
 									</div>
 								</div>
@@ -134,7 +134,7 @@
 										<button class="btn js-resize-small">Small</button>
 										<button class="btn js-resize-medium">Medium</button>
 										<button class="btn js-resize-large">Large</button>
-										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-open-full">Full</button>
 										<button class="btn js-remove">Remove</button>
 									</div>
 								</div>
@@ -215,6 +215,16 @@
 					
 				});
 				
+				$('#fullScreenItem').modal({
+				  keyboard: false,
+				  backdrop: false,
+				  show:false
+				});
+				
+				$('.js-open-full').on('tap', function(){
+					$('#fullScreenItem').modal('show')
+				});
+				
 //				Remove Items from Grid
 				
 				$grid.on( 'tap', '.js-remove', function( event ) {
@@ -229,7 +239,7 @@
 				});
 				
 				$('.add-item').on('tap', function(){
-					var $item = $("<div class='grid__item' data-size='small'><div class='grid__content'><div class='grid__header'><div class='grid__size-buttons'><button class='btn js-resize-small'>Small</button><button class='btn js-resize-medium'>Medium</button><button class='btn js-resize-large'>Large</button><button class='btn js-resize-full' data-toggle='modal' data-target='#fullScreenItem' data-backdrop='false'>Full</button><button class='btn js-remove'>Remove</button></div></div><div class='grid__body'></div></div></div>");
+					var $item = $("<div class='grid__item' data-size='small'><div class='grid__content'><div class='grid__header'><div class='grid__size-buttons'><button class='btn js-resize-small'>Small</button><button class='btn js-resize-medium'>Medium</button><button class='btn js-resize-large'>Large</button><button class='btn js-open-full' data-toggle='modal' data-target='#fullScreenItem' data-backdrop='false'>Full</button><button class='btn js-remove'>Remove</button></div></div><div class='grid__body'></div></div></div>");
 					
 					$grid.append($item).packery('appended', $item).packery('layout')
 					
