@@ -1,0 +1,301 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html {
+	height: 100%;
+}
+body {
+	background: #eee;
+	font-size: 1.4rem;
+	height: 100%;
+}
+body * {
+	box-sizing: border-box;
+}
+main {
+	height: 100%;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	overflow: hidden;
+	padding-bottom: 3.6rem;
+}
+main > section {
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+header {
+	background: #ddd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .5rem 1rem;
+}
+header h2 {
+	margin: 0;
+}
+.nav {
+	display: flex;
+	align-items: stretch;
+	flex: none;
+	order: 1;
+	position: fixed;
+	height: 4rem;
+	bottom: 0;
+	width: 100%;
+	z-index: 9999;
+	overflow: hidden;
+	transition: width .25s ease-out;
+}
+.nav__links {
+	flex: none;
+	width: 100%;
+	background: #ccc;
+}
+.nav__sections {
+	flex: none;
+	width: 100%;
+	background: #ddd;
+	display: none;
+}
+
+.container {
+	max-width: 48rem;
+	margin: 0 auto;
+	min-height: 100%;
+	overflow-y: auto;
+}
+.container--fluid {
+	width: 100%;
+	height: 100%;
+	padding: .5rem;
+	overflow-y: auto;
+}
+.l-container--max-width {
+	max-width: 102.4rem;
+	margin: 0 auto;
+	padding: .5rem;
+}
+.grid {
+	margin: 0;
+	padding: 0;	
+	list-style-type: none;
+	flex: 1 1 auto;
+}
+.grid__item {
+	width: 100%;
+	height: 21.3334rem;
+	padding: .5rem;
+	z-index: 1;
+}
+.grid__sizer, .grid__item[data-size="full"] {
+	width: 100%;
+}
+.grid__content {
+	margin: 0;
+	height: 100%;
+	background: navy;
+}
+.grid__header {
+	padding: 1rem;
+	background: rgba(0,0,0,.2);
+}
+.grid__body {
+	padding: 1rem;
+}
+
+.grid__item.is-dragging > div,
+.grid__item.is-positioning-post-drag > div {
+	background: #C90;
+	z-index: 500;
+	box-shadow: 0px 2px 2rem rgba(0,0,0,.25);
+}
+.packery-drop-placeholder {
+	padding: .5rem;
+	transition: transform 0.2s;
+}
+.packery-drop-placeholder:after {
+	content: "";
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	outline: 2px dashed #ccc;
+	outline-offset: -.2rem;
+}
+
+@media only screen and (min-width: 640px) {
+ 	.grid__content {
+ 		background: red;
+ 	}
+ 	.grid__sizer {
+ 		width: 50%;
+ 	}
+	.grid__item[data-size="small"] {
+		width: 50%;
+		height: 21.3334rem;
+	}
+	.grid__item[data-size="medium"] {
+		width: 50%;
+		height: 64rem;
+	}
+	.grid__item[data-size="large"] {
+		width: 100%;
+		height: 64rem;
+	}
+}
+@media only screen and (min-width: 960px) {
+	main {
+		padding: 0;
+	}
+	.nav {
+		order: 0;
+		width: 6rem;
+		position: relative;
+		height: auto;
+	}
+	.js-nav-is-open .nav {
+		width: 32rem;
+	}
+	.nav__links {
+		width: 6rem;
+	}
+	.nav__sections {
+		display: block;
+		width: 26rem;
+	}
+	.modal.full .modal-dialog {
+		padding: 0 0 0 6rem;
+	}
+	.modal.full .grid__content {
+		background: fuchsia;
+	}
+	.js-nav-is-open.modal-open .modal-dialog {
+		padding: 0 0 0 32rem;
+	}
+}
+@media only screen and (min-width: 1280px) {
+  	.grid__content {
+  		background: green;
+  	}
+  	.grid__sizer {
+  		width: 33.334%;
+  	}
+ 	.grid__item[data-size="small"] {
+ 		width: 33.334%;
+ 	}
+ 	.grid__item[data-size="medium"] {
+ 		width: 33.334%;
+ 	}
+ 	.grid__item[data-size="large"] {
+ 		width: 66.667%;
+ 	}
+}
+@media only screen and (min-width: 1600px) {
+ 	.grid__content {
+ 		background: magenta;
+ 	}
+ 	.grid__sizer {
+ 		width: 25%;
+ 	}
+ 	.grid__item[data-size="small"] {
+ 		width: 25%;
+ 	}
+ 	.grid__item[data-size="medium"] {
+ 		width: 25%;
+ 	}
+ 	.grid__item[data-size="large"] {
+ 		width: 50%;
+ 	}
+}
+@media only screen and (min-width: 1920px) {
+ 	.grid__content {
+ 		background: cyan;
+ 	}
+ 	.grid__sizer {
+ 		width: 20%;
+ 	}
+ 	.grid__item[data-size="small"] {
+ 		width: 20%;
+ 	}
+ 	.grid__item[data-size="medium"] {
+ 		width: 20%;
+ 	}
+ 	.grid__item[data-size="large"] {
+ 		width: 40%;
+ 	}
+}
+/*@media only screen and (min-width: 1920px) {
+ 	.grid__content {
+ 		background: purple;
+ 	}
+ 	.grid__sizer {
+ 		width: 16.667%;
+ 	}
+ 	.grid__item[data-size="small"] {
+ 		width: 16.667%;
+ 	}
+ 	.grid__item[data-size="medium"]{
+ 		width: 16.667%;
+ 	}
+ 	.grid__item[data-size="large"] {
+ 		width: 33.334%;
+ 	}
+}*/

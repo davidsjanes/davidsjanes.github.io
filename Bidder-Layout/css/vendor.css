@@ -1,0 +1,48 @@
+.modal-open {
+  overflow: hidden;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.modal.fade .modal-dialog {
+	transition: transform .25s ease-out, opacity .25s ease-out, padding .25s ease-out;
+	transform: translate(0, -5%) scale(.5);
+	opacity: 0;
+}
+.modal.in .modal-dialog {
+	transform: translate(0, 0) scale(1);
+	opacity: 1;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.modal-dialog, .modal-dialog > div {
+  position: relative;
+  width: auto;
+  height: 100%;
+}
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+.modal-backdrop.fade {
+  opacity: 0;
+}
+.modal-backdrop.in {
+  opacity: .5;
+}

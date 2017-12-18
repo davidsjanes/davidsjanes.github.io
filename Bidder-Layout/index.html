@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/vendor.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <main>
+        	<nav class="nav">
+        		<div class="nav__links"></div>
+        		<div class="nav__sections">
+        			<div class="notifications">
+        				
+        			</div>
+        		</div>
+        	</nav>
+        
+        	<section>
+        		<header>
+        			<h2>Application Name</h2>
+        			<button class="btn add-item">Add Item</button>
+        		</header>
+        		<div class="container--fluid">
+	          		<div id="auctionGrid" class="grid">
+	          			<div class="grid__sizer"></div>
+						<div class="grid__item" data-size="large">
+							<div class="grid__content">
+								<div class="grid__header">
+									<div class="grid__size-buttons">
+										<button class="btn js-resize-small">Small</button>
+										<button class="btn js-resize-medium">Medium</button>
+										<button class="btn js-resize-large">Large</button>
+										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-remove">Remove</button>
+									</div>
+								</div>
+								<div class="grid__body">
+									
+								</div>
+							</div>
+						</div>
+						<div class="grid__item" data-size="medium">
+							<div class="grid__content">
+								<div class="grid__header">
+									<div class="grid__size-buttons">
+										<button class="btn js-resize-small">Small</button>
+										<button class="btn js-resize-medium">Medium</button>
+										<button class="btn js-resize-large">Large</button>
+										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-remove">Remove</button>
+									</div>
+								</div>
+								<div class="grid__body">
+									
+								</div>
+							</div>
+						</div>
+						<div class="grid__item" data-size="medium">
+							<div class="grid__content">
+								<div class="grid__header">
+									<div class="grid__size-buttons">
+										<button class="btn js-resize-small">Small</button>
+										<button class="btn js-resize-medium">Medium</button>
+										<button class="btn js-resize-large">Large</button>
+										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-remove">Remove</button>
+									</div>
+								</div>
+								<div class="grid__body">
+									
+								</div>
+							</div>
+						</div>
+						<div class="grid__item" data-size="small">
+							<div class="grid__content">
+								<div class="grid__header">
+									<div class="grid__size-buttons">
+										<button class="btn js-resize-small">Small</button>
+										<button class="btn js-resize-medium">Medium</button>
+										<button class="btn js-resize-large">Large</button>
+										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-remove">Remove</button>
+									</div>
+								</div>
+								<div class="grid__body">
+									
+								</div>
+							</div>
+						</div>
+						<div class="grid__item" data-size="small">
+							<div class="grid__content">
+								<div class="grid__header">
+									<div class="grid__size-buttons">
+										<button class="btn js-resize-small">Small</button>
+										<button class="btn js-resize-medium">Medium</button>
+										<button class="btn js-resize-large">Large</button>
+										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-remove">Remove</button>
+									</div>
+								</div>
+								<div class="grid__body">
+									
+								</div>
+							</div>
+						</div>
+						<div class="grid__item" data-size="small">
+							<div class="grid__content">
+								<div class="grid__header">
+									<div class="grid__size-buttons">
+										<button class="btn js-resize-small">Small</button>
+										<button class="btn js-resize-medium">Medium</button>
+										<button class="btn js-resize-large">Large</button>
+										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-remove">Remove</button>
+									</div>
+								</div>
+								<div class="grid__body">
+									
+								</div>
+							</div>
+						</div>
+						<div class="grid__item" data-size="small">
+							<div class="grid__content">
+								<div class="grid__header">
+									<div class="grid__size-buttons">
+										<button class="btn js-resize-small">Small</button>
+										<button class="btn js-resize-medium">Medium</button>
+										<button class="btn js-resize-large">Large</button>
+										<button class="btn js-resize-full" data-toggle="modal" data-target="#fullScreenItem" data-backdrop="false">Full</button>
+										<button class="btn js-remove">Remove</button>
+									</div>
+								</div>
+								<div class="grid__body">
+									
+								</div>
+							</div>
+						</div>
+	        		</div>
+	        	</div>
+        	</section>
+        	        	
+			<div class="modal fade full" id="fullScreenItem" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="grid__content">
+							<div class="grid__header">
+								<h3>Full Screen Content</h3>
+								<button class="btn js-close-modal" data-dismiss="modal">Minimize</button>
+							</div>
+							<div class="grid__body">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        	
+        </main>
+        
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/Tocca.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/draggabilly.pkgd.min.js"></script>
+        <script src="js/packery.pkgd.min.js"></script>
+        
+		<script>
+		
+			$(document).ready(function(){
+			
+//				Load the Grid Layout
+			
+				var $grid = $('#auctionGrid').packery({
+					columnWidth: '.grid__sizer',
+					itemSelector: '.grid__item',
+					percentPosition: true,
+					stagger: 25
+				});
+				
+//				Enable Draggabilly
+
+				$grid.find('.grid__item').each( makeEachDraggable );
+				
+				function makeEachDraggable(i, gridItem) {
+					var draggie = new Draggabilly(gridItem, {
+						handle: '.grid__header'
+					});
+					$grid.packery('bindDraggabillyEvents', draggie);
+				}
+				
+//				Resize Grid Items on Click of Respective Button
+				
+				$grid.on('tap', '.grid__content .btn', function(){
+				
+					var $parentItem = $(this).closest('.grid__item');
+										
+					if ($(this).hasClass('js-resize-small')) {
+						$parentItem.attr( "data-size", "small" );
+					}
+					else if ($(this).hasClass('js-resize-medium')) {
+						$parentItem.attr( "data-size", "medium" );
+					}
+					else if ($(this).hasClass('js-resize-large')) {
+						$parentItem.attr( "data-size", "large" );
+					}
+					
+					$grid.packery('layout');
+					
+				});
+				
+//				Remove Items from Grid
+				
+				$grid.on( 'tap', '.js-remove', function( event ) {
+					var $removeItem = $(this).closest('.grid__item');
+						$grid.packery( 'remove', $removeItem ).packery('layout');
+				});
+				
+//				Toggle Left Side Navigation and Add Item
+				
+				$('.nav__links').on('tap', function(){
+					$('body').toggleClass('js-nav-is-open');
+				});
+				
+				$('.add-item').on('tap', function(){
+					var $item = $("<div class='grid__item' data-size='small'><div class='grid__content'><div class='grid__header'><div class='grid__size-buttons'><button class='btn js-resize-small'>Small</button><button class='btn js-resize-medium'>Medium</button><button class='btn js-resize-large'>Large</button><button class='btn js-resize-full' data-toggle='modal' data-target='#fullScreenItem' data-backdrop='false'>Full</button><button class='btn js-remove'>Remove</button></div></div><div class='grid__body'></div></div></div>");
+					
+					$grid.append($item).packery('appended', $item).packery('layout')
+					
+					$item.each(makeEachDraggable);
+				});
+								
+			});
+		
+		</script>
+		
+    </body>
+</html>
