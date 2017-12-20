@@ -185,6 +185,8 @@
 					columnWidth: '.grid__sizer',
 					itemSelector: '.grid__item',
 					percentPosition: true,
+					resize: false,
+					transitionDuration: '.25s',
 					stagger: 25
 				});
 				
@@ -231,7 +233,7 @@
 				
 //				Remove Items from Grid
 				
-				$grid.on( 'tap', '.js-remove', function( event ) {
+				$grid.on('tap', '.js-remove', function( event ) {
 					var $removeItem = $(this).closest('.grid__item');
 						$grid.packery( 'remove', $removeItem ).packery('layout');
 				});
@@ -248,6 +250,10 @@
 					$grid.append($item).packery('appended', $item).packery('layout')
 					
 					$item.each(makeEachDraggable);
+				});
+				
+				$(window).resize(function() {
+					$grid.packery('layout');
 				});
 								
 			});

@@ -84,6 +84,7 @@ main > section {
 header {
 	background: #ddd;
 	display: flex;
+	height: 5rem;
 	justify-content: space-between;
 	align-items: center;
 	padding: .5rem 1rem;
@@ -146,7 +147,9 @@ header h2 {
 }
 .grid__item {
 	width: 100%;
-	height: 21.3334rem;
+	height: calc((100vh - 8rem) / 3);
+	min-height: calc(54rem / 3);
+	max-height: calc(76.8rem / 3);
 	padding: .25rem;
 	z-index: 1;
 }
@@ -209,20 +212,23 @@ header h2 {
  	}
 	.grid__item[data-size="small"] {
 		width: 50%;
-		height: 21.3334rem;
 	}
 	.grid__item[data-size="medium"] {
 		width: 50%;
-		height: 64rem;
+		height: calc(100vh - 8rem);
+		min-height: 54rem;
+		max-height: 76.8rem;
 	}
 	.grid__item[data-size="large"] {
 		width: 100%;
-		height: 64rem;
+		height: calc(100vh - 8rem);
+		min-height: 54rem;
+		max-height: 76.8rem;
 	}
 }
 @media only screen and (min-width: 960px) {
 	main {
-		padding: 0 0 0 6rem;
+		padding: 0 0 0 5rem;
 		transition: padding .25s ease-out;
 	}
 	.js-nav-is-open main {
@@ -233,20 +239,21 @@ header h2 {
 		left:0;
 		top: 0;
 		height: 100%;
+		width: auto;
 	}
 	.nav__links {
-		width: 6rem;
+		width: 5rem;
 		z-index: 100;
 	}
 	.nav__link {
 		width: 100%;
-		height: 6rem;
+		height: 5rem;
 		background: #bbb;
 	}
 	.nav__sections {
 		position: absolute;
 		display: block;
-		left: 6rem;
+		left: 5rem;
 		height: 100%;
 		width: 26rem;
 		transform: translateX(-26rem);
@@ -256,7 +263,7 @@ header h2 {
 		transform: translateX(0);
 	}
 	.modal.full .modal-dialog {
-		padding: 0 0 0 6rem;
+		padding: 5rem 0 0 5rem;
 	}
 	.modal.full .grid__content {
 		background: fuchsia;
