@@ -75,7 +75,6 @@ main {
 	display: flex;
 	align-items: stretch;
 	justify-content: space-between;
-	padding-bottom: 3.6rem;
 }
 main > section {
 	width: 100%;
@@ -105,7 +104,6 @@ header h2 {
 	width: 100%;
 	z-index: 9999;
 	overflow: hidden;
-	transition: width .25s ease-out;
 }
 .nav__links {
 	flex: none;
@@ -141,15 +139,15 @@ header h2 {
 }
 .grid {
 	margin: 0;
-	padding: 0;	
 	list-style-type: none;
 	flex: 1 1 auto;
+	padding: 0 0 4.25rem 0;
 }
 .grid__item {
 	width: 100%;
-	height: calc((100vh - 8rem) / 3);
-	min-height: calc(54rem / 3);
-	max-height: calc(76.8rem / 3);
+	height: calc((80vh - 8rem) / 3);
+	min-height: calc(64rem / 3);
+	max-height: calc(80rem / 3);
 	padding: .25rem;
 	z-index: 1;
 }
@@ -215,15 +213,15 @@ header h2 {
 	}
 	.grid__item[data-size="medium"] {
 		width: 50%;
-		height: calc(100vh - 8rem);
-		min-height: 54rem;
-		max-height: 76.8rem;
+		height: calc(80vh - 8rem);
+		min-height: 64rem;
+		max-height: 80rem;
 	}
 	.grid__item[data-size="large"] {
 		width: 100%;
-		height: calc(100vh - 8rem);
-		min-height: 54rem;
-		max-height: 76.8rem;
+		height: calc(80vh - 8rem);
+		min-height: 64rem;
+		max-height: 80rem;
 	}
 }
 @media only screen and (min-width: 960px) {
@@ -232,14 +230,14 @@ header h2 {
 		transition: padding .25s ease-out;
 	}
 	.js-nav-is-open main {
-		padding-left: 32rem;
+		padding-left: 24rem;
 	}
 	.nav {
 		order: 0;
 		left:0;
 		top: 0;
 		height: 100%;
-		width: auto;
+		width: 24rem;
 	}
 	.nav__links {
 		width: 5rem;
@@ -255,9 +253,13 @@ header h2 {
 		display: block;
 		left: 5rem;
 		height: 100%;
-		width: 26rem;
+		width: 19rem;
+		background: #aaa;
 		transform: translateX(-26rem);
 		transition: transform .25s ease-out;
+	}
+	.grid {
+		padding: 0;
 	}
 	.js-nav-is-open .nav__sections {
 		transform: translateX(0);
@@ -269,59 +271,76 @@ header h2 {
 		background: fuchsia;
 	}
 	.js-nav-is-open.modal-open .modal-dialog {
-		padding: 0 0 0 32rem;
+		padding: 0 0 0 24rem;
 	}
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1220px) {
+	.grid__content {
+		background: green;
+	}
+	.grid__sizer {
+		width: 33.334%;
+	}
+	.grid__item[data-size="small"] {
+		width: 33.334%;
+	}
+	.grid__item[data-size="medium"] {
+		width: 33.334%;
+	}
+	.grid__item[data-size="large"] {
+		width: 66.667%;
+	}
+}
+@media only screen and (min-width: 1544px) {
   	.grid__content {
-  		background: green;
-  	}
-  	.grid__sizer {
-  		width: 33.334%;
-  	}
- 	.grid__item[data-size="small"] {
- 		width: 33.334%;
- 	}
- 	.grid__item[data-size="medium"] {
- 		width: 33.334%;
- 	}
- 	.grid__item[data-size="large"] {
- 		width: 66.667%;
- 	}
+		background: magenta;
+	}
+	.grid__sizer {
+		width: 25%;
+	}
+	.grid__item[data-size="small"] {
+		width: 25%;
+	}
+	.grid__item[data-size="medium"] {
+		width: 25%;
+	}
+	.grid__item[data-size="large"] {
+		width: 50%;
+	}
 }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1870px) {
  	.grid__content {
- 		background: magenta;
- 	}
- 	.grid__sizer {
- 		width: 25%;
- 	}
- 	.grid__item[data-size="small"] {
- 		width: 25%;
- 	}
- 	.grid__item[data-size="medium"] {
- 		width: 25%;
- 	}
- 	.grid__item[data-size="large"] {
- 		width: 50%;
- 	}
+		background: cyan;
+	}
+	.grid__sizer {
+		width: 20%;
+	}
+	.grid__item[data-size="small"] {
+		width: 20%;
+	}
+	.grid__item[data-size="medium"] {
+		width: 20%;
+	}
+	.grid__item[data-size="large"] {
+		width: 40%;
+	}
 }
-@media only screen and (min-width: 1920px) {
- 	.grid__content {
- 		background: cyan;
- 	}
- 	.grid__sizer {
- 		width: 20%;
- 	}
- 	.grid__item[data-size="small"] {
- 		width: 20%;
- 	}
- 	.grid__item[data-size="medium"] {
- 		width: 20%;
- 	}
- 	.grid__item[data-size="large"] {
- 		width: 40%;
- 	}
+@media only screen and (min-width: 2200px) {
+	.grid__content {
+		background: purple;
+	}
+	.grid__sizer {
+		width: 16.667%;
+	}
+	.grid__item[data-size="small"] {
+		width: 16.667%;
+	}
+	.grid__item[data-size="medium"]{
+		width: 16.667%;
+	}
+	.grid__item[data-size="large"] {
+		width: 33.334%;
+	}
 }
 /*@media only screen and (min-width: 1920px) {
  	.grid__content {

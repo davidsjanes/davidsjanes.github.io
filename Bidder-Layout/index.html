@@ -187,12 +187,12 @@
 					percentPosition: true,
 					resize: false,
 					transitionDuration: '.25s',
-					stagger: 25
+					stagger: '.05s'
 				});
 				
 //				Enable Draggabilly
 
-				$grid.find('.grid__item').each( makeEachDraggable );
+				$grid.find('.grid__item').each(makeEachDraggable);
 				
 				function makeEachDraggable(i, gridItem) {
 					var draggie = new Draggabilly(gridItem, {
